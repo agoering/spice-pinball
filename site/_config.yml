@@ -1,0 +1,16 @@
+# Site settings
+title: SPICE Engineering Camp
+# email: your-email@domain.com
+description: "SPICE Engineering Camp - Pinball Machines!"
+# url: "http://yourdomain.com"
+timezone: America/Los_Angeles
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: pygments
+
+# From Jekyll Site
+# relative_permalinks: false
+

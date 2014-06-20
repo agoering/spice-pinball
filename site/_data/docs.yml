@@ -1,0 +1,36 @@
+- title: Getting Started
+  docs:
+  - introduction
+
+- title: Session A
+  docs:
+  - supplies-a
+  - simple-circuit
+  - breadboards
+  - transistors
+  - arduino
+  - programs
+  - blink
+  - modifying-blink
+  - variables
+  - two-leds
+  - buttons
+  - delay-trouble
+  - serial-monitor
+  - rgb-led
+  - switches
+  - functions
+  - flags
+  - external-power  
+
+- title: Session B
+  docs:
+  - supplies-b
+
+- title: Session C
+  docs:
+  - supplies-c
+
+  - title: Session D
+  docs:
+  - supplies-d
