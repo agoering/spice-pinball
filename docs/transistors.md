@@ -18,11 +18,11 @@ One of the legs (the middle one) is called the **base**, and is used to control 
 
 To make the second red LED (connected to a resistor and a transistor) light up, use a wire to connect the base of the transistor to a high voltage as shown below. Ask an instructor for help if needed.
 
-<img src="/img/led-transistor.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/led-transistor.png" style="width: 650px"/>
 
 The circuit that you just made work is drawn like so:
 
-<img src="/img/led-transistor-circuit.png" style="width: 400px" align="center"/>
+<img src="{{ site.baseurl }}/img/led-transistor-circuit.png" style="width: 400px" align="center"/>
 
 Look back at the Breadboard internal connection sheet, and the way the components are plugged into the breadboard, and see if this matches the circuit diagram shown.
 
