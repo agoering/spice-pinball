@@ -15,7 +15,3 @@ highlighter: pygments
 # From Jekyll Site
 relative_permalinks: false
 
-# For gh-pages
-# safe: true
-# lsi: false
-# source: .
