@@ -14,7 +14,7 @@ all times.
 
 The way we fix the problem is to stop using ```delay()```, and instead use a stopwatch. Try uploading this program:
 
-<a href="05_nodelay.txt">05_nodelay</a>
+<a href="{{ site.baseurl }}/sketches/05_nodelay.txt">05_nodelay</a>
 
 Now, you should be able to control the LED on pin 12 using the button, as well as cause the LED on pin 11 to blink without any conflicts.
 

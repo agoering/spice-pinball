@@ -9,7 +9,7 @@ permalink: /docs/variables/
 
 Now, we will try another program, which will make it easier for you to change the pin number and the timing. Try uploading this one:
 
-<a href="/sketches/02_blinkvar.txt">02_blinkvar</a>
+<a href="{{ site.baseurl }}/sketches/02_blinkvar.txt">02_blinkvar</a>
 
 This program does the same thing as the last one, but has some
 differences. It has the following lines at the top:
