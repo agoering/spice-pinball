@@ -5,7 +5,7 @@
 /*                *\
  * $normalize.css *
 \*                */
-{% include css/normalize.css %}
+{% include {{ site.baseurl }}/css/normalize.css %}
 /*                *\
  * $gridism.css   *
 \*                */
