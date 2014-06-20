@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Breadboards
+prev_section: simple-circuit
 next_section: transistors
 permalink: /docs/breadboards/
 ---

@@ -3,6 +3,7 @@ title: SPICE Engineering Camp
 # email: your-email@domain.com
 description: "SPICE Engineering Camp - Pinball Machines!"
 # url: "http://ayocom.github.io/spice-pinball"
+baseurl: http://ayocom.github.io/spice-pinball
 timezone: America/Los_Angeles
 
 
@@ -15,6 +16,6 @@ highlighter: pygments
 relative_permalinks: false
 
 # For gh-pages
-safe: true
-lsi: false
-source: .
+# safe: true
+# lsi: false
+# source: .

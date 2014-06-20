@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Transistors
+prev_section: breadboards
 next_section: arduino
 permalink: /docs/transistors/
 ---
