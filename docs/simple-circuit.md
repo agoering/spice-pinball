@@ -23,7 +23,7 @@ It may help to think about current as a fluid that flows from positive to negati
 
 To understand this better, let's study a simple component:
 
-<img src="https://learn.adafruit.com/assets/2167" style="width: 650px"/>
+<img src="https://learn.adafruit.com/system/assets/assets/000/002/167/large1024/learn_arduino_led_labelled.jpg?1396780101" style="width: 650px"/>
 
 The red bulb-like component is called an LED, which is short for
 "Light Emitting Diode". An LED will glow if a current passes through
