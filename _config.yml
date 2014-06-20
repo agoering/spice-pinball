@@ -12,5 +12,5 @@ permalink: pretty
 highlighter: pygments
 
 # From Jekyll Site
-# relative_permalinks: false
+relative_permalinks: false
 
