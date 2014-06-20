@@ -3,8 +3,8 @@
   <channel>
     <title>SPICE Engineering Camp</title>
     <description>SPICE Engineering Camp - Pinball Machines!</description>
-    <link>//</link>
-    <atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://ayocom.github.io/spice-pinball//</link>
+    <atom:link href="http://ayocom.github.io/spice-pinball//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -24,8 +24,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Thu, 19 Jun 2014 02:19:42 -0700</pubDate>
-        <link>//jekyll/update/2014/06/19/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">//jekyll/update/2014/06/19/welcome-to-jekyll/</guid>
+        <link>http://ayocom.github.io/spice-pinball//jekyll/update/2014/06/19/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://ayocom.github.io/spice-pinball//jekyll/update/2014/06/19/welcome-to-jekyll/</guid>
       </item>
     
   </channel>
