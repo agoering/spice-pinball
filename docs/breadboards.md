@@ -8,13 +8,11 @@ permalink: /docs/breadboards/
 
 That white/yellow board with holes is called a **breadboard**.
 
-<img src="{{ site.baseurl }}/img/breadboard-horiz.png" alt="A breadboard in the wild" style="width: 650px;"/>
-
 A breadboard is used to quickly make and test circuits. We built some breadboards ahead of time for this session, with components already plugged in. 
 
 The holes on the breadboard have stripes of metal inside them like so:
 
-<img src="{{ site.baseurl }}/img/breadboard-connections.png" alt="Breadboard connections" style="width: 650px;"/>
+<img src="{{ site.baseurl }}/img/learn_arduino_breadboard_edit.png" style="width: 650px;"/>
 
 We can use these stripes of metal to make connections between our
 components. The red line holes are kept at 5 volts, and the blue-line holes are kept at 0 volts (0 volts is also called **ground**, sometimes shortened to **GND**). Those lines are convenient ways to connect to power from any point on the board without requiring many long wires. 

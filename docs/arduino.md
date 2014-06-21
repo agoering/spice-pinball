@@ -9,7 +9,7 @@ permalink: /docs/arduino/
 Now, we are ready to control our electronics using a microcontroller
 robot. The microcontroller we will be using is called an Arduino.
 
-<img src="{{ site.baseurl }}/img/arduino.png" style="width: 650px"/>
+<img src="https://learn.adafruit.com/system/assets/assets/000/002/165/medium640/learn_arduino_uno_r3_web.jpg?1396780086" style="width: 650px"/>
 
 Look at the Arduino on your table closely. The most important things
 to look for right now are the USB connector, and the pin
