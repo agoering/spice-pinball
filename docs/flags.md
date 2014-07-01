@@ -10,7 +10,7 @@ This will be the last program for the day.
 
 Try uploading the the following program:
 
-<a href="08_flags.txt">08_flags</a>
+<a href="./sketches/08_flags.txt">08_flags</a>
 
 Now, pressing the button on pin 10 will cycle through a sequence of
 colors. Note down the order of the sequence on a piece of paper.
