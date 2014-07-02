@@ -2,7 +2,7 @@
 layout: docs
 title: Set Arduino Free!
 prev_section: flags
-next_section: 
+next_section: supplies-b
 permalink: /docs/external-power/
 ---
 
