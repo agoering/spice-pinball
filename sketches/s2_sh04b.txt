@@ -1,0 +1,46 @@
+#include <Pinball.h>
+
+int clkpin2 = 8;      // Clock pin
+int latchpin2 = 9;    // Latch pin
+int datapin2 = 10;     // Data pin
+
+// Declare scoreboard object named disp 
+Pb_display disp(datapin2, clkpin2, latchpin2);
+
+int val[] = { 0 };
+int timing[] = { 1000 };
+
+Pb_timedevent dothis(changenum);
+
+int num;
+
+
+void setup() {
+  // Write a 0 to the display.
+  disp.print_number(0);
+  
+  num = 0;
+  
+  dothis.loopstart(val, timing, 1);
+
+}
+
+
+void loop() {
+  
+  dothis.update();
+   
+}
+
+
+void changenum(int ww) {
+
+    num = num + 1;
+    
+    if (num > 99) {
+      num = 0;
+    }
+    
+    disp.print_number(num);
+    
+}
