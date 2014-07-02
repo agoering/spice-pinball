@@ -30,7 +30,8 @@
   - readsensors
   - controloutputs
   - maketones
-
+  - theramin
+  
 - title: Session C
   docs:
   - sessionc
