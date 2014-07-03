@@ -1,18 +1,18 @@
-- c * Session A board setup
-- c * Board closeup of LED, resistor on left
-- Session A board setup with connect instructions for LED, resistor
-- c * board closeup of LED, transistor in middle
-- connect instructions with transistor
-- c * ditto, with pin control for transistor
-- c * ditto, with two transistors
-- c * closeup of button area
-- connect instructions for button connection
+x - c * Session A board setup
+x - c * Board closeup of LED, resistor on left
+x - Session A board setup with connect instructions for LED, resistor
+x - c * board closeup of LED, transistor in middle
+x - connect instructions with transistor
+x - c * ditto, with pin control for transistor
+x - c * ditto, with two transistors
+x - c * closeup of button area
+x - connect instructions for button connection
 - c * RGB LED closeup
 - RGB w/ highlighted connections
 - how to set Arduino Free
 
 - c * session B board
-- c * presoldered IR sensors
+- e * presoldered IR sensors
 - * picture of bad minima?
 - c * closeup of sensor area
 - connections to sensors
