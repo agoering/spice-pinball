@@ -10,7 +10,7 @@ Now, we will control two LEDs at the same time.
 
 Disconnect the power supply to the breadboard, and make the connections to pins 12 and 11 as shown.
 
-<img src="{{ site.baseurl }}/img/two-leds.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/a-two-leds.png" style="width: 650px"/>
 
 Now upload the following program, and power the breadboard back up.
 
