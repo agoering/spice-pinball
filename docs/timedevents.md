@@ -2,7 +2,7 @@
 layout: docs
 title: Timed events
 prev_section: manyshiftregs
-next_section: timedloopevent
+next_section: timedloopedevent
 permalink: /docs/timedevents/
 ---
 

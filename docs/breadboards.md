@@ -19,7 +19,7 @@ components. The red line holes are kept at 5 volts, and the blue-line holes are 
 
 The smaller sets of holes are connected as shown. To test how the smaller sets of holes work, look at how the LED and the resistor on the far left (close to the power source) are plugged in.
 
-<img src="{{ site.baseurl }}/img/breadboard-close.png" alt="Breadboard, ready for its closeup" style="width: 650px;"/>
+<img src="{{ site.baseurl }}/img/resistor-led-connect.png" alt="Breadboard, ready for its closeup" style="width: 650px;"/>
 
 With the jumper wires given to you, connect the 5 volt line to the circuit as shown to make the LED glow. If you want to take out the LED to double-check which leg is long and which short, do so. 
 

@@ -16,7 +16,7 @@ Plug your Arduino into the computer, and open the Arduino program.
 
 <img src="{{ site.baseurl }}/img/arduino-icon.png" style="width: 300px"/>
 
-Open the ```analog_input``` sketch from File > Sketchbook > libraries > Session B. 
+Upload the following program: <a href="{{ site.baseurl }}/sketches/s3_analog_input.txt">analog_input</a> 
 
 Upload the sketch and then plug in the breadboard. 
 

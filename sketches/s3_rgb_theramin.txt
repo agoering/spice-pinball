@@ -75,7 +75,7 @@ void loop(){
   speakerValue = (sensorValue0+sensorValue1+sensorValue2)/3;
 
   // Also write to the speaker pin, with a 100ms tone duration.
-  tone(speakerPin,speakerValue,100);
+//  tone(speakerPin,speakerValue,100);
     
 }
 

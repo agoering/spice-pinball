@@ -12,7 +12,7 @@ Now, we have the ability to use analog inputs, which go from 0 to 1024 instead o
 
 Instead of trying to do that, let's just use a program to do it for us. At the same time, we'll control a small speaker to make a tone corresponding to the inputs. In this way, we will build a musical instrument called a theramin!
 
-Open up the ```rgb_theramin``` sketch from File > Sketchbook > libraries > Session B. 
+Upload the following program: <a href="{{ site.baseurl }}/sketches/s3_rgb_theramin.txt">rgb_theramin</a> 
 
 Before you upload, let's have a look at the program:
 
