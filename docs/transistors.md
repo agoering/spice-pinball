@@ -22,7 +22,7 @@ To make the second red LED (connected to a resistor and a transistor) light up, 
 
 The circuit that you just made work is drawn like so:
 
-<img src="{{ site.baseurl }}/img/led-transistor-circuit.png" style="width: 400px" align="center"/>
+<img src="{{ site.baseurl }}/img/led-transistor-connection.png" style="width: 400px" align="center"/>
 
 Look back at the Breadboard internal connection sheet, and the way the components are plugged into the breadboard, and see if this matches the circuit diagram shown.
 
