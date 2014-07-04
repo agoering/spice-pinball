@@ -14,7 +14,7 @@ Make sure your breadboard is unplugged from the wall power. Plug the **GND** Ard
 
 Plug your Arduino into the computer, and open the Arduino program. 
 
-<img src="{{ site.baseurl }}/img/arduino-icon.png" style="width: 300px"/>
+<img src="{{ site.baseurl }}/img/arduino-icon.png" style="width: 200px"/>
 
 Upload the following program: <a href="{{ site.baseurl }}/sketches/s3_analog_input.txt">analog_input</a> 
 
@@ -36,22 +36,22 @@ int sensorValue1 = 0; //value read from "green" sensor
 int sensorValue2 = 0; //value read from "blue" sensor
 ```
 
-In ```setup```, we start the Serial Monitor. Remember that in ```setup()``` we usually also declare input and output pins, but we don't need to set pin modes for analog inputs.
+In ```setup()```, we start the Serial Monitor. Remember that in ```setup()``` we usually also declare input and output pins, but we don't need to set pin modes for analog inputs.
 
 Now in the loop we read the sensor values. This is done using the ```analogRead()``` function:
 
-``` sensorValue0 = analogRead(analogIn0);
-  sensorValue1 = analogRead(analogIn1);
-  sensorValue2 = analogRead(analogIn2);
-  ```
+```sensorValue0 = analogRead(analogIn0);
+sensorValue1 = analogRead(analogIn1);
+sensorValue2 = analogRead(analogIn2);
+```
 
 Finally, we print those values to the Serial Monitor:
 
-```  Serial.print(sensorValue0);
-  Serial.print(" "); // leaves a blank space
-  Serial.print(sensorValue1);
-  Serial.print(" "); // leaves a blank space
-  Serial.println(sensorValue2); // makes a new line
+```Serial.print(sensorValue0);
+Serial.print(" "); // leaves a blank space
+Serial.print(sensorValue1);
+Serial.print(" "); // leaves a blank space
+Serial.println(sensorValue2); // makes a new line
 ```
 
 Note the lines that leave blank spaces between the numbers. Without those lines, the numbers would be squished up next to one another!
