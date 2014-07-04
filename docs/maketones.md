@@ -8,7 +8,7 @@ permalink: /docs/maketones/
 
 Up to now we have only controlled lights. Now let's make some sounds! That round thing on the breadboard is a piezoelectric speaker. Basically, a magnet inside the speaker shakes when electrical signals are sent to the speaker wires, and that magnet vibrates a sheet of metal that produces a tone. Vibrating the sheet of metal at different frequencies produces different tones.
 
-<img src="{{ site.baseurl }}/img/arduino-icon.png" style="width: 300px"/>
+<img src="{{ site.baseurl }}/img/arduino-icon.png" style="width: 200px"/>
 
 We are going to use a built-in function called ```tone()``` to produce tones. If you use this function, you should know that it prevents the use of pins 11 and 3 as analog outputs. For example, we can't use those pins to control the RGB LED when we're using the ```tone()``` function. That's why we're using pins 10, 9, and 6 instead of 11, 10, and 9!
 
