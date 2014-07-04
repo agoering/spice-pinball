@@ -7,12 +7,12 @@ x - c * ditto, with pin control for transistor
 x - c * ditto, with two transistors
 x - c * closeup of button area
 x - connect instructions for button connection
-- c * RGB LED closeup
-- RGB w/ highlighted connections
-- how to set Arduino Free
+x - c * RGB LED closeup
+x - RGB w/ highlighted connections
+x - how to set Arduino Free
 
-- c * session B board
-- e * presoldered IR sensors
+x - c * session B board
+x - e * presoldered IR sensors
 - * picture of bad minima?
 - c * closeup of sensor area
 - connections to sensors
