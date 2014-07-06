@@ -9,7 +9,7 @@ permalink: /docs/music/
 Now we will learn to play sound effects on the speaker. Connect it to the A0 pin on
 the Arduino.
 
-<img src="{{ site.baseurl }}/img/c-speaker-connect.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/c-speaker-connect.png" style="width: 500px"/>
 
 > ### A little known secret:
 >
