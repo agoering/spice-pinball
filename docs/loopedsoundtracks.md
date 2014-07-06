@@ -20,15 +20,14 @@ You cannot upload it yet, because in the beginning of the code, we have inserted
 ```
 
 But the file ```mysongs.h``` does not exist yet. To create it, click
-on the downward arrow to the upper-right corner of the arduino window
+on the downward arrow to the upper-right corner of the Arduino window
 as shown:
 
-PICTURE OF ARDUINO WINDOW WITH NEW TAB
-<img src="/img/wes.png" style:"width: 650px"/>
+<img src="{{ site.baseurl }}/img/arduino-newtab.png" style="width: 500px"/>
 
 
 This will open a popup menu. In it, click on ```New Tab```. This will
-ask you to name the new tab. Name it ```mysongs.h```. Now your arduino
+ask you to name the new tab. Name it ```mysongs.h```. Now your Arduino
 window is opening two files at the same time. You can switch between
 them by clicking on the correct tab at the top bar of the window.
 
@@ -44,14 +43,13 @@ are now defining all the songs in the new file, not in the main
 program file. But we are including the new file inside the main
 program file.
 
-Do you recognise the melody?
+Do you recognize the melody?
 
 **_CHECKPOINT!_**
 
 Inside ```setup()```, we are calling:
 
-```
-  spkr.loopstart(marionotes2, mariotimes2, 61);
+```spkr.loopstart(marionotes2, mariotimes2, 61);
 ```
 
 
