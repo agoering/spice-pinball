@@ -64,7 +64,7 @@ that this function has to be used with an ```int``` type variable or
 number supplied to it. For example, inside ```loop()```, it is being
 called like this:
 
-```   changeserdata(flag);
+```changeserdata(flag);
 ```
 
 So it is being supplied with the value of ```flag```. Inside
