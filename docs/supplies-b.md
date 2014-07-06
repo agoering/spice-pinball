@@ -15,6 +15,9 @@ permalink: /docs/supplies-b/
 
 It looks like this:
 
+<img src="{{ site.baseurl }}/img/a-rgb-led.png" style="width: 650px"/>
+
+
 <img src="{{ site.baseurl }}/img/b-breadboard.png" style:"width: 650px"/>
 <img src="{{ site.baseurl }}/img/b-breadboard.png" style:"width: 650px"/>
 
