@@ -13,8 +13,7 @@ met.
 It is also possible to have a continuous sequence running in the
 background, when nothing else is happening.
 
-Try uploading:
-<a href="/sketches/s2_sh03b.txt">s2_sh03b</a>
+Try uploading: <a href="{{ site.baseurl }}/sketches/s2_sh03b.txt">s2_sh03b</a>
 
 Now, the LED should be doing its regular blink from Session A. But if
 you press the button, it should stop the background loop, do the
@@ -22,12 +21,11 @@ preset timed sequence, and then resume the background loop.
 
 **_CHECKPOINT!_**
 
-If you look at the program, we have a new sequence of interger values
+If you look at the program, we have a new sequence of integer values
 and timings for the background event declared before ```setup()```:
 
 
-```
-int val2[] = {1, 0};
+```int val2[] = {1, 0};
 int tim2[] = {1000, 1000};
 ```
 
@@ -49,7 +47,7 @@ we have done inside ```setup()```.
 
 Triggering a timed sequence on the same ```Pb_timedevent``` object
 will pause the loop to let the new sequence complete, then resume the
-loop. This can be useful if your pinball needs to have one kind of LED
+loop. This can be useful if your pinball game needs to have one kind of LED
 blink pattern always going on, and change briefly to another kind when
 something special happens.
 

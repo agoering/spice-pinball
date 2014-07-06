@@ -17,8 +17,7 @@ definite times, and then trigger them to start happening.
 Connect the button on the breadboard to pin 3, and the green LED to
 pin 2 as shown:
 
-PICTURE OF BUTTON AND GREEN LED CONNECTIONS
-<img src="{{ site.baseurl }}/img/c-greenled-connect.png" style="width: 500px"/>
+<img src="{{ site.baseurl }}/img/c-greenled-connect.png" style="width: 650px"/>
 
 
 Now upload the following program:
@@ -48,7 +47,7 @@ see that ```void blinkmyled(int val)``` is indeed defined this way.
 
 Inside ```loop()```, you will see the line:
 
-```dothis.update();      // This needs to be called every loop iteration
+```dothis.update(); // This needs to be called every loop iteration
 ```
 
 All timed events declared in the program have to be updated by calling
@@ -56,7 +55,7 @@ the ```update()``` functions for each of them inside ```loop()```.
 
 The timed sequence that we are calling is being done like this:
 
-```dothis.start(values, timing, 18);    // Last argument is length of sequence
+```dothis.start(values, timing, 18); // Last argument is length of sequence
 ```
 
 The first argument ```values``` is an ```int``` type array. See before
