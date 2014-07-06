@@ -30,3 +30,5 @@ If you have time, here are some suggestions:
 - Make a menu that shows the song name beside the song number.
 
 **_CHECKPOINT!_**
+
+Congratulations! You now have a functioning jukebox, and a head start to your pinball machine.
