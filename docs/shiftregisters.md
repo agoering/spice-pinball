@@ -20,15 +20,12 @@ Why, by using shift registers of course!
 Connect the following segments on the breadboard to pins 13, 12 and 11
 on the Arduino as shown:
 
-<img src="{{ site.baseurl }}/img/c-shiftreg-highlights.png" style="width: 650px"/>
-
 <img src="{{ site.baseurl }}/img/c-shiftreg-highlights-close.png" style="width: 650px"/>
-
 
 Also connect the 0 volts line to Arduino's GND pin.
 Now upload this program:
 
-<a href="/sketches/s2_sh01.txt">s2_sh01</a>
+<a href="{{ site.baseurl }}/sketches/s2_sh01.txt">s2_sh01</a>
 
 Power the breadboard, and watch the 8 red LEDs.
 

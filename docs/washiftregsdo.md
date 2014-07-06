@@ -10,8 +10,7 @@ You are able to control 8 LEDs with just 4 pins!
 
 Lets look at the code. At the top, you will see:
 
-```
-Pb_outputs shregs(datapin, clkpin, latchpin, numreg);
+```Pb_outputs shregs(datapin, clkpin, latchpin, numreg);
 ```
 
 This is a way to tell the Arduino that you have connected shift
@@ -23,34 +22,34 @@ The shift register we use is one of those black chips in the
 breadboard with 16 legs. The legs have identities:
 
 SCHEMATIC OF SHIFT REG
-<img src="/img/wes.png" style:"width: 650px"/>
+<img src="http://bildr.org/blog/wp-content/uploads/2011/02/574px-SN74HC595-pinout.png" style="width: 200px"/>
 
-Note that it has 8 output pins. It is possible to write any digital
+Note that it has 8 output pins called Q0 through Q7. It is possible to write any digital
 value you want to those eight pins using the data, clock and latch
-pins. The pin named Y7' can be used to connect more shift registers to
+pins. The pin named Q7' can be used to connect more shift registers to
 it. We will explore that in a few moments.
+
+Each of the pins Q0 through Q7 will receive one **bit** of data. A **bit** is a single value of data, which can be 0 or 1. We need to tell the shift register which bits to write to which pin.
 
 In the code, we have defined a new variable ```byte serdata[1];```.
 This stores 1 byte, or 8 bits of digital information. Inside
 ```setup()```, we assign it values by typing:
 
-```
- serdata[0] = 0b00000000;
+``` serdata[0] = 0b00000000;
 ```
 
 This sets all 8 bits to 0. Then, we can shift these values to the
 shift register (which we have named ```shregs```) by typing:
 
-```
- shregs.update(serdata);   // Shifting out the array
+```shregs.update(serdata);   // Shifting out the array
 ```
 
-This will set all the LEDs to not light up at the starting. 
+This will set all the LEDs to not light up at the start. 
 
 - Try pressing the reset button and see what happens to the red LEDs
 for a moment.
-- Try changing some of those zeros in ```0b00000000``` to ones,
-  upload, and see what reset does.
+- Try changing some of those zeroes in ```0b00000000``` to ones,
+  upload, and see what reset does. Note that the zeroes after the b are the relevant values.
 
 **_CHECKPOINT!_**
 
