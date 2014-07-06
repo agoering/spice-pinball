@@ -21,8 +21,8 @@ which on your breadboard should be connected to 8 buttons.
 
 <img src="{{ site.baseurl }}/img/c-buttons-mux.png" style="width: 650px"/>
 
-To use the multiplexer, connect the A, B, and C pins to the arduino
-pins 2, 3, and 4, and connect the COM pin the arduino's pin 7 as
+To use the multiplexer, connect the A, B, and C pins to the Arduino
+pins 2, 3, and 4, and connect the COM pin the Arduino's pin 7 as
 shown (disconnect the old button if it is in the way):
 
 PICTURE MUX CONNECTIONS
@@ -42,11 +42,10 @@ shift register LEDs do?
 
 The line:
 
-```
-Pb_muxin mymux(2, 3, 4, 7); // (pinA, pinB, pinC, COMpin)
+```Pb_muxin mymux(2, 3, 4, 7); // (pinA, pinB, pinC, COMpin)
 ```
 
-tells the arduino that we have connected a multiplexer (mux for short)
+tells the Arduino that we have connected a multiplexer (**mux** for short)
 to pins 2, 3, 4, and 7. You can then check channel number 5 by calling
 ```mymux.probe(5)```, and it will return its digital voltage value.
 
