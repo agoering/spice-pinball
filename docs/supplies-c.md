@@ -33,6 +33,6 @@ PICTURE OF SCORE-BOARD
 
 For the first bit, we will focus on this part of the breadboard:
 
-<img src="{{ site.baseurl }}/img/c-shiftreg-led-area.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/c-shiftreg-led-area.png" style="width: 300px"/>
 
 
