@@ -11,7 +11,7 @@ We have learnt now to use shift registers to expand the number of
 digital output pins. But we have a way to expand the number of input
 pins as well. We use another kind of 16 pin chips called multiplexers:
 
-<img src="http://pinout-circuits-images.dz863.com/6/SN74LV4051A-Q1.jpg" style="width: 650px"/>
+<img src="http://pinout-circuits-images.dz863.com/6/SN74LV4051A-Q1.jpg" style="width: 300px"/>
 
 
 The multiplexer has three address pins (pinA, pinB and pinC), and a
