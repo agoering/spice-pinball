@@ -12,7 +12,6 @@ data pin to the arduino's pin 11. Now upload:
 
 <a href="{{ site.baseurl }}/sketches/s2_sh03c.txt">s2_sh03c</a>
 
-
 Now the timed event is being supplied the name of the function ```shiftpattern```.
 
 Also, the value arrays ```values[]``` and ```val2[]``` are no longer

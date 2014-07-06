@@ -11,24 +11,22 @@ We have learnt now to use shift registers to expand the number of
 digital output pins. But we have a way to expand the number of input
 pins as well. We use another kind of 16 pin chips called multiplexers:
 
-PICTURE SCHEMATIC OF MULTIPLEXER
-<img src="/img/wes.png" style:"width: 650px"/>
+<img src="http://pinout-circuits-images.dz863.com/6/SN74LV4051A-Q1.jpg" style="width: 650px"/>
 
 
 The multiplexer has three address pins (pinA, pinB and pinC), and a
 common pin (COM). Setting the right address bits on A, B and C will
-automatically connect the COM pin to one of the channel pins (0 to 7),
-which on your breadboard should be connect to 8 buttons.
+automatically connect the COM pin to one of the channel pins (Y0 to Y7),
+which on your breadboard should be connected to 8 buttons.
 
-PICTURE OF BUTTONS AND MUX
-<img src="/img/wes.png" style:"width: 650px"/>
+<img src="{{ site.baseurl }}/img/c-buttons-mux.png" style="width: 650px"/>
 
 To use the multiplexer, connect the A, B, and C pins to the arduino
 pins 2, 3, and 4, and connect the COM pin the arduino's pin 7 as
 shown (disconnect the old button if it is in the way):
 
 PICTURE MUX CONNECTIONS
-<img src="/img/wes.png" style:"width: 650px"/>
+<img src="{{ site.baseurl }}/img/c-mux-connect.png" style="width: 650px"/>
 
 
 Now upload:
@@ -54,11 +52,9 @@ to pins 2, 3, 4, and 7. You can then check channel number 5 by calling
 
 We have a new function that accepts two input arguments:
 
-```
-void changeserdata(int ff, boolean val) {
-  
-  bitWrite(serdata[0], ff, !val); 
-  bitWrite(serdata[1], ff, !val);
+```void changeserdata(int ff, boolean val) {
+bitWrite(serdata[0], ff, !val); 
+bitWrite(serdata[1], ff, !val);
 }
 ```
 
