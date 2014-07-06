@@ -20,22 +20,19 @@ Today we will learn to use two special chips that will be helpful in realizing o
     - Many jumper wires
     - Piezo buzzer
 
-Additionally, every table must have received a Spice score-board.
+Additionally, every table must have received a SPICE scoreboard.
 
 The breadboard should look like this:
 
-PICTURE OF BB
-<img src="{{ site.basurl }}/img/c-breadboard.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/c-breadboard.png" style="width: 650px"/>
 
-
-And the score-board like this:
+And the scoreboard like this:
 
 PICTURE OF SCORE-BOARD
 <img src="{{ site.baseurl }}/img/wes.png" style="width: 650px"/>
 
-For the first bit, we will focus on this part of the Breadboard:
+For the first bit, we will focus on this part of the breadboard:
 
-HIGHLIGHT SHIFT REG + LEDs AREA
 <img src="{{ site.baseurl }}/img/c-shiftreg-led-area.png" style="width: 650px"/>
 
 
