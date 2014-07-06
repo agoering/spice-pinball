@@ -33,7 +33,7 @@ PICTURE MUX CONNECTIONS
 
 Now upload:
 
-<a href="/sketches/s2_sh04.txt">s2_sh04</a>
+<a href="{{ site.baseurl }}/sketches/s2_sh04.txt">s2_sh04</a>
 
 
 Now try pressing any of the 8 buttons (labelled 0 to 7). What to the
