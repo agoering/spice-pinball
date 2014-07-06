@@ -19,7 +19,7 @@ common pin (COM). Setting the right address bits on A, B and C will
 automatically connect the COM pin to one of the channel pins (Y0 to Y7),
 which on your breadboard should be connected to 8 buttons.
 
-<img src="{{ site.baseurl }}/img/c-buttons-mux.png" style="width: 300px"/>
+<img src="{{ site.baseurl }}/img/c-buttons-mux.png" style="width: 500px"/>
 
 To use the multiplexer, connect the A, B, and C pins to the Arduino
 pins 2, 3, and 4, and connect the COM pin the Arduino's pin 7 as
