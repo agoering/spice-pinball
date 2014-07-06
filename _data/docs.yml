@@ -34,7 +34,7 @@
 
 - title: Session C
   docs:
-  - sessionc
+  - supplies-c
   - shiftregisters
   - washiftregsdo
   - bitwrite

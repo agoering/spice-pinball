@@ -3,7 +3,7 @@ layout: docs
 title: Session C
 prev_section: theramin
 next_section: shiftregisters
-permalink: /docs/sessionc/
+permalink: /docs/supplies-c/
 ---
 
 Today we will learn to use two special chips that will be helpful in realizing our pinball machines. Also, today's setup can be used directly as a model for how to read many inputs and write to many outputs - and it can be used with a few modifications as a direct model for the pinball electronics that you will build.

@@ -16,20 +16,18 @@ Plug your Arduino into the computer, and open the Arduino program.
 
 <img src="{{ site.baseurl }}/img/arduino-icon.png" style="width: 200px"/>
 
-Upload the following program: <a href="{{ site.baseurl }}/sketches/s3_analog_input.txt">analog_input</a> 
-
-Upload the sketch and then plug in the breadboard. 
+Upload the following program: <a href="{{ site.baseurl }}/sketches/s3_analog_input.txt">analog_input</a> , and then plug in the breadboard.
 
 Open the Serial Monitor. Notice that three numbers are being written out. So far, we have only monitored a single input at once. This sketch improves upon this, by monitoring three inputs. Let's have a look at the program. 
 
-Before ```setup()```, we declare variable names for our analog input pins:
+Before ```setup()```, we declare variable (names and types) for our analog input pins:
 
 ```int analogIn0 = A0;     
 int analogIn1 = A1;
 int analogIn2 = A2;
 ```
 
-We also declare variables and initialize values for the number read out from the analog input pins:
+We also declare variables (names and types) and initialize values for the number read out from the analog input pins:
 
 ```int sensorValue0 = 0; //value read from "red" sensor
 int sensorValue1 = 0; //value read from "green" sensor
@@ -56,7 +54,7 @@ Serial.println(sensorValue2); // makes a new line
 
 Note the lines that leave blank spaces between the numbers. Without those lines, the numbers would be squished up next to one another!
 
-On to the fun part! Try the following: 
+On to the fun part! Try the following while watching the Serial Monitor: 
 
 1. Move your hand close to or far from the proximity sensor. 
 2. What happens if you point the proximity sensor at the wall? 

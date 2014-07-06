@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Shift Registers
-prev_section: sessionc
+prev_section: supplies-c
 next_section: washiftregsdo 
 permalink: /docs/shiftregisters/
 ---
