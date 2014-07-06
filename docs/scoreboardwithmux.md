@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Scoreboardwith Multiplexer
+title: Multiplexed Scoreboard
 prev_section: scoreboard
 next_section: music
 permalink: /docs/scoreboardwithmux/
