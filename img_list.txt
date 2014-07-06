@@ -39,3 +39,12 @@ x - e * presoldered IR sensors
 - c * picture of speaker
 - speaker pin connection
 - * screenshot Arduino window with new tab
+
+STILL NEED
+- scoreboard
+- shift registers + LEDs with data pin connected to GND?
+- remake highlighted versions
+- 
+
+DO NOT PUT THE Arduino'S PIN 11 TO
+GROUND. LEAVE THAT UNCONNECTED.

@@ -7,25 +7,22 @@ permalink: /docs/timedevents/
 ---
 
 We are going to stop working with shift registers for a bit. So please
-disconnect the first shift register's data pin from the arduino's pin
-11, and instead put it to ground. DO NOT PUT THE ARDUINO'S PIN 11 TO
-GROUND. LEAVE THAT UNCONNECTED.
-
+disconnect the first shift register's data pin from the Arduino's pin
+11, and instead put it to ground. **Do not put the Arduino's pin 11 to ground. Leave that unconnected.** 
 
 Now, we are going to learn about timed events. This is a way to
 prepare a script for a sequence of things to happen in the future at
-definite times, and then triggering them to start happening.
-
+definite times, and then trigger them to start happening.
 
 Connect the button on the breadboard to pin 3, and the green LED to
 pin 2 as shown:
 
 PICTURE OF BUTTON AND GREEN LED CONNECTIONS
-<img src="/img/wes.png" style:"width: 650px"/>
+<img src="{{ site.baseurl }}/img/c-greenled-connect.png" style="width: 500px"/>
 
 
 Now upload the following program:
-<a href="/sketches/s2_sh03.txt">s2_sh03</a>
+<a href="{{ site.baseurl }}/sketches/s2_sh03.txt">s2_sh03</a>
 
 Try pressing the button, and watch what the LED does.
 It is blinking morse code. Do you know what it is saying?
@@ -38,8 +35,7 @@ sequence is over, it will start over.
 
 Inside the program, we are declaring a new object called a timed event:
 
-```
-Pb_timedevent dothis(blinkmyled);
+```Pb_timedevent dothis(blinkmyled);
 ```
 
 We are calling our timed event ```dothis```. But you can give it any
@@ -52,8 +48,7 @@ see that ```void blinkmyled(int val)``` is indeed defined this way.
 
 Inside ```loop()```, you will see the line:
 
-```
-  dothis.update();      // This needs to be called every loop iteration
+```dothis.update();      // This needs to be called every loop iteration
 ```
 
 All timed events declared in the program have to be updated by calling
@@ -61,8 +56,7 @@ the ```update()``` functions for each of them inside ```loop()```.
 
 The timed sequence that we are calling is being done like this:
 
-```
-    dothis.start(values, timing, 18);    // Last argument is length of sequence
+```dothis.start(values, timing, 18);    // Last argument is length of sequence
 ```
 
 The first argument ```values``` is an ```int``` type array. See before
