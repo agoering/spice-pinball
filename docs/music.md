@@ -6,19 +6,16 @@ next_section: loopedsoundtracks
 permalink: /docs/music/
 ---
 
-Now we will learn to play sound effects on the speaker.
+Now we will learn to play sound effects on the speaker. Connect it to the A0 pin on
+the Arduino.
 
-The score board also has a speaker pin. Connect it to the A0 pin on
-the arduino.
+<img src="{{ site.baseurl }}/img/c-speaker-connect.png" style="width: 650px"/>
 
-PICTURE OF SCOREBOARD SPEAKER PIN
-<img src="/img/wes.png" style:"width: 650px"/>
-
-### A little known secret:
-
-The pins A0, A1, A2, A3, A4, and A5 can actually be used as digital
-pins 14, 15, 16, 17, 18, and 19. For example, we will use A0 as
-digital pin 14.
+> ### A little known secret:
+>
+> The pins A0, A1, A2, A3, A4, and A5 can actually be used as digital
+> pins 14, 15, 16, 17, 18, and 19. For example, we will use A0 as
+> digital pin 14.
 
 Upload the following:
 <a href="{{ site.baseurl }}/sketches/s2_sh05.txt">s2_sh05</a>
@@ -32,8 +29,7 @@ This new program is the same as the old, but has additional lines for the speake
 
 At the top, we define a speaker object by supplying the speaker pin number:
 
-```
-Pb_speaker spkr(14);
+```Pb_speaker spkr(14);
 ```
 
 We called it ```spkr```, but you can use any other name.
@@ -45,13 +41,12 @@ timed sequences. In our program, we are using the array
 array ```timing1[]``` to store its timing.
 
 The notes being used are your standard notes, and are actually the
-sound frequencies of those notes. They can be view in the file:
+sound frequencies of those notes. They can be viewed in the file:
 
 <a href="{{ site.baseurl }}/sketches/notes.h">notes</a>
 
 
-If you use a 0, that simple corresponds to a pause in the tone sequence.
-
+If you use a 0, that simply corresponds to a pause in the tone sequence.
 
 
 Inside ```writeoutputs()```, we call ```spkr.update()```, which is

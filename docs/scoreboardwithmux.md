@@ -19,18 +19,15 @@ Try pushing the buttons 0, 1, and 2, and see what happens to the number on the s
 
 Inside the program, we are declaring three switch objects for the three buttons:
 
-```
-Pb_switch mysw0(50), mysw1(50), mysw2(50);
+```Pb_switch mysw0(50), mysw1(50), mysw2(50);
 ```
 
 We are also using three flags to keep track of whether or not they were pushed.
 Inside ```loop()```, we are calling three standard functions:
 
-```
-  readinputs();       // Read all the input sensors
-  dologic();          // Perform logical operations
-  writeoutputs();     // Control all output components
-
+```readinputs();       // Read all the input sensors
+dologic();          // Perform logical operations
+writeoutputs();     // Control all output components
 ```
 
 Your final pinball code can also use this structure.
