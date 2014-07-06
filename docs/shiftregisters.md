@@ -22,6 +22,9 @@ on the Arduino as shown:
 
 <img src="{{ site.baseurl }}/img/c-shiftreg-highlights.png" style="width: 650px"/>
 
+<img src="{{ site.baseurl }}/img/c-shiftreg-highlights-close.png" style="width: 650px"/>
+
+
 Also connect the 0 volts line to Arduino's GND pin.
 Now upload this program:
 
