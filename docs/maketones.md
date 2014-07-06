@@ -8,7 +8,7 @@ permalink: /docs/maketones/
 
 Up to now we have only controlled lights. Now let's make some sounds! That round thing on the breadboard is a piezoelectric speaker. A sheet of metal attached to a magnet inside the speaker vibrates when electrical signals are sent to the speaker wires, producing sound. Vibrating the sheet of metal at different frequencies produces different tones.
 
-<img src="{{ site.baseurl }}/img/speaker_closeup.png" style="width: 200px"/>
+<img src="{{ site.baseurl }}/img/speaker_closeup.png" style="width: 500px"/>
 
 The speaker is very simple - one end connects to ground, and the other to an Arduino output pin.
 

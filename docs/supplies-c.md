@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Session C
+title: Session C Supplies
 prev_section: theramin
 next_section: shiftregisters
 permalink: /docs/supplies-c/
@@ -18,23 +18,24 @@ Today we will learn to use two special chips that will be helpful in realizing o
     - One Green LED
     - Several 1kOhm resistors
     - Many jumper wires
+    - Piezo buzzer
 
-Additionally, every table must have received a buzzer equipped Spice score-board.
+Additionally, every table must have received a Spice score-board.
 
 The breadboard should look like this:
 
 PICTURE OF BB
-<img src="/img/wes.png" style:"width: 650px"/>
+<img src="{{ site.basurl }}/img/c-breadboard.png" style="width: 650px"/>
 
 
 And the score-board like this:
 
 PICTURE OF SCORE-BOARD
-<img src="/img/wes.png" style:"width: 650px"/>
+<img src="{{ site.baseurl }}/img/wes.png" style="width: 650px"/>
 
 For the first bit, we will focus on this part of the Breadboard:
 
 HIGHLIGHT SHIFT REG + LEDs AREA
-<img src="/img/wes.png" style:"width: 650px"/>
+<img src="{{ site.baseurl }}/img/c-shiftreg-led-area.png" style="width: 650px"/>
 
 
