@@ -9,7 +9,7 @@ permalink: /docs/scoreboardwithmux/
 
 Now upload the following program:
 
-<a href="/sketches/s2_sh04c.txt">s2_sh04c</a>
+<a href="{{ site.baseurl }}/sketches/s2_sh04c.txt">s2_sh04c</a>
 
 
 Try pushing the buttons 0, 1, and 2, and see what happens to the number on the score board.

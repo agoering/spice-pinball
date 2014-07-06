@@ -21,7 +21,7 @@ pins 14, 15, 16, 17, 18, and 19. For example, we will use A0 as
 digital pin 14.
 
 Upload the following:
-<a href="/sketches/s2_sh05.txt">s2_sh05</a>
+<a href="{{ site.baseurl }}/sketches/s2_sh05.txt">s2_sh05</a>
 
 
 Now try pressing buttons 0, 1, and 2. What do you hear?
@@ -47,7 +47,7 @@ array ```timing1[]``` to store its timing.
 The notes being used are your standard notes, and are actually the
 sound frequencies of those notes. They can be view in the file:
 
-<a href="/sketches/notes.h">notes</a>
+<a href="{{ site.baseurl }}/sketches/notes.h">notes</a>
 
 
 If you use a 0, that simple corresponds to a pause in the tone sequence.

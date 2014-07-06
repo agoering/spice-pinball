@@ -10,7 +10,7 @@ Now we'll see another use of the timed events object. Disconnect the
 green LED from the arduino, and reconnect the first shift register's
 data pin to the arduino's pin 11. Now upload:
 
-<a href="/sketches/s2_sh03c.txt">s2_sh03c</a>
+<a href="{{ site.baseurl }}/sketches/s2_sh03c.txt">s2_sh03c</a>
 
 
 Now the timed event is being supplied the name of the function ```shiftpattern```.

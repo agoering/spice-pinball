@@ -20,7 +20,7 @@ Connect the score board's clock, latch, and data pins to arduino pins
 8, 9, and 10 respectively. Also connect the score board's ground pin
 to the 0 volts line on the bread board. Now upload this:
 
-<a href="/sketches/s2_sh04b.txt">s2_sh04b</a>
+<a href="{{ site.baseurl }}/sketches/s2_sh04b.txt">s2_sh04b</a>
 
 
 What are the numbers on the score board doing?

@@ -10,11 +10,11 @@ Now we will make a Jukebox.
 
 Paste the following code in a new work area:
 
-<a href="/sketches/s2_sh05c.txt">s2_sh05c</a>
+<a href="{{ site.baseurl }}/sketches/s2_sh05c.txt">s2_sh05c</a>
 
 Now open a new tab, name it ```mysongs.h```, and paste this into it:
 
-<a href="/sketches/mysongs.h">mysongs</a>
+<a href="{{ site.baseurl }}/sketches/mysongs.h">mysongs</a>
 
 Upload.
 
