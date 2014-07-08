@@ -25,8 +25,7 @@ with the first. But its data pin is right now going to ground (0
 volts).  Try removing that connection, and instead connecting its data
 pin to the first shift register's Q7' pin.
 
-PICTURE OF SECOND SHIFT DATA CONNECT
-<img src="{{ site.baseurl }}/img/wes.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/c-shiftreg-2-connect.png" style="width: 650px"/>
 
 Now, as soon as the first shift register receives a new byte, it
 should shift its old byte to the new shift register, which is further

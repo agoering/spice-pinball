@@ -20,7 +20,7 @@ Why, by using shift registers of course!
 Connect the following segments on the breadboard to pins 13, 12 and 11
 on the Arduino as shown:
 
-<img src="{{ site.baseurl }}/img/c-shiftreg-highlights-close.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/c-shiftreg-highlights-close-2.png" style="width: 650px"/>
 
 Also connect the 0 volts line to Arduino's GND pin.
 Now upload this program:

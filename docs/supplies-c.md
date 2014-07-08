@@ -24,7 +24,7 @@ Additionally, every table must have received a SPICE scoreboard.
 
 The breadboard should look like this:
 
-<img src="{{ site.baseurl }}/img/c-breadboard.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/c-breadboard-2.png" style="width: 650px"/>
 
 And the scoreboard like this:
 
@@ -33,6 +33,6 @@ PICTURE OF SCORE-BOARD
 
 For the first bit, we will focus on this part of the breadboard:
 
-<img src="{{ site.baseurl }}/img/c-shiftreg-led-area.png" style="width: 300px"/>
+<img src="{{ site.baseurl }}/img/c-shiftreg-led-area-2.png" style="width: 300px"/>
 
 
