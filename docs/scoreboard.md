@@ -12,8 +12,7 @@ The scoreboard also uses shift registers, and has data, clock, and
 latch pins. But we use a different class object (```Pb_dislay```) to talk to it.
 
 
-PICTURE OF SCOREBOARD WITH PIN LABELS
-<img src="/img/wes.png" style:"width: 650px"/>
+<img src="{{ site.baseurl }}/img/scoreboard-back.png" style="width: 650px"/>
 
 
 Connect the scoreboard's clock, latch, and data pins to Arduino pins
