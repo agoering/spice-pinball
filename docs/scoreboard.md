@@ -16,7 +16,7 @@ latch pins. But we use a different class object (```Pb_dislay```) to talk to it.
 
 
 Connect the scoreboard's clock, latch, and data pins to Arduino pins
-8, 9, and 10 respectively. Also connect the score board's ground pin
+8, 9, and 10 respectively. Also connect the scoreboard's ground pin
 to the 0 volts line on the bread board. Now upload this:
 
 <a href="{{ site.baseurl }}/sketches/s2_sh04b.txt">s2_sh04b</a>
