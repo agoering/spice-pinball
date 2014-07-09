@@ -8,6 +8,10 @@ permalink: /docs/supplies-d/
 
 You should have:
 
-- a motor control board
-- motors (from CD drive, or spinning types)
 - a power supply breadboard (any of them will do)
+- motors (CD drive and fan which we will scavenge from old computers)
+- a motor control board, which looks like this:
+
+<img src="{{ site.baseurl }}/img/d-motor-control.png" style="width: 500px"/>
+
+

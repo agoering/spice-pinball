@@ -28,8 +28,7 @@ The breadboard should look like this:
 
 And the scoreboard like this:
 
-PICTURE OF SCORE-BOARD
-<img src="{{ site.baseurl }}/img/wes.png" style="width: 300px"/>
+<img src="{{ site.baseurl }}/img/scoreboard-front.png" style="width: 500px"/>
 
 For the first bit, we will focus on this part of the breadboard:
 

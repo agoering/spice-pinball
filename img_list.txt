@@ -43,7 +43,7 @@ x - e * presoldered IR sensors
 STILL NEED
 - scoreboard
 - shift registers + LEDs with data pin connected to GND?
-- remake highlighted versions
+- remake highlighted versions?
 - 
 
 DO NOT PUT THE Arduino'S PIN 11 TO
