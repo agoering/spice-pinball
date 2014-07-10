@@ -2,7 +2,7 @@
 layout: docs
 title: Controlling Outputs
 prev_section: readsensors
-next_section: maketones
+next_section: calibration
 permalink: /docs/controloutputs/
 ---
 
@@ -12,9 +12,17 @@ Now we have the ability to use analog inputs, which can be any number between 0 
 
 Instead of trying to do that, let's just write a program to do it for us. At the same time, we'll control a small speaker to make a tone corresponding to the inputs. In this way, we will build a musical instrument called a theramin!
 
+You will need to connect your red, green, and blue RGB LED transistor bases to Arduino pins 10, 9, and 6, like so:
+
+<img src="{{ site.baseurl }}/img/b-rgb-led-connections.png" style="width: 650px"/>
+
 Upload the following program: <a href="{{ site.baseurl }}/sketches/s3_rgb_theramin.txt">rgb_theramin</a> 
 
-Before you start making tunes, let's have a look at the program:
+Go ahead and wave your hands around in front of the sensors a little bit, and see what happens. Your LED color should be changing.
+
+**_CHECKPOINT!_**
+
+Before you start making tunes, let's have a quick look at the program. Most of it should look very familiar, but there arenew functions, ```analogRead()``` and ```analogWrite()```, that we need to use analog inputs.
 
 Again, we'll declare some variables for the analog inputs:
 
@@ -28,7 +36,7 @@ Also variables for the LED outputs:
 
 ```// Output pins to RGB LED
 int redled = 10; 
-int greenled = 5;
+int greenled = 9;
 int blueled = 6;
 ```
 
@@ -38,7 +46,7 @@ And also for the speaker output:
 int speakerPin = 8;
 ```
 
-We also declare and initialize variables for the sensor values as before, and also for the values we will output to the LEDs and speaker.
+We declare and initialize variables for the sensor values as before, and also for the values we will output to the LEDs and speaker.
 
 ```int sensorValue0 = 0; //value read from "red" sensor
 int sensorValue1 = 0; //value read from "green" sensor
@@ -87,7 +95,7 @@ That tells the ```map()``` function to produce an ```outputValue``` between 0 an
 
 Finally, we use the ```analogWrite()``` function to write the ```outputValue``` to the pins we chose for outputs (the ```redled```, ```greenled```, and ```blueled``` pins). 
 
-It is important to note that ```analogWrite()``` only works with pins marked with the ```~``` symbol. Those are called **pulse width modulated** pins (**PWM** for short), and are a way to simulate an analog signal on a digital pin.
+> It is important to note that ```analogWrite()``` only works with pins marked with the ```~``` symbol. Those are called **pulse width modulated** pins (>> **PWM** for short), and are a way to simulate an analog signal on a digital pin.
 
 We give ```analogWrite()``` the variable names for the pin to write to, and the value to write:
 
@@ -95,21 +103,3 @@ We give ```analogWrite()``` the variable names for the pin to write to, and the 
 analogWrite(greenled, outputValue1);
 analogWrite(blueled, outputValue2);
 ```
-
-Look one more time at the ```map()``` functions. What are ```Min0```, ```Min1```, and ```Min2```? Recall that the sensors don't go all the way to zero. Because of this, if some of them have a different full range than the others, they will unfairly bias the output values. So if we use 
-
-```map(sensorValue0, 0, 1023, 0, 255);
-```
-
-we may run into problems. Let's try an experiment to show this. 
-
-1. Set ```Min0```, ```Min1```, and ```Min2``` to 0.
-2. Upload the program, and see what color the LED is. What color do you expect it should be if you aren't in proximity to the sensors? What about if you cover the proximity sensors closely?
-3. Now open the Serial Monitor and set ```Min0```, ```Min1```, and ```Min2``` to the values shown (when your hands are away from the sensors). 
-4. Upload again. Now what color is your LED when you are not near the sensors? What color is it when you move your hands in front of the A0 sensor? The A1 sensor? The A2 sensor? Does this match your expectations now?
-
-What we have just shown is that the analog sensors have to be calibrated to make up for irregularities in their environments. Try moving the sensors around. This will uncalibrate the set. Repeat the procedure of entering minimum values based on the Serial Monitors.
-
-If you wanted to avoid recalibrating often when you build your pinball machines, what do you think you should do with the sensors?
-
-**_CHECKPOINT!_**

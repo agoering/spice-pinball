@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Producing Tones
-prev_section: controloutputs
+prev_section: calibration
 next_section: theramin
 permalink: /docs/maketones/
 --- 

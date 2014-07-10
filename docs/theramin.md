@@ -13,6 +13,8 @@ Since speakerValue will be between 100 and 1023, we can use ```tone()``` to writ
 
 That writes ```speakerValue``` to ```speakerPin``` for ```100``` milliseconds.
 
-Ok, let's have fun! Connect Arduino pin 8 to the free leg of the pin (the one that's not grounded). If you've moved your board around, you may need to recalibrate your LED. 
+Ok, let's have fun! 
+
+First you will need to uncomment (delete the ```//``` marks) the line that says ```tone(speakerPin,speakerValue,100);```. Then connect Arduino pin 8 to the free leg of the speaker (the leg that's not grounded). If you've moved your board around, you may need to recalibrate your sensors again to optimize your theramin. 
 
 Have fun with your RGB theramin!

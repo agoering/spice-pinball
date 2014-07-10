@@ -6,20 +6,25 @@ next_section: scoreboardwithmux
 permalink: /docs/scoreboard/
 ---
 
-Now we will learn to display numbers on the scoreboard.
+Now we will learn to display numbers on the scoreboard. 
 
 The scoreboard also uses shift registers, and has data, clock, and
-latch pins. But we use a different class object (```Pb_dislay```) to talk to it.
+latch pins. But we will use a different class object (```Pb_dislay```) to talk to it.
+
+Look at the back of the scoreboard. The pins are labeled - you should see from bottom to top VCC (positive voltage input), GND (ground), SER (data pin), CLKS (clock pin), CLKR (we will call this the latch), and some speaker pins. We won't use the speaker pins yet.
 
 
 <img src="{{ site.baseurl }}/img/scoreboard-back.png" style="width: 650px"/>
 
 
-Connect the scoreboard's clock, latch, and data pins to Arduino pins
-8, 9, and 10 respectively. Also connect the scoreboard's ground pin
-to the 0 volts line on the bread board. Now upload this:
+Connect your scoreboard as follows:
 
-<a href="{{ site.baseurl }}/sketches/s2_sh04b.txt">s2_sh04b</a>
+- clock (CLKS) to Arduino pin 8
+- latch (CLKR) to Arduino pin 9
+- data (SER) pins to Arduino pin 10
+- ground (GND) to ground line on breadboard.
+
+Now upload this: <a href="{{ site.baseurl }}/sketches/s2_sh04b.txt">s2_sh04b</a>
 
 
 What are the numbers on the scoreboard doing?

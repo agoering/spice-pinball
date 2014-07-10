@@ -29,6 +29,7 @@
   - analoginputs
   - readsensors
   - controloutputs
+  - calibration
   - maketones
   - theramin
 
