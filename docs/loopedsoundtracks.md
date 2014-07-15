@@ -11,7 +11,7 @@ background, just like looped timed events.
 
 Copy the following code into your work area:
 
-<a href="{{ site.baseurl }}/sketches/01_blink.txt">s2_sh05b</a>
+<a href="{{ site.baseurl }}/sketches/s2_sh05b.txt">s2_sh05b</a>
 
 You cannot upload it yet, because in the beginning of the code, we have inserted the line:
 
@@ -32,7 +32,7 @@ them by clicking on the correct tab at the top bar of the window.
 
 Copy the following code into the ```mysong.h``` file:
 
-<a href="{{ site.baseurl }}/sketches/mysongs.h">mysongs</a>
+<a href="{{ site.baseurl }}/sketches/mysongs.txt">mysongs</a>
 
 
 Now, you can upload the code.

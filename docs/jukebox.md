@@ -14,7 +14,7 @@ Paste the following code in a new Arduino window:
 
 Now open a new tab in that window, name it ```mysongs.h```, and paste this into it:
 
-<a href="{{ site.baseurl }}/sketches/mysongs.h">mysongs</a>
+<a href="{{ site.baseurl }}/sketches/mysongs.txt">mysongs</a>
 
 Upload.
 
