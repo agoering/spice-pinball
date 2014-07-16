@@ -16,10 +16,10 @@ If you want to share more pieces of code, email them to ayocom@uoregon.edu and A
 
 <a href="{{ site.baseurl }}/spice-hub/science-rocks.txt">Flash LEDs in a scrolling pattern (by the Science Rocks team)</a>
 
-<a href="{{ site.baseurl }}/spice-hub/science-rocks.txt">Makes lights flash in a row one at a time (by SGI - The Legend Hunt table)</a>
+<a href="{{ site.baseurl }}/spice-hub/YAY.txt">Makes lights flash in a row one at a time (by SGI - The Legend Hunt table)</a>
 
 ### Scoring:
 
 <a href="{{ site.baseurl }}/spice-hub/addfivepoints.txt">Add 5 points to the scoreboard when a button is pressed (by the Super Adventure Science Buddies)</a>
 
-<a href="{{ site.baseurl }}/spice-hub/science-rocks.txt">Add 4 points when one sensor is triggered, and subtract 2 when another is triggered (by Tifflenarika)</a>
+<a href="{{ site.baseurl }}/spice-hub/sensors-points.txt">Add 4 points when one sensor is triggered, and subtract 2 when another is triggered (by Tifflenarika)</a>
