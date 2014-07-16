@@ -1,0 +1,81 @@
+/*
+control common gnd rgb led with analog inputs from TCRT5000 IR sensor 
+- then what you get is an rgb color mixer and theramin!
+*/
+
+#include <Pinball.h>
+
+//Input IR sensors
+int analogIn0 = A0;     
+int analogIn1 = A1;
+int analogIn2 = A2;
+
+// Output pins to RGB LED
+int redled = 10; 
+int greenled = 9;
+int blueled = 6;
+
+//Initialize speaker
+int speakerPin = 8;
+
+int sensorValue0 = 0; //value read from "red" sensor
+int sensorValue1 = 0; //value read from "green" sensor
+int sensorValue2 = 0; //value read from "blue" sensor
+
+int outputValue0 = 0; //value output to red LED
+int outputValue1 = 0; //value output to green LED 
+int outputValue2 = 0; //value output to blue LED 
+
+int speakerValue = 0; //value output to speaker
+
+void setup(){
+  //Serial register, comment out if desired
+  Serial.begin(9600);
+  
+  // set the LED pins and speaker pin to outputs  
+  pinMode(redled, OUTPUT);
+  pinMode(greenled, OUTPUT);
+  pinMode(blueled, OUTPUT);
+  pinMode(speakerPin, OUTPUT);
+
+  // note that analog inputs do not require pin mode settings
+    
+}
+
+void loop(){
+  
+  // Use the Serial Monitor to watch each sensor at once
+  Serial.print(sensorValue0);
+  Serial.print(" "); // leaves a blank space
+  Serial.print(sensorValue1);
+  Serial.print(" "); // leaves a blank space
+  Serial.println(sensorValue2); // makes a new line
+  
+  // Here we read in the sensors on the ANALOG IN pins using analogRead
+  sensorValue0 = analogRead(analogIn0);
+  sensorValue1 = analogRead(analogIn1);
+  sensorValue2 = analogRead(analogIn2);
+  
+  // Record the minimum values of your sensors below, if needed
+  int Min0 = 233;
+  int Min1 = 198;
+  int Min2 = 309;
+  
+  // This changes the analog out values so they range only to 255
+  outputValue0 = map(sensorValue0, Min0, 1023, 0, 255); 
+  outputValue1 = map(sensorValue1, Min1, 1023, 0, 255); 
+  outputValue2 = map(sensorValue2, Min2, 1023, 0, 255); 
+  
+  // Finally here we write the value to the red LED.
+  analogWrite(redled, outputValue0);
+  analogWrite(greenled, outputValue1);
+  analogWrite(blueled, outputValue2);
+    
+  // Take an average of the sensor values for the speaker
+  speakerValue = (sensorValue0+sensorValue1+sensorValue2)/3;
+
+  // Also write to the speaker pin, with a 100ms tone duration.
+//  tone(speakerPin,speakerValue,100);
+    
+}
+

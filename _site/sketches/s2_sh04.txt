@@ -1,0 +1,45 @@
+#include <Pinball.h>
+
+
+Pb_muxin mymux(2, 3, 4, 7); // (pinA, pinB, pinC, COMpin)
+
+int clkpin = 12;      // Clock pin
+int latchpin = 13;    // Latch pin
+int datapin = 11;     // Data pin
+int numreg = 2;       // Number of shift registers in series
+
+Pb_outputs shregs(datapin, clkpin, latchpin, numreg);
+
+byte serdata[2];
+
+void setup() {
+
+  serdata[0] = 0b00000000;
+  serdata[1] = 0b00000000;
+  
+  shregs.update(serdata);   // Shifting out the array  
+
+}
+
+void loop() {
+  
+  changeserdata( 0, mymux.probe(0) );
+  changeserdata( 1, mymux.probe(1) );
+  changeserdata( 2, mymux.probe(2) );
+  changeserdata( 3, mymux.probe(3) );
+  changeserdata( 4, mymux.probe(4) );
+  changeserdata( 5, mymux.probe(5) );
+  changeserdata( 6, mymux.probe(6) );
+  changeserdata( 7, mymux.probe(7) );
+
+  
+  shregs.update(serdata);
+}
+
+
+void changeserdata(int ff, boolean val) {
+  
+  bitWrite(serdata[0], ff, !val); 
+  bitWrite(serdata[1], ff, !val);
+}
+
