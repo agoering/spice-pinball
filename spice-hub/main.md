@@ -12,19 +12,19 @@ If you want to share more pieces of code, or if you had code that you don't see 
 
 ## Table Code from 2014:
 
-### <a href="{{ site.basurl }}/spice-hub/villains_and_superheroes.txt">Villains and Superheroes</a>
+### <a href="{{ site.baseurl }}/spice-hub/villains_and_superheroes.txt">Villains and Superheroes</a>
 
-### <a href="{{ site.basurl }}/spice-hub/sugar_skull_mania.txt">Sugar Skull Mania</a>
+### <a href="{{ site.baseurl }}/spice-hub/sugar_skull_mania.txt">Sugar Skull Mania</a>
 
-### <a href="{{ site.basurl }}/spice-hub/science_rocks.txt">Science Rocks!</a>
+### <a href="{{ site.baseurl }}/spice-hub/science_rocks.txt">Science Rocks!</a>
 
-### <a href="{{ site.basurl }}/spice-hub/the_legend_hunt.txt">The Legend Hunt</a>
+### <a href="{{ site.baseurl }}/spice-hub/the_legend_hunt.txt">The Legend Hunt</a>
 
-### <a href="{{ site.basurl }}/spice-hub/cornucopia.txt">Cornucopia</a>
+### <a href="{{ site.baseurl }}/spice-hub/cornucopia.txt">Cornucopia</a>
 
-### <a href="{{ site.basurl }}/spice-hub/space_adventure.txt">Space Adventure</a>
+### <a href="{{ site.baseurl }}/spice-hub/space_adventure.txt">Space Adventure</a>
 
-### <a href="{{ site.basurl }}/spice-hub/under_the_sea.txt">Under The Sea</a>
+### <a href="{{ site.baseurl }}/spice-hub/under_the_sea.txt">Under The Sea</a>
 
 ## Code Snippets from 2014:
 
