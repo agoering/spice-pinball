@@ -8,9 +8,25 @@ permalink: /spice-hub/main/
 
 ## SPICE-hub: Your place to share code!
 
-If you want to share more pieces of code, email them to ayocom@uoregon.edu and Andrea will add them ASAP. Make sure to include a comment description of your code!
+If you want to share more pieces of code, or if you had code that you don't see here and would like to see here, email ayocom@uoregon.edu and Andrea will add them ASAP. Make sure to include a comment description of your code!
 
-## Code from 2014:
+## Table Code from 2014:
+
+### <a href="{{ site.basurl }}/spice-hub/villains_and_superheroes.txt">Villains and Superheroes</a>
+
+### <a href="{{ site.basurl }}/spice-hub/sugar_skull_mania.txt">Sugar Skull Mania</a>
+
+### <a href="{{ site.basurl }}/spice-hub/science_rocks.txt">Science Rocks!</a>
+
+### <a href="{{ site.basurl }}/spice-hub/the_legend_hunt.txt">The Legend Hunt</a>
+
+### <a href="{{ site.basurl }}/spice-hub/cornucopia.txt">Cornucopia</a>
+
+### <a href="{{ site.basurl }}/spice-hub/space_adventure.txt">Space Adventure</a>
+
+### <a href="{{ site.basurl }}/spice-hub/under_the_sea.txt">Under The Sea</a>
+
+## Code Snippets from 2014:
 
 ### Lights:
 

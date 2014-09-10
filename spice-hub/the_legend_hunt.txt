@@ -1,0 +1,217 @@
+#include <Pinball.h>
+#include <YAY_>
+// by Sadie, Alyson, and Alexis. The Legend Hunt
+int deadtime = 3000;
+
+int L1 = 14, L2 = 15, L3 = 16;
+
+
+int clkpin2 = 12;      // Clock pin
+int latchpin2 = 13;    // Latch pin
+int datapin2 = 11;     // Data pin
+int numreg = 2;       // Number of shift registers in series
+
+Pb_outputs shregs(datapin2, clkpin2, latchpin2, numreg);
+
+Pb_timedevent dothis(changeserdata);
+
+int vals[] = {0, 1, 2, 3, 4, 5, 6, 7};
+int times[] = {70, 70, 70, 70, 70, 70, 70, 70};
+
+byte serdata[2];
+
+int score;
+int hydra = 19;
+int hydraflag, oldh;
+int lives;
+int phoenix = 5;
+int phoenixflag, oldp;
+int griffon = 3;
+int griffonflag, oldg;
+int alicorn = 4;
+int alicornflag, olda;
+int rabbitthing = 2;
+int rabbitthingflag, oldr;
+int dragon = 6;
+int dragonflag, oldd;
+
+int clkpin = 8;
+int latchpin = 10;
+int datapin = 7;
+Pb_display disp(datapin, clkpin, latchpin);
+
+Pb_stopwatch mywatch;
+
+void setup() {
+
+ score = 0;
+ lives = 3;
+ 
+ phoenixflag = 0;
+  oldp = 0;
+  pinMode(phoenix, INPUT); 
+  Serial.begin(9600);
+  Serial.println("reset!");
+  
+   serdata[0] = 0b00000000;
+ serdata[1] = 0b00000000; 
+
+ shregs.update(serdata);
+  griffonflag = 0;
+  oldg = 0;
+  pinMode(griffon, INPUT); 
+  pinMode(dragon, INPUT); 
+  pinMode(alicorn, INPUT); 
+  pinMode(rabbitthing, INPUT);
+  pinMode(hydra, INPUT); 
+ 
+  pinMode(L1, OUTPUT);
+  pinMode(L2, OUTPUT);
+  pinMode(L3, OUTPUT);
+  
+  digitalWrite(L1, 1); digitalWrite(L2, 1); digitalWrite(L3, 1); 
+ 
+ mywatch.start();
+
+ disp.print_number(score);
+  
+   dothis.loopstart(vals, times, 8);
+}
+
+void loop() {
+  
+  dothis.update();
+  
+  if (lives > 0) {
+   
+  isphoenixdown();
+  
+  isgriffondown(); 
+  
+  isalicorndown(); 
+  
+  israbbitthingdown();  
+  
+  isdragondown(); 
+  
+  ishydradown(); 
+  }
+  
+}
+
+
+ void isphoenixdown() {
+  
+  if (phoenixflag == 1 && oldp == 0) {  
+  Serial.println("Phoenix is down!");
+  score = score+50;
+  disp.print_number(score);
+  oldp = 1;
+  }
+      if (digitalRead(phoenix) > 0) {  
+    phoenixflag = 1;
+ }
+ }
+  
+ void isgriffondown() {
+
+  if (griffonflag == 1 && oldg == 0) {  
+  Serial.println("Griffon is down!");
+    score = score+10;
+  disp.print_number(score);
+  oldg = 1;
+  }
+      if (digitalRead(griffon) > 0) {  
+    griffonflag = 1;
+ }
+  }
+  
+  void isalicorndown()  {
+
+  if (alicornflag == 1 && olda == 0) {  
+  Serial.println("Alicorn is down!");
+  olda = 1;
+    score = score+10;
+  disp.print_number(score);
+  }
+      if (digitalRead(alicorn) > 0) {  
+    alicornflag = 1;
+ }
+  }
+  
+  void israbbitthingdown() {
+
+  if (rabbitthingflag == 1 && oldr == 0) {  
+  Serial.println("Rabbitthing is down!");
+  oldr = 1;
+    score = score+20;
+  disp.print_number(score);
+  }
+      if (digitalRead(rabbitthing) > 0) {  
+    rabbitthingflag = 1;
+ }
+  }
+  
+ void isdragondown() {
+
+  if (dragonflag == 1 && oldd == 0) {  
+  Serial.println("Dragon is down!");
+  oldd = 1;
+    score = score+9;
+  disp.print_number(score);
+  }
+  
+    if (digitalRead(dragon) > 0) {  
+    dragonflag = 1;
+ }
+ }
+void ishydradown() {
+   if (hydraflag == 1 && oldh == 0) {  
+  oldh = 1;
+    lives = lives - 1;
+    livesleds();
+   Serial.print("You lost a life : ");
+   Serial.println(lives);
+   mywatch.start();
+  }
+  
+   if (oldh == 1 && mywatch.time() > deadtime) {
+    
+     oldh = 0;
+     hydraflag = 0;
+     
+   }
+  
+    if (digitalRead(hydra) > 0) {  
+    hydraflag = 1;
+    
+    }
+}
+
+
+void livesleds() {
+ 
+ if (lives == 2) {digitalWrite(L1, 0); } 
+ if (lives == 1) {digitalWrite(L2, 0); }
+if (lives == 0) {digitalWrite(L3, 0);
+   dothis.loopstop();
+    serdata[0] = 0b00000000;
+ serdata[1] = 0b00000000; 
+
+ shregs.update(serdata);
+  } 
+}
+
+void changeserdata(int ff) {
+  
+ if (ff == 0)      { serdata[0] =  0b10000000; serdata[1] = 0b10000000; }
+ else if (ff == 1) { serdata[0] =  0b01000000; serdata[1] = 0b01000000; }
+ else if (ff == 2) { serdata[0] =  0b00100000; serdata[1] = 0b00100000; }
+ else if (ff == 3) { serdata[0] =  0b00010000; serdata[1] = 0b00010000; }
+ else if (ff == 4) { serdata[0] =  0b00001000; serdata[1] = 0b00001000; }
+ else if (ff == 5) { serdata[0] =  0b00000100; serdata[1] = 0b00000100; } 
+ else if (ff == 6) { serdata[0] =  0b00000010; serdata[1] = 0b00000010; }
+ else if (ff == 7) { serdata[0] =  0b00000001; serdata[1] = 0b00000001; }
+
+   shregs.update(serdata);
+}

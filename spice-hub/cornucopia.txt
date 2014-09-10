@@ -1,0 +1,219 @@
+#include <Pinball.h>
+
+//by Zia, Lexa and Breann
+
+// Blink red LEDs continuously. 
+
+//scoreboard pins 
+int clkpin2 = 8;      // Clock pin
+int latchpin2 = 9;    // Latch pin
+int datapin2 = 10;     // Data pin
+// Declare scoreboard object named disp 
+Pb_display disp(datapin2, clkpin2, latchpin2);
+//scoreboard switches b/c analogread fail
+//Pb_switch mysw(200);   // Using Pb_switch to debounce
+Pb_switch mysw0(50), mysw1(50), mysw2(50), mysw3(50), mysw4(50);
+
+//int scoreval[] = { 0 };
+//int scoretiming[] = { 1000 };
+//
+//Pb_timedevent dothis(changenum);
+
+int num, flag0, flag1, flag2, flag3, flag4;
+
+//red and blue are groups of LEDs
+int red = 11;
+int blue = 13;
+
+// the rest of these are sensors
+int pineapple = 14;
+int platform = 15;
+int left = 16;
+int right = 17;
+int drain = 18;
+
+// blink events for LEDs
+Pb_timedevent sblink(strawberryled);
+Pb_timedevent pblink(platformled);
+Pb_timedevent lightup(lightupleds);
+
+// blinking pattern for strawberry leds
+int sval[] = {1, 0};
+int stim[] = {350, 350};
+
+//blinking pattern for platform leds
+int pval[] = {1,0};
+int ptim[] = {500, 250};
+
+// light on timing
+int val2[] = {1};
+int tim2[] = {4000};
+
+
+
+void setup() {
+  
+  Serial.begin(9600);
+//start at 0 for score
+num = 0; flag0=0; flag1=0; flag2=0; flag3=0; flag4=0;
+disp.print_number(0);
+
+
+//dothis.loopstart(scoreval,scoretiming,1);
+  pinMode(red, OUTPUT);
+  pinMode(blue, OUTPUT);
+ 
+  pinMode(pineapple, INPUT);
+    pinMode(platform, INPUT);
+  pinMode(left, INPUT);
+    pinMode(right, INPUT);
+  pinMode(drain, INPUT);
+
+// Starts the blinking strawberries
+  sblink.loopstart(sval, stim, 2);
+  pblink.loopstart(pval, ptim, 2);
+} 
+
+void loop() {
+  //keeps blinking the strawberries
+sblink.update();
+pblink.update();
+//readsensors();
+ledlogic();
+//writeoutputs();
+//if ( analogRead(pineapple) >= 500 ) {
+//   lightup.start(val2,tim2,1);
+// }
+//leds();
+
+Serial.print(analogRead(pineapple));
+Serial.print(' ');
+Serial.print(analogRead(left));
+Serial.print(' ');
+
+Serial.print(analogRead(right));
+Serial.print(' ');
+
+Serial.println(analogRead(platform));
+
+//Serial.println(flag0);
+}
+
+
+
+//void readsensors() {
+//  // use flags to record which switches have been pushed
+//    flag0 = 0; flag1 = 0; flag2 = 0;
+//    flag3 = 0; flag4 = 0; 
+//
+// flag0 = mysw0.pushed(!digitalRead(pineapple)); 
+// flag1 = mysw0.pushed(!digitalRead(platform));
+// flag2 = mysw0.pushed(!digitalRead(left));
+// flag3 = mysw0.pushed(!digitalRead(right));
+// flag4 = mysw0.pushed(!digitalRead(drain));
+//}
+
+//void dologic(){
+//  if (flag0 == 1) {
+//    addfive();
+//    lightup.start(val2,tim2,1);
+//}
+// if (flag1== 1) {
+//    addfifteen();
+//    lightup.start(val2,tim2,1);
+//}
+//if (flag2 == 1) {
+//    addfive();
+//    lightup.start(val2,tim2,1);
+//}
+//if (flag3 == 1) {
+//    addfive();
+//    lightup.start(val2,tim2,1);
+//}
+// this is the drain
+//if (flag4 == 1) {
+//    addfive();
+//    lightup.start(val2,tim2,1);
+//}
+//}
+void ledlogic(){
+  // when button is pressed, turn on LEDs for 3 seconds and add 5 points
+ if ( analogRead(pineapple) >= 900 ) {
+   lightup.start(val2,tim2,1);
+   addfive();
+ }
+ else if (  analogRead(platform) >= 900 ) {
+   lightup.start(val2,tim2,1);
+  addfifteen();
+
+ }
+ else if ( analogRead(left) >= 900  ) {
+   lightup.start(val2,tim2,1);
+   addfive();
+
+ }
+  else if ( analogRead(right) >= 900  ) {
+   lightup.start(val2,tim2,1);
+   addfive();
+
+ } 
+
+}
+
+
+//void writeoutputs() {
+//
+//  if ( (flag0 + flag1 + flag2 + flag3 + flag4) > 0 ) {  // If at least one switch has been pushed
+//     disp.print_number(num);            // Output the number to the scoreboard
+//  }
+//  
+//}
+//void writescore() {
+//  //need this to write to scoreboard
+// 
+//  if (oldnum != num ) {
+//     disp.print_number(num);
+//    oldnum = num;
+//  } 
+//}
+
+void strawberryled(int val){
+  digitalWrite(red,val);
+}
+
+void platformled(int val){
+  digitalWrite(blue,val);
+}
+
+void lightupleds(int val){
+  digitalWrite(red,val);
+  digitalWrite(blue,val);
+}
+
+void addfive() {
+  // adds five to scoreboard
+   num = num + 5;
+   if (num > 99) {
+      num = 99;
+    }
+//    if ( (flag0 + flag1 + flag2 + flag3 + flag4) > 0 ) {  // If at least one switch has been pushed
+     disp.print_number(num);            // Output the number to the scoreboard
+//  }
+}
+
+void addfifteen() {
+  // adds fifteen to scoreboard
+   num = num + 5;
+   if (num > 99) {
+      num = 99;
+    }
+//    if ( (flag0 + flag1 + flag2 + flag3 + flag4) > 0 ) {  // If at least one switch has been pushed
+     disp.print_number(num);            // Output the number to the scoreboard
+//  }
+}
+
+
+void gameover(){
+  // after 3 tries, play button 1 and reset the scoreboard to zero
+  
+}
