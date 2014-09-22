@@ -11,7 +11,15 @@ Nothing should happen, because we have yet to tell (program) the Arduino to do a
 
 This session will use a lot of programs. But since this is your first
 time programming an Arduino, we have pre-written most of the programs
-for you. All you have to do is copy them and paste them into the white blank space in the Arduino window, and upload that program into the microcontroller. Let us try this with a simple program. Open this link in a new tab:
+for you. All you have to do is copy them and paste them into the white blank space in the Arduino window, and upload that program into the microcontroller. 
+
+First, we will need to download some code into our Arduino Library. Here's how:
+>> 1. Quit Arduino if it is open. Download the zip file from [https://github.com/dileepvr/spice-pinball](https://github.com/dileepvr/spice-pinball)
+>> 2. Unzip contents into the Arduino Libraries folder. This should create a folder called spice-pinball in the Libraries folder.
+>> 3. Rename the spice-pinball folder "Pinball" (be sure to capitalize the 'P').
+>> 4. Open the Arduino IDE, and check the popup list File->Examples for your new 'Pinball' library.
+
+Now that we have our library installed, let's try using a simple program. Open this link in a new tab:
 
 <a href="{{ site.baseurl }}/sketches/01_blink.txt">01_blink</a>
 
