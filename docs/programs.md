@@ -14,10 +14,11 @@ time programming an Arduino, we have pre-written most of the programs
 for you. All you have to do is copy them and paste them into the white blank space in the Arduino window, and upload that program into the microcontroller. 
 
 First, we will need to download some code into our Arduino Library. Here's how:
->> 1. Quit Arduino if it is open. Download the zip file from [https://github.com/dileepvr/spice-pinball](https://github.com/dileepvr/spice-pinball)
->> 2. Unzip contents into the Arduino Libraries folder. This should create a folder called spice-pinball in the Libraries folder.
->> 3. Rename the spice-pinball folder "Pinball" (be sure to capitalize the 'P').
->> 4. Open the Arduino IDE, and check the popup list File->Examples for your new 'Pinball' library.
+
+1. Quit Arduino if it is open. Download the zip file from [https://github.com/dileepvr/spice-pinball](https://github.com/dileepvr/spice-pinball)
+2. Unzip contents into the Arduino Libraries folder. This should create a folder called spice-pinball in the Libraries folder.
+3. Rename the spice-pinball folder "Pinball" (be sure to capitalize the 'P').
+4. Open the Arduino IDE, and check the popup list File->Examples for your new 'Pinball' library.
 
 Now that we have our library installed, let's try using a simple program. Open this link in a new tab:
 
