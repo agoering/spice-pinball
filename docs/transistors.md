@@ -23,10 +23,10 @@ The circuit that you just made work is drawn like so:
 
 <img src="{{ site.baseurl }}/img/led-transistor-circuit_schem.png" style="width: 400px" align="center"/>
 
-Notice that even though the LED is connected to a high voltage, the circuit is not complete unless the transistor base is also connected to a high voltage. This is what completes the circuit and allows current to flow to ground. 
+Notice that even though the LED is connected to a high voltage, the circuit is not complete unless the transistor base is also connected to a high voltage. This is what completes the circuit by allowing current to flow through the transistor, which in turn allows current to flow through the LED to ground. 
 
-Look closely at the way the components are plugged into the breadboard. Can you trace the way current moves through the circuit? Look back at the breadboard internal connection image if needed.
+Look closely at the way the components are plugged into the breadboard, and compare to the schematic above. Can you trace the way current moves through the circuit? Look back at the breadboard internal connection image if needed.
 
 **_CHECKPOINT!_** 
 
-We will **always** use transistors to control outputs with the Arduino. That way, the Arduino only has to provide enough current for the base, which is very small compared to the current that may be demanded by different outputs. This will help to protect the Arduino. 
+We will **always** use transistors to control outputs with the Arduino (ok... we will also use one other kind of special chip, but it is basically made from transistors inside). That way, the Arduino only has to provide enough current for the base, which is very small compared to the current that may be demanded by different outputs. This will help to protect the Arduino. 
