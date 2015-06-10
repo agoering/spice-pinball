@@ -8,22 +8,17 @@ permalink: /docs/two-leds/
 
 Now, we will control two LEDs at the same time.
 
-Disconnect the power supply to the breadboard, and make the connections to pins 12 and 11 as shown.
+Make the connections to pins 12 and 11 as shown.
 
-<img src="{{ site.baseurl }}/img/a-two-leds.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/a-two-leds.jpg" style="width: 650px"/>
 
-Now upload the following program, and power the breadboard back up.
+Now upload two program **two-leds**. Watch the LEDs, read the program and figure out what it does. 
 
-<a href="{{ site.baseurl }}/sketches/03_twoleds.txt">03_twoleds</a>
-
-Can you read the program and figure out what it does? Try making
-the following modifications:
+Try making the following modifications (save as **two-leds-mod** in your **Mod** folder first!).
 
 1. Change the pins from 12 and 11 to 10 and 9.
-2. Change the order so the second LED turns on before the first one turns off, and the second LED turns off before the first LED turns on.
+2. Change the order so LEDa turns on, LEDb turns on, then LEDa turns off, and finally LEDb turns off. 
 3. Change the time for which the second LED stays on.
-4. Change the pins back to 12 and 11.
-5. Make your LEDs follow a rhythm, maybe to the beat of your favorite song.
 
 **_CHECKPOINT!_**
 
