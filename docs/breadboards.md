@@ -19,7 +19,7 @@ components. The red line holes are kept at 5 volts, and the blue-line holes are 
 
 In the picture below, the smaller sets of holes are connected in direction of the the purple highlight. The short leg of the LED connects to ground through the black wire, and the long leg of the LED connects to the resistor. If you want to take out the LED to double-check which leg is long and which short, go ahead. 
 
-<img src="{{ site.baseurl }}/img/resistor-led-connect.jpeg" alt="Breadboard, ready for its closeup" style="width: 650px;"/>
+<img src="{{ site.baseurl }}/img/resistor-led-connect.jpg" alt="Breadboard, ready for its closeup" style="width: 650px;"/>
 
 Make sure that your "wall wart" power supply (the black box power supply) is plugged into the power supply chip on the breadboard and into the wall. 
 
