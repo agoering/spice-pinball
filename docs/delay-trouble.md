@@ -12,9 +12,7 @@ happens in the pinball machine until it wakes up again. This is bad,
 because a well-programmed Robot needs to stay awake and alert at
 all times.
 
-The way we fix the problem is to stop using ```delay()```, and instead use a stopwatch. Try uploading this program:
-
-<a href="{{ site.baseurl }}/sketches/05_nodelay.txt">05_nodelay</a>
+The way we fix the problem is to stop using ```delay()```, and instead use a stopwatch. Upload the **stopwatch** program.
 
 Now, you should be able to control the LED on pin 12 using the button, as well as cause the LED on pin 11 to blink without any conflicts.
 
@@ -34,14 +32,23 @@ something else if you like). Inside ```setup()```, there is this line:
 ```mywatch.start();
 ```
 
-This tells the stopwatch named ```mywatch``` to start counting from zero. Later in the program, you can use the words:
+This tells the stopwatch named ```mywatch``` to start counting from zero. Later in the program, you will see:
 
 ```mywatch.time()
 ```
 
-which will ask the stopwatch ```mywatch``` to tell you how long it has been (in milliseconds) since the last time it was 'started'.
+which asks the stopwatch ```mywatch``` to tell you how long it has been (in milliseconds) since the last time it started counting.
 
-Inside ```loop()```, the lines:
+Inside ```loop()```, there is a new structure you haven't seen before. There's a new kind of variable called ```ledbstate```. This new kind of variable is called a **state variable**. Unlike the variables we've used before, which are set at the beginning of the program and stay the same value while the program runs, a state variable can change throughout the program. State variables are usually either 0 or 1, which in the case of an LED can correspond to off and on. 
+
+This line:
+
+```ledbstate = !ledbstate;
+```
+
+changes ```ledbstate``` to 0 (if it was 1), or to 1 (if it was 0).
+
+The if structure looks like this:
 
 ```if ( mywatch.time() > ontimeb ) {
   ledbstate = !ledbstate;
@@ -50,11 +57,4 @@ Inside ```loop()```, the lines:
 }
 ```
 
-check to see if sufficient time has passed since the last time the
-stopwatch (```mywatch```) was started. If the condition is met, then the LED's state (whether it's High (1) or Low (0)) is changed from what it was, to the opposite state. This line:
-
-```ledbstate = !ledbstate;
-```
-
-changes ```ledbstate``` to 0 (if it was 1), or to 1 (if it was 0).  Note that you have to start the stopwatch inside the if-structure again, so we can keep track of the last time the LED was changed.
-
+The first line, ```if ( mywatch.time() > ontimeb )```, checks to see if sufficient time (an amount given by the variable ```ontimeb```) has passed since the last time the stopwatch (```mywatch```) was started. If the condition is met, then the line ```ledbstate =!ledbstate``` changes the LED's state to the opposite. Note that you have to start the stopwatch inside the if-structure again, so that ```mywatch``` will have the correct time to report the next time around the loop. 

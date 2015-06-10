@@ -7,18 +7,19 @@ permalink: /docs/switches/
 ---
 
 You will have noticed that the Blue color control works differently
-from the Red and Green ones. Specifically, the Blue color stays on, or stays off, whenever the button is pressed. That is because the button is acting like a switch.
+from the Red and Green ones. Specifically, the Blue color stays on, or stays off, whenever the button is pressed. That is because the button is acting like a switch (think of a light switch that stays on or off).
 
 To make the Blue button do that, we not only have to check if the
-button pin is reading a Low voltage, but also to check of the button
-pin's voltage CHANGED from High to Low. We do that using a switch.
+button pin is reading a Low voltage, but also that the voltage CHANGED from High to Low. We do that using a switch object. 
 
 Before ```setup()```, you will see the line:
 
 ```Pb_switch bluesw(200);
 ```
 
-This is creating a switch object named ```bluesw``` (ignore the 200 for now). Further down, inside the ```loop()``` function, you will see the lines:
+
+The phrase ```Pb_switch``` is one of our special SPICE functions, and it is creating a switch object named ```bluesw``` (ignore the 200 for now). Further down, inside the ```loop()``` function, you will see the lines:
+
 
 ```blueval = digitalRead(button3);
 if ( bluesw.pushed( blueval ) ) {  

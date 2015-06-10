@@ -6,31 +6,26 @@ next_section: external-power
 permalink: /docs/flags/
 ---
 
-This will be the last program for the day.
-
-Try uploading the the following program:
-
-<a href="{{ site.baseurl }}/sketches/08_flags.txt">08_flags</a>
+Upload the **flags** program.
 
 Now, pressing the button on pin 10 will cycle through a sequence of
-colors. Note down the order of the sequence on a piece of paper.
+colors. Note the order of the sequence on a piece of paper.
 
 Pressing the button on pin 7 will cycle through the same sequence
 backwards. Verify this.
 
 Pressing the button on pin 8 will reset the RGB LED to dark.
 
-Note that all three buttons are working as switches.
+Note that all three buttons are working as switches. 
 
-Now let us look at the program. There is one new line before ```setup()```:
+Let's look at the program. There is one new line before ```setup()```:
 
 ```int flag = 0;
 ```
 
-The ```flag``` variable (here being set to '0') will be used to keep track of which color is currently being lit. It is a way to give the program some memory.
+The ```flag``` variable (here being set initially to '0') will be used to keep track of which color is currently being lit. It is a way to give the program some memory.
 
-The ```setup()``` function is identical to the previous one (from
-07_funcs.ino).
+The ```setup()``` function is identical to the one in the **rgb-switches** program.
 
 The ```loop()``` function is using two new functions:
 
@@ -57,13 +52,12 @@ as well as changing the color.
 
 Compare the functions ```changenext()``` and ```changeback()```. Do you see the difference? 
 
-Try the following:
+Try the following (save as **flags-mod** in your **Mod** folder first!):
 
 1. Change the sequence of colors to green, purple, blue, red. Make
 this change in both ```changenext()``` and ```changeback()``` functions. 
 2. Use the new functions that you defined for other colors in the
 previous program (put them in this program as well), and make the
 color sequence longer. The ```flag``` variable will need to take larger values for this.
-3. There is actually a bug in the program. Can you find it?
 
 **_CHECKPOINT!_**
