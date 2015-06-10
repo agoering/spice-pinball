@@ -15,7 +15,7 @@ This is opening a channel between the computer and the Arduino so they can speak
 
 In the Arduino window, there is a button to the top-right that opens the serial monitor. Click on it:
 
-<img src="/img/serial-monitor.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/serial-monitor.png" style="width: 650px"/>
 
 What does the  serial monitor window say? Check the timing of it
 with the blinking of the LED.

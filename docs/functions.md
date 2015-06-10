@@ -10,7 +10,7 @@ So far, we have been using functions like ```setup()```, ```loop()```, and```dig
 
 Open and upload the following program:
 
-<a href="07_funcs.txt">07_funcs</a>
+<a href="{{ site.baseurl }}/sketches/07_funcs.txt">07_funcs</a>
 
 Now, all three buttons (Red, Green, and Blue) behave like switches.
 

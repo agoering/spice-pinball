@@ -10,11 +10,11 @@ Now, we will control two LEDs at the same time.
 
 Disconnect the power supply to the breadboard, and make the connections to pins 12 and 11 as shown.
 
-<img src="/img/two-leds.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/a-two-leds.png" style="width: 650px"/>
 
 Now upload the following program, and power the breadboard back up.
 
-<a href="/sketches/03_twoleds.txt">03_twoleds</a>
+<a href="{{ site.baseurl }}/sketches/03_twoleds.txt">03_twoleds</a>
 
 Can you read the program and figure out what it does? Try making
 the following modifications:

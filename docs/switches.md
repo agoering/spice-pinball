@@ -2,7 +2,7 @@
 layout: docs
 title: Switches
 prev_section: rgb-led
-next_section: external-power
+next_section: functions
 permalink: /docs/switches/
 ---
 

@@ -2,7 +2,8 @@
 title: SPICE Engineering Camp
 # email: your-email@domain.com
 description: "SPICE Engineering Camp - Pinball Machines!"
-# url: "http://yourdomain.com"
+# url: "http://ayocom.github.io/spice-pinball"
+baseurl: /spice-pinball
 timezone: America/Los_Angeles
 
 
@@ -12,5 +13,5 @@ permalink: pretty
 highlighter: pygments
 
 # From Jekyll Site
-# relative_permalinks: false
+relative_permalinks: false
 

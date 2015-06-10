@@ -9,7 +9,7 @@ permalink: /docs/blink/
 Now, let us look at the program itself, and try to figure out what it
 says. Here's that link again in case you closed the window:
 
-<a href="/sketches/01_blink.txt">01_blink</a>
+<a href="{{ site.baseurl }}/sketches/01_blink.txt">01_blink</a>
 
 The first line says: ```#include <Pinball.h>```
 

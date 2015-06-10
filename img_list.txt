@@ -1,0 +1,50 @@
+x - c * Session A board setup
+x - c * Board closeup of LED, resistor on left
+x - Session A board setup with connect instructions for LED, resistor
+x - c * board closeup of LED, transistor in middle
+x - connect instructions with transistor
+x - c * ditto, with pin control for transistor
+x - c * ditto, with two transistors
+x - c * closeup of button area
+x - connect instructions for button connection
+x - c * RGB LED closeup
+x - RGB w/ highlighted connections
+x - how to set Arduino Free
+
+x - c * session B board
+x - e * presoldered IR sensors
+- * picture of bad minima?
+- c * closeup of sensor area
+- connections to sensors
+- * closeup of LED area
+- connections to LED
+- c * closeup of speaker area
+- connection to speaker pin
+- * RGB theramin in action
+
+- c * session C board
+- * scoreboard
+- c * shift registers + LED area of session C board
+- pin connections to shift registers
+- schematic of shift register
+- * closeup of second shift register
+- second shift data connect
+- * picture of button and green LED
+- connection diagram of button and green LED
+- multiplexer schematic
+- c * picture of buttons and mux
+- c * mux closeup
+- mux connections
+- picture of scoreboard with pin labels
+- c * picture of speaker
+- speaker pin connection
+- * screenshot Arduino window with new tab
+
+STILL NEED
+- scoreboard
+- shift registers + LEDs with data pin connected to GND?
+- remake highlighted versions?
+- 
+
+DO NOT PUT THE Arduino'S PIN 11 TO
+GROUND. LEAVE THAT UNCONNECTED.

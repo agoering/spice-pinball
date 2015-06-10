@@ -26,11 +26,31 @@
 - title: Session B
   docs:
   - supplies-b
+  - analoginputs
+  - readsensors
+  - controloutputs
+  - calibration
+  - maketones
+  - theramin
 
 - title: Session C
   docs:
   - supplies-c
+  - shiftregisters
+  - washiftregsdo
+  - bitwrite
+  - manyshiftregs
+  - timedevents
+  - timedloopedevent
+  - othertimedevents
+  - multiplexers
+  - scoreboard
+  - scoreboardwithmux
+  - music
+  - loopedsoundtracks
+  - jukebox
 
-  - title: Session D
+- title: Session D
   docs:
   - supplies-d
+  - motorcontroller

@@ -2,7 +2,7 @@
 layout: docs
 title: Set Arduino Free!
 prev_section: flags
-next_section: 
+next_section: supplies-b
 permalink: /docs/external-power/
 ---
 
@@ -23,7 +23,7 @@ It is very easy to do this. Just use a jumper wire to connect the pin
 on the Arduino called 'Vin' to one of the red-stripe row holes on the
 breadboard as shown.
 
-<img src="/img/external-power.png" style="width: 650px">
+<img src="{{ site.baseurl }}/img/a-free-arduino.png" style="width: 650px">
 
 Now, the program that you previously uploaded onto the Arduino using
 your computer is still inside it, and is working, even though the

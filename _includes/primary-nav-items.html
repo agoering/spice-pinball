@@ -1,17 +1,24 @@
 <ul>
   <li class="{% if page.overview %}current{% endif %}">
-    <a href="/">Home</a>
+    <a href="{{ site.baseurl }}">Home</a>
   </li>
   <li class="{% if page.url contains '/docs/' %}current{% endif %}">
-    <a href="/docs/introduction/">Doc<span class="show-on-mobiles">s</span><span class="hide-on-mobiles">umentation</span></a>
+    <a href="{{ site.baseurl }}/docs/introduction/">Doc<span class="show-on-mobiles">s</span><span class="hide-on-mobiles">umentation</span></a>
+    
   </li>
-  <li class="{% if page.author %}current{% endif %}">
+   <li class="{% if page.url contains '/spice-hub/' %}current{% endif %}">
+    <a href="{{ site.baseurl }}/spice-hub/main/">SPICE-hub</a>
+    
+  </li>
+ <!--  <li class="{% if page.author %}current{% endif %}">
     <a href="/news/">News</a>
   </li>
+
   <li>
     <a href="{{ site.help_url }}">Help</a>
   </li>
   <li>
     <a href="{{ site.repository }}"><span class="hide-on-mobiles">View on </span>GitHub</a>
-  </li>
+  </li> -->
+
 </ul>
