@@ -2,7 +2,65 @@
   docs:
   - introduction
 
-- title: Session A
+- title: Lights and Colors
+  docs:
+  - supplies-a
+  - simple-circuit
+  - breadboards
+  - transistors
+  - arduino
+  - programs
+  - blink
+  - modifying-blink
+  - variables
+  - two-leds
+  - buttons
+  - delay-trouble
+  - serial-monitor
+  - rgb-led
+  - switches
+  - functions
+  - flags
+  - external-power
+  - reset-pattern-exercise
+
+- title: Sounds and Senses
+  docs:
+  - supplies-b
+  - analoginputs
+  - proximity-sensor
+  - piezo-sensor
+  - force-sensitive-resistor
+  - readsensors
+  - analog-tones
+  - analog-as-digital
+  - 
+  - music
+  - loopedsoundtracks
+  - pinball-sounds-exercise
+
+- title: 'Patterns, Loops, and Timing'
+  docs:
+  - supplies-c*
+  - shiftregisters
+  - washiftregsdo
+  - bitwrite
+  - manyshiftregs
+  - timedevents
+  - timedloopedevent
+  - othertimedevents
+  - proximity-light-bar-with-tone*
+
+- title: Jukebox Challenge
+  - scoreboard
+  - jukebox
+
+- title: Motor Control
+  docs:
+  - supplies-d
+  - motorcontroller* add photo and more direction?
+
+  - title: Old Session A
   docs:
   - supplies-a
   - simple-circuit
@@ -23,7 +81,7 @@
   - flags
   - external-power  
 
-- title: Session B
+- title: Old Session B
   docs:
   - supplies-b
   - analoginputs
@@ -33,7 +91,7 @@
   - maketones
   - theramin
 
-- title: Session C
+- title: Old Session C
   docs:
   - supplies-c
   - shiftregisters
@@ -50,7 +108,7 @@
   - loopedsoundtracks
   - jukebox
 
-- title: Session D
+- title: Old Session D
   docs:
   - supplies-d
   - motorcontroller
