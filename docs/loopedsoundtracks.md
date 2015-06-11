@@ -2,16 +2,14 @@
 layout: docs
 title: Looped soundtracks
 prev_section: music
-next_section: jukebox
+next_section: pinball-sounds-exercise
 permalink: /docs/loopedsoundtracks/
 ---
 
 Now we will learn how to play a constant, looped soundtrack in the
-background, just like looped timed events.
+background.
 
-Copy the following code into your work area:
-
-<a href="{{ site.baseurl }}/sketches/s2_sh05b.txt">s2_sh05b</a>
+Open the **looped-soundtracks** sketch.
 
 You cannot upload it yet, because in the beginning of the code, we have inserted the line:
 
