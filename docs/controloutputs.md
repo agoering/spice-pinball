@@ -6,7 +6,7 @@ next_section: calibration
 permalink: /docs/controloutputs/
 ---
 
-Now that we know how to use an awesome new analog input, let's use them to control some outputs! Remember the RGB LED we mixed colors on before? We only used digital inputs (on and off) to make those colors. Remember, you made a table of all the possible colors. How many were there?
+Now that we know how to use analog inputs, let's use them to control some outputs! Remember the RGB LED we mixed colors on before? We only used digital inputs (on and off) to make those colors. Remember, you made a table of all the possible colors. How many were there?
 
 Now we have the ability to use analog inputs, which can be any number between 0 and 1023 instead of just 0 and 1. We will convert these to analog outputs, which will range from 0 to 255. Imagine making a table of possible colors from those 255 options on three inputs!
 
@@ -18,11 +18,11 @@ You will need to connect your red, green, and blue RGB LED transistor bases to A
 
 Upload the following program: <a href="{{ site.baseurl }}/sketches/s3_rgb_theramin.txt">rgb_theramin</a> 
 
-Go ahead and wave your hands around in front of the sensors a little bit, and see what happens. Your LED color should be changing.
+Go ahead and fiddle with the sensors a little bit, and see what happens. Your LED color should be changing.
 
 **_CHECKPOINT!_**
 
-Before you start making tunes, let's have a quick look at the program. Most of it should look very familiar, but there arenew functions, ```analogRead()``` and ```analogWrite()```, that we need to use analog inputs.
+Let's have a quick look at the program. Most of it should look very familiar, but there are new functions, ```analogRead()``` and ```analogWrite()```, that we need to use analog inputs.
 
 Again, we'll declare some variables for the analog inputs:
 
