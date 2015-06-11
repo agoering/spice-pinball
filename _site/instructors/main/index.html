@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
   <meta charset="UTF-8">
-  <title>RGB LED</title>
+  <title>For Instructors</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="generator" content="Jekyll v2.5.3">
   <link rel="alternate" type="application/rss+xml" title="Jekyll • Simple, blog-aware, static sites - Feed" href="/feed.xml">
@@ -24,7 +24,7 @@
   <li class="">
     <a href="/spice-pinball">Home</a>
   </li>
-  <li class="current">
+  <li class="">
     <a href="/spice-pinball/docs/introduction/">Doc<span class="show-on-mobiles">s</span><span class="hide-on-mobiles">umentation</span></a>
     
   </li>
@@ -34,7 +34,7 @@
   </li>
 
   </li>
-   <li class="">
+   <li class="current">
     <a href="/spice-pinball/instructors/main/">For Instructors</a>
     
   </li>
@@ -66,7 +66,7 @@
   <li class="">
     <a href="/spice-pinball">Home</a>
   </li>
-  <li class="current">
+  <li class="">
     <a href="/spice-pinball/docs/introduction/">Doc<span class="show-on-mobiles">s</span><span class="hide-on-mobiles">umentation</span></a>
     
   </li>
@@ -76,7 +76,7 @@
   </li>
 
   </li>
-   <li class="">
+   <li class="current">
     <a href="/spice-pinball/instructors/main/">For Instructors</a>
     
   </li>
@@ -10921,61 +10921,63 @@
 
       <div class="unit four-fifths">
         <article>
-          <h1>RGB LED</h1>
-          <p>Now we will control the RGB LED. RGB stands for Red, Green, and
-Blue. The RGB LED is really three LEDs in one casing. An RGB LED has four legs. One of the legs (the longest one) goes
-to +5 volts, and the other three are used to control the three colors. This figure shows the transistors and resistors connecting to each LED within the RGB LED.</p>
+          <h1>For Instructors</h1>
+          <h2 id="so-you-want-to-do-an-electronics-camp">So you want to do an electronics camp?</h2>
 
-<p><img src="/spice-pinball/img/a-rgb-led.jpg" style="width: 650px" /></p>
+<p>We would love for our course content to be used, reused, and remixed! Our activities may be helpful as written, and our Pinball library and SPICE Sketchbook are available online. The next pages will walk educators through installation of those files, and additional pages here go into more depth about the electronics and programming elements.</p>
 
-<p>Use your jumper wires to connect the three RGB transistor bases
-to pins 12, 11, and 9. </p>
+<p>There are lots of other awesome resources for DIY electronics online. We recommend:</p>
 
-<p><img src="/spice-pinball/img/a-rgb-led-connections.jpg" style="width: 650px" /></p>
+<ul>
+  <li><a href="http://www.arduino.cc/">Arduino official site</a></li>
+  <li><a href="http://www.adafruit.com/">AdaFruit, a super cool resource for parts and great tutorials</a></li>
+  <li><a href="https://www.sparkfun.com/">SparkFun, for more cool supplies</a>
+If you want to share more pieces of code, or if you had code that you don’t see here and would like to see here, email ayocom@uoregon.edu and Andrea will add them ASAP. Make sure to include a comment description of your code!</li>
+</ul>
 
-<p>Also connect the three buttons to pins 10, 8, and 7 as shown.</p>
+<h2 id="table-code-from-2014">Table Code from 2014:</h2>
 
-<p><img src="/spice-pinball/img/a-three-buttons.jpg" style="width: 650px" /></p>
+<h3 id="a-hrefspice-pinballspice-hubvillainsandsuperheroestxtvillains-and-superheroesa"><a href="/spice-pinball/spice-hub/villains_and_superheroes.txt">Villains and Superheroes</a></h3>
 
-<p>Now open and upload the <strong>rgb-led</strong> program.</p>
+<h3 id="a-hrefspice-pinballspice-hubsugarskullmaniatxtsugar-skull-maniaa"><a href="/spice-pinball/spice-hub/sugar_skull_mania.txt">Sugar Skull Mania</a></h3>
 
-<p>Try pushing the buttons, and see what they do. Bring an instructor around to confirm that your wires are right - the LED behavior will be the telling sign.</p>
+<h3 id="a-hrefspice-pinballspice-hubsciencerockstxtscience-rocksa"><a href="/spice-pinball/spice-hub/science_rocks.txt">Science Rocks!</a></h3>
 
-<p><strong><em>CHECKPOINT!</em></strong></p>
+<h3 id="a-hrefspice-pinballspice-hubthelegendhunttxtthe-legend-hunta"><a href="/spice-pinball/spice-hub/the_legend_hunt.txt">The Legend Hunt</a></h3>
 
-<p>You will notice that the buttons that control the Red and the Green
-colors behave slightly differently from the one that controls the Blue color. We will explore that later. </p>
+<h3 id="a-hrefspice-pinballspice-hubcornucopiatxtcornucopiaa"><a href="/spice-pinball/spice-hub/cornucopia.txt">Cornucopia</a></h3>
 
-<p>Take a look at the program. Notice that there are plenty of grey lines that have been commented out by using the <code>//</code> symbol. The <code>//</code> symbol makes everything in that line that comes after it into a comment, so it won’t get uploaded into the microcontroller.</p>
+<h3 id="a-hrefspice-pinballspice-hubspaceadventuretxtspace-adventurea"><a href="/spice-pinball/spice-hub/space_adventure.txt">Space Adventure</a></h3>
 
-<p>In this program, the comments have been made to help you make sense of the program. You can add your own comments as well.</p>
+<h3 id="a-hrefspice-pinballspice-hubundertheseatxtunder-the-seaa"><a href="/spice-pinball/spice-hub/under_the_sea.txt">Under The Sea</a></h3>
 
-<p>Every line before the <code>setup()</code> function should look familiar to you, except the one that says:</p>
+<h2 id="code-snippets-from-2014">Code Snippets from 2014:</h2>
 
-<p><code>Pb_switch bluesw(200);
-</code></p>
+<h3 id="lights">Lights:</h3>
 
-<p>We will get to that later.</p>
+<p><a href="/spice-pinball/spice-hub/science-rocks.txt">Flash LEDs in a scrolling pattern (by the Science Rocks team)</a></p>
 
-<p>Everything inside the <code>setup()</code> function should also be familiar. Use the comments as a guide to figure out what’s going on inside <code>setup()</code>.</p>
+<p><a href="/spice-pinball/spice-hub/YAY.txt">Makes lights flash in a row one at a time (by SGI - The Legend Hunt table)</a></p>
 
-<p>Inside the <code>loop()</code> function, there are two <code>if-else</code> structures for the Red and Green colors, that look exactly like the one in the <strong>buttons</strong> program.</p>
+<h3 id="scoring">Scoring:</h3>
 
-<p>Do you see exactly how the Red and Green <code>if-else</code> structures are working?</p>
+<p><a href="/spice-pinball/spice-hub/addfivepoints.txt">Add 5 points to the scoreboard when a button is pressed (by the Super Adventure Science Buddies)</a></p>
+
+<p><a href="/spice-pinball/spice-hub/sensors-points.txt">Add 4 points when one sensor is triggered, and subtract 2 when another is triggered (by Tifflenarika)</a></p>
+
+<h3 id="multiplexing-analog-inputs">Multiplexing Analog Inputs:</h3>
+
+<p><a href="/spice-pinball/spice-hub/multiplex-analog.txt">To run an analog signal through the multiplexer just comment out the standard mymux.probe lines and add this for every analog sensor you’re putting into the multiplexer.</a></p>
 
           <div class="section-nav">
   <div class="left align-right">
     
-      <a href="/spice-pinball/docs/serial-monitor/" class="prev">
-        Back
-      </a>
+      <span class="prev disabled">Back</span>
     
   </div>
   <div class="right align-left">
     
-      <a href="/spice-pinball/docs/switches/" class="next">
-        Next
-      </a>
+      <span class="next disabled">Next</span>
     
   </div>
   <div class="clear"></div>
@@ -12947,7 +12949,7 @@ colors behave slightly differently from the one that controls the Blue color. We
     
   
     
-      <li class="current"><a href="/spice-pinball/docs/rgb-led/">RGB LED</a></li>
+      <li class=""><a href="/spice-pinball/docs/rgb-led/">RGB LED</a></li>
     
   
     
@@ -18559,7 +18561,7 @@ colors behave slightly differently from the one that controls the Blue color. We
     
   
     
-      <li class="current"><a href="/spice-pinball/docs/rgb-led/">RGB LED</a></li>
+      <li class=""><a href="/spice-pinball/docs/rgb-led/">RGB LED</a></li>
     
   
     
