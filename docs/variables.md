@@ -7,9 +7,7 @@ permalink: /docs/variables/
 ---
 
 
-Now, we will try another program, which will make it easier for you to change the pin number and the timing. Try uploading this one:
-
-<a href="{{ site.baseurl }}/sketches/02_blinkvar.txt">02_blinkvar</a>
+Now, we will try another program, which will make it easier for you to change the pin number and the timing. Open **blink-variable** and upload.
 
 This program does the same thing as the last one, but has some
 differences. It has the following lines at the top:
@@ -24,16 +22,13 @@ their names to anything you like, but you have to change it throughout the progr
 The second line is setting the value of the variable ```ontime``` to ```500```.
 
 The reason to use variables is that it makes it easy to change. For
-example, try changing the pin number again, by changing the value of
-```ledpin``` at the top of the program.
+example, try changing the pin number again, by changing the value of ```ledpin``` at the top of the program.
 
-This changes the pins everywhere in the program. So if you had used
-```ledpin``` in a 100 different places, then you don't need to change
-change the program in all 100 places just to change the pin. You can do it at the top of the program once!
+This changes the pins everywhere in the program. So if you had used ```ledpin``` in a 100 different places, then you don't need to change the program in all 100 places just to change the pin. You can do it at the top of the program once!
 
-Try the following as well: 
+Try the following as well (make sure to save as **blink-variable-mod** in your **Mod** folder first!).
 
-1. Try changing the delay time at the top of the program. 
+1. Try changing the ```ontime``` variable at the top of the program. 
 2. Now create a new variable (call it whatever you want), and use it to make the LED stay ON for one full second, and stay OFF for half a second.
 
 **_CHECKPOINT!_**

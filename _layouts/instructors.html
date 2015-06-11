@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+  <section class="docs">
+    <div class="grid">
+
+      {% include instructors_contents_mobile.html %}
+
+      <div class="unit four-fifths">
+        <article>
+          <h1>{{ page.title }}</h1>
+          {{ content }}
+          {% include instructors_section_nav.html %}
+        </article>
+      </div>
+
+      {% include instructors_contents.html %}
+
+      <div class="clear"></div>
+
+    </div>
+  </section>

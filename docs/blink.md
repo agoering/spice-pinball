@@ -6,16 +6,13 @@ next_section: modifying-blink
 permalink: /docs/blink/
 ---
 
-Now, let us look at the program itself, and try to figure out what it
-says. Here's that link again in case you closed the window:
-
-<a href="{{ site.baseurl }}/sketches/01_blink.txt">01_blink</a>
+Now, let us look at the program itself, and figure out how it works. 
 
 The first line says: ```#include <Pinball.h>```
 
 This line is not necessary for most Arduino programs, but we will be
 using some special SPICE-camp language to program our Pinball
-machines. So it is always a good idea to start your programs with this line.
+machines. So we'll start all of our programs with this line.
 
 The thing to note is that there are these strange words with flower
 braces, and something written inside the braces. These braces are what we call functions. This program is using two functions: ```setup()``` and ```loop()```. They are used like this:
@@ -30,8 +27,7 @@ void loop() {
 
 These two functions are always necessary for the Arduino to
 work. Everything written inside the ```setup()``` function is run by the
-Arduino only once (at the beginning). Everything written inside the
-```loop()``` function is run continuously in a "loop". For example, in the
+Arduino only once (at the beginning). Everything written inside the ```loop()``` function is run continuously in a "loop". For example, in the
 program, the line:
 
 ```pinMode(12, OUTPUT);
@@ -70,6 +66,6 @@ The line:
 is telling the Arduino to go to sleep for 500 milliseconds, which is
 half a second. 
 
-So the Arduino is right now, setting pin 12 voltage to
+So the Arduino is right now setting pin 12 voltage to
 high, then sleeping for half a second, then setting the pin 12 voltage to low, then sleeping again for half a second, and then repeating.
 

@@ -1,20 +1,23 @@
 ---
 layout: docs
-title: Session A Supplies
+title: Supplies
 prev_section: introduction
 next_section: simple-circuit
 permalink: /docs/supplies-a/
 ---
 ### Each group needs the following:
 
-- Power supply breadboard with Session A setup:
+- Breadboard with the following setup:
+    - Power supply
+    - Arduino
     - 4x NPN transistors
-    - 5x 110k (Br,Br,B) resistors
-    - 3x pushbuttons
+    - 4x 200 Ohm (Red,Black,Black,Brown) resistors for transistor base
+    - 5x 1k (Brown,Black,Black,Brown,Brown) resistors for LED anodes
+    - 3x momentary switches
     - 2x red LED
-    - 1x common ground RGB LED
+    - 1x common anode RGB LED
 
 It looks like this:
 
-<img src="{{ site.baseurl }}/img/a-breadboard.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/a-breadboard.jpeg" style="width: 650px"/>
 

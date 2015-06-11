@@ -8,9 +8,9 @@ int analogIn0 = A0;
 int analogIn1 = A1;
 int analogIn2 = A2;
 
-int sensorValue0 = 0; //value read from "red" sensor
-int sensorValue1 = 0; //value read from "green" sensor
-int sensorValue2 = 0; //value read from "blue" sensor
+int sensorValue0 = 0; //value read from IR sensor
+int sensorValue1 = 0; //value read from piezo sensor
+int sensorValue2 = 0; //value read from FSR sensor
 
 void setup(){
   //Serial monitor

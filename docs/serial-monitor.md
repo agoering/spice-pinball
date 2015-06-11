@@ -6,7 +6,7 @@ next_section: rgb-led
 permalink: /docs/serial-monitor/
 ---
 
-There are some new lines in the program 05_nodelay.txt that we need to explain. Inside ```setup()```, there is a line that says:
+There are some other lines in the **stopwatch** program that we need to explain. Inside ```setup()```, there is a line that says:
 
 ```Serial.begin(9600);
 ```
@@ -17,8 +17,8 @@ In the Arduino window, there is a button to the top-right that opens the serial 
 
 <img src="{{ site.baseurl }}/img/serial-monitor.png" style="width: 650px"/>
 
-What does the  serial monitor window say? Check the timing of it
-with the blinking of the LED.
+What does the  serial monitor window say? Compare the timing of it
+with the blinking LED.
 
 Further down in the program, inside the LED blinking ```if``` structure,
 there are these two lines:
@@ -27,8 +27,7 @@ there are these two lines:
 Serial.println(ledbstate);
 ```
 
-This is what is controlling what the Serial monitor says.  The
-```Serial.print()``` function causes the Arduino to spit out anything that you put inside the brackets onto the serial monitor.  The ```Serial.println()``` function does the same, but also goes to the next line. 
+This is controlling what the Serial monitor says.  The ```Serial.print()``` function causes the Arduino to print anything that you put inside the brackets onto the serial monitor.  The ```Serial.println()``` function does the same, but also goes to the next line. 
 
 Try the following modifications:
 
@@ -42,18 +41,18 @@ serial stuff as well.
 The serial monitor is helpful in debugging Arduino code, but it has
 two disadvantages:
 
-1. It uses up pins 0 and 1, so you can't use those for anything else
-if you are using ```Serial.begin(9600)```.
-2. It takes a lot of time.
+1. It uses up pins TX1 and RX0, so you can't use those for anything else
+if you are using ```Serial.begin(9600)```. Otherwise, you could use them as digital pins (like D2 through D13). 
+2. It can slow your code down.
 
 In the final Pinball program, it is generally a good idea not to use
 them. One good way of keeping the lines inside the program but not
 uploading it into the microcontroller is to 'comment' the lines out.
 
-To do this, add a ```//``` before those lines. 
-Change all the three Serial lines to:
+To do this, add a ```//``` before those lines. You can also select a block and go to ```Edit > Comment/Uncomment``` to do several lines at once. Change all the three Serial lines to:
 
 ```//    Serial.begin(9600);
+
 //    Serial.print("led state is ");
 //    Serial.println(ledbstate);
 ```

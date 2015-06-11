@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: Scoreboard
-prev_section: multiplexers
-next_section: scoreboardwithmux
+prev_section: othertimedevents
+next_section: jukebox
 permalink: /docs/scoreboard/
 ---
 
@@ -14,7 +14,7 @@ latch pins. But we will use a different class object (```Pb_dislay```) to talk t
 Look at the back of the scoreboard. The pins are labeled - you should see from bottom to top VCC (positive voltage input), GND (ground), SER (data pin), CLKS (clock pin), CLKR (we will call this the latch), and some speaker pins. We won't use the speaker pins yet.
 
 
-<img src="{{ site.baseurl }}/img/scoreboard-back.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/scoreboard-back.jpg" style="width: 650px"/>
 
 
 Connect your scoreboard as follows:

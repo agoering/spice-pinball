@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Jukebox
-prev_section: loopedsoundtracks
+prev_section: scoreboard
 next_section: supplies-d
 permalink: /docs/jukebox/
 ---

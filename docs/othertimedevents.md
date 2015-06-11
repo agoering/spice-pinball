@@ -2,7 +2,7 @@
 layout: docs
 title: Other timed events
 prev_section: timedloopedevent
-next_section: multiplexers
+next_section: scoreboard
 permalink: /docs/othertimedevents/
 ---
 
