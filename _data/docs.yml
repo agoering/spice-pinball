@@ -41,7 +41,7 @@
 
 - title: 'Patterns, Loops, and Timing'
   docs:
-  - supplies-c*
+  - supplies-c
   - shiftregisters
   - washiftregsdo
   - bitwrite
@@ -49,7 +49,7 @@
   - timedevents
   - timedloopedevent
   - othertimedevents
-  - proximity-light-bar-with-tone*
+  - proximity-light-bar-with-tone
 
 - title: Jukebox Challenge
   docs:
@@ -59,7 +59,7 @@
 - title: Motor Control
   docs:
   - supplies-d
-  - motorcontroller* add photo and more direction?
+  - motorcontroller
 
   - title: Old Session A
   docs:
