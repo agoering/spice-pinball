@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: RGB Theramin
-prev_section: analog-tones
-next_section: analog-as-digital
+prev_section: 
+next_section: 
 permalink: /docs/theramin/
 --- 
 

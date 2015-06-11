@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: Controlling Outputs
-prev_section: readsensors
-next_section: calibration
+prev_section: 
+next_section: 
 permalink: /docs/controloutputs/
 ---
 
