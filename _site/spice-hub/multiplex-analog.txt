@@ -1,0 +1,10 @@
+  
+//To run an analog signal through the multiplexer 
+//just comment out the standard mymux.probe lines and 
+//add this for every analog sensor you're putting into the multiplexer:
+
+  mymux.probe(0);
+  digitalWrite(7, LOW);
+  delay(1);
+  flag0 = mysw0.pushed(!digitalRead(7));
+  digitalWrite(7, HIGH);
