@@ -32,4 +32,9 @@ It looks like this:
 
 <img src="{{ site.baseurl }}/img/b-breadboard.jpg" style="width: 650px"/>
 
+We will ignore this bit today:
+
+<img src="{{ site.baseurl }}/img/c-shiftreg-led-area-2.png" style="width: 300px"/>
+
 The Session A materials are still there in case you want to go back to them. Today's sketches will be in **File > Sketchbook > Sounds and Senses**
+
