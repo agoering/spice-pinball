@@ -11,9 +11,15 @@ robot. The microcontroller we will be using is called an Arduino Nano.
 
 <img src="http://upload.wikimedia.org/wikipedia/commons/8/8d/Arduino_Nano.jpg" style="width: 500px"/>
 
-Look at the Arduino on your table closely. The most important things
+<img src="{{ site.baseurl }}/img/nano3_pinouts.png" style="width: 500px"/>
+
+Look at the Arduino on your breadboard closely. The most important things
 to look for right now are the USB connector and the pin
-numbers. We will connect the Arduino to circuits using the breadboard holes next to the labeled pins. In the programs, we will refer to pins by their name. The pins "A0" through "A7" can be referred to exactly that way, while the pins "D2" through "D13" are simply referred to as "2" through "13". 
+numbers. Those holes/sockets on the breadboard next to the numbers
+are what we are going to use to connect the Arduino to our electrical
+circuits.
+
+In the programs, we will refer to pins by their name. The pins "A0" through "A7" can be referred to exactly that way, while the pins "D2" through "D13" are simply referred to as "2" through "13". 
 
 Let's program the Arduino! To do this, first connect the Arduino
 to your computer using the USB cable.
