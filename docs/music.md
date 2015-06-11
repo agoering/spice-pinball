@@ -1,25 +1,14 @@
 ---
 layout: docs
 title: Music
-prev_section: scoreboardwithmux
+prev_section: analog-as-digital
 next_section: loopedsoundtracks
 permalink: /docs/music/
 ---
 
-Now we will learn to play sound effects on the speaker. Connect it to the A0 pin on
-the Arduino.
+Now we will learn to play tunes on the speaker. 
 
-<img src="{{ site.baseurl }}/img/c-speaker-connect.png" style="width: 500px"/>
-
-> ### A little known secret:
->
-> The pins A0, A1, A2, A3, A4, and A5 can actually be used as digital
-> pins 14, 15, 16, 17, 18, and 19. For example, we will use A0 as
-> digital pin 14.
-
-Upload the following:
-<a href="{{ site.baseurl }}/sketches/s2_sh05.txt">s2_sh05</a>
-
+Upload the **music** sketch.
 
 Now try pressing buttons 0, 1, and 2. What do you hear?
 
