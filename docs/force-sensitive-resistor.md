@@ -9,7 +9,7 @@ permalink: /docs/force-sensitive-resistor/
 
 The final kind of analog input we'll use is a force sensitive resistor (FSR). This is a resistor whose resistance changes depending on how much pressure is applied to it. It looks like this: 
 
-<img src="https://learn.adafruit.com/force-sensitive-resistor-fsr/overview" style="width: 650px"/>
+<img src="https://learn.adafruit.com/system/assets/assets/000/000/426/medium260/force___flex_FSR402_MED.jpg?1396762932" style="width: 650px"/>
 
 There is nothing special going on with the materials here. The FSR is just a device made from two layers of metal separated by a spacer. The harder you press, the more the layers of metal touch one another through the spacer. 
 

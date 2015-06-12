@@ -9,7 +9,7 @@ permalink: /docs/arduino/
 Now, we are ready to control our electronics using a microcontroller
 robot. The microcontroller we will be using is called an Arduino Nano.
 
-<img src="http://upload.wikimedia.org/wikipedia/commons/8/8d/Arduino_Nano.jpg" style="width: 500px"/>
+<!-- <img src="http://upload.wikimedia.org/wikipedia/commons/8/8d/Arduino_Nano.jpg" style="width: 500px"/> -->
 
 <img src="{{ site.baseurl }}/img/nano3_pinouts.png" style="width: 500px"/>
 

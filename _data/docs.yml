@@ -32,9 +32,8 @@
   - piezo-sensor
   - force-sensitive-resistor
   - readsensors
-  - analog-tones
   - analog-as-digital
-  - 
+  - analog-tones
   - music
   - loopedsoundtracks
   - pinball-sounds-exercise

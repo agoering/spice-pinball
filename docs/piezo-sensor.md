@@ -15,4 +15,6 @@ Here is how we connect the piezo:
 
 <img src="{{ site.baseurl }}/img/piezo-connection.jpg" style="width: 650px"/>
 
-The signal produced by the piezo is larger for harder presses. It can also detect banging or knocking on the surface on which it sits. This will be most effective if the piezo is taped to or otherwise firmly held in contact with a surface. Since it's large and flat, it's a great choice for measuring something rolling over it, and since it's more sensitive than the force sensitive resistor, it's good at picking up those fast events.
+The signal produced by the piezo is larger for harder presses. It can also detect banging or knocking on the surface on which it sits, and how sensitive it will be will depend on the resistor used to read it. This will be most effective if the piezo is taped to or otherwise firmly held in contact with a surface. 
+
+Since it's large and flat, it's a great choice for measuring something rolling over it, and it's good at picking up fast events. It's not as good for measuring longer events, as you will see in today's session.
