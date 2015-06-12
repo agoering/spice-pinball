@@ -2,7 +2,7 @@
 layout: docs
 title: Producing Tones
 prev_section: analog-as-digital
-next_section: music
+next_section: analog-ranges
 permalink: /docs/analog-tones/
 --- 
 
@@ -14,13 +14,12 @@ We are going to use a function called ```tone()``` to produce tones. If you use 
 
 Open the **analog-tones** sketch and look at the code just under the ```map()``` function code block. You'll see the following:
 
-```
-  speakerValue = (sensorValue0+sensorValue1+sensorValue2);
 
-  if (speakerVal > Min0 + Min1 + Min2 ){
+```speakerValue = (sensorValue0+sensorValue1+sensorValue2);
+
+if (speakerVal > Min0 + Min1 + Min2 ){
   tone(speakerPin,speakerVal,100); 
-  }
-
+}
 ```
 
 
@@ -30,7 +29,6 @@ The ```tone()``` function can produce specific musical notes. You will explore t
 
 Now upload the sketch and interact with the analog sensors. Try the following modifications (remember to save as **analog-tones-mod** in your **Mod** folder!):
 
-1. Combine elements from **analog-tones** and **analog-digital** to play tones on the speaker, but only when one input is used as a button. For example, use the piezo as a button and use the FSR and proximity sensor to produce the tone. 
-2. 
+1. Combine elements from the **analog-tones** and **analog-digital** sketches to play tones on the speaker, but only when one input is used as a button. For example, use the piezo as a button and use the FSR and proximity sensor to produce the tone. 
 
 **_CHECKPOINT!_**

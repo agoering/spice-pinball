@@ -9,29 +9,34 @@ permalink: /docs/loopedsoundtracks/
 Now we will learn how to play a constant, looped soundtrack in the
 background.
 
-Open the **looped-soundtracks** sketch.
+Connect your last button to pin 7.
+
+Open the **looped-soundtracks** sketch. Note that it has another button, and we added the following to make it work:
+- ```int button3 = 7```
+- ```Pb_switch sw3(100)```
+- ```flag3```
+- ```pinMode``` declaration in ```setup()```
+- read instruction for ```flag3``` inside the ```readinputs()``` function
 
 You cannot upload it yet, because in the beginning of the code, we have inserted the line:
 
 ```#include "mysongs.h"
 ```
 
-But the file ```mysongs.h``` does not exist yet. To create it, click
-on the downward arrow to the upper-right corner of the Arduino window
-as shown:
+But the file ```mysongs.h``` does not exist yet. To create it, go to **Sketch >> Add File** and then add the file in **Libraries >> Pinball >> mysongs.h**. 
 
-<img src="{{ site.baseurl }}/img/arduino-newtab.png" style="width: 500px"/>
+<!-- <img src="{{ site.baseurl }}/img/arduino-newtab.png" style="width: 500px"/> -->
 
 
-This will open a popup menu. In it, click on ```New Tab```. This will
+<!-- This will open a popup menu. In it, click on ```New Tab```. This will
 ask you to name the new tab. Name it ```mysongs.h```. Now your Arduino
 window is opening two files at the same time. You can switch between
-them by clicking on the correct tab at the top bar of the window.
+them by clicking on the correct tab at the top bar of the window. -->
 
-Copy the following code into the ```mysong.h``` file:
+<!-- Copy the following code into the ```mysong.h``` file:
 
 <a href="{{ site.baseurl }}/sketches/mysongs.txt">mysongs</a>
-
+ -->
 
 Now, you can upload the code.
 
@@ -60,8 +65,7 @@ like for looped timed events.
 
 Note the ```spkr.update()``` line inside ```writeoutputs()```.
 
-This program also has a new flag ```flag3```, and a new switch
-```mysw3```.  Take a look at ```writeoutputs()``` function and try to
+The program has a new flag ```flag3```, and new switch ```mysw3```.  Take a look at ```writeoutputs()``` function and try to
 figure out what they are doing.
 
 **_CHECKPOINT!_**

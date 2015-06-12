@@ -19,21 +19,19 @@ Copy the ```changenext()``` function, paste it just above, and change the name t
 
 When we call a function in ```setup()```, it is ok to use ```delay()```. That's because ```setup()``` isn't listen for any inputs. For instance, you could use something like this:
 
-```
-  resetpattern();
-  delay(250);
-  resetpattern();
-  delay(250);
-  resetpattern();
-  delay(250);
+```resetpattern();
+delay(250);
+resetpattern();
+delay(250);
+resetpattern();
+delay(250);
 ```
 
 where you would want to repeat as many times as you have flags in your pattern. What this would do is run ```resetpattern()```  with flag = 0 (reset pattern will change the flag to 1), delay for 250 milliseconds, run ```resetpattern()``` with flag = 1, delay for 250 milliseconds, and so on.
 
 However, there is an easier way: the **for loop**. Here's how the same code would look using a for loop:
 
-```
-for (int i=0; i <= 3; i++){
+```for (int i=0; i <= 3; i++){
       flag = i;
       resetpattern();
       delay(250);

@@ -22,24 +22,23 @@ Now re-upload the program. Try interacting with the sensors separately and in co
 
 Let's have a look at the code in ```loop()```:
 
-```
-  if (sensorValue0 > Min0 && sensorValue1 > Min1 || sensorValue2 > Min2){
-    digitalWrite(ledpin, 1);
-  }
-  else {
-    digitalWrite(ledpin, 0);
-  }  
+```if (sensorValue0 > Min0 && sensorValue1 > Min1 || sensorValue2 > Min2){
+  digitalWrite(ledpin, 1);
+}
+else {
+  digitalWrite(ledpin, 0);
+}  
 ```
 
 This looks like the if statement we've seen for digital buttons:
 
-```
-  if ( digitalRead(buttonpin) == LOW ) {
-    digitalWrite(ledpin, 1);
-  }
-  else {
-    digitalWrite(ledpin, 0);
-  }
+
+```if ( digitalRead(buttonpin) == LOW ) {
+  digitalWrite(ledpin, 1);
+}
+else {
+  digitalWrite(ledpin, 0);
+}
 ```
 
 However, there's more going on inside the ```if()``` condition parentheses. Instead of just reading whether a digital button is ```LOW```, we're checking the following condition:

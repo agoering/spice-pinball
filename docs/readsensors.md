@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Reading Sensors
-prev_section: analoginputs
+prev_section: force-sensitive-resistor
 next_section: analog-as-digital
 permalink: /docs/readsensors/
 ---
