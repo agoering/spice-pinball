@@ -1,7 +1,7 @@
 ---
-layout: docs
+layout: instructors
 title: Programming Hygiene
-prev_section: 
+prev_section: spice-libraries
 next_section: 
 permalink: /docs/program-hygiene/
 ---

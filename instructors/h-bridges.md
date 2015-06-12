@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: instructors
 title: H-Bridges
 prev_section: program-hygiene
 next_section: h-bridges

@@ -1,9 +1,9 @@
 ---
-layout: docs
+layout: instructors
 title: Pinball and SPICE Libraries
 prev_section: main
 next_section: program-hygiene
-permalink: /docs/libraries/
+permalink: /instructors/spice-libraries/
 ---
 
 

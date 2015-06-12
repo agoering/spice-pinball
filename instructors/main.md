@@ -2,7 +2,7 @@
 layout: instructors
 title: For Instructors
 prev_section: 
-next_section: libraries
+next_section: spice-libraries
 permalink: /instructors/main/
 ---
 

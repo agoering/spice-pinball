@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: instructors
 title: To Do
 prev_section: h-bridges
 next_section: to-do
