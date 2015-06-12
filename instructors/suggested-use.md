@@ -1,16 +1,14 @@
 ---
 layout: instructors
 title: For Instructors
-prev_section: 
+prev_section: main
 next_section: spice-libraries
-permalink: /instructors/main/
+permalink: /instructors/suggested-uses/
 ---
 
 ## So you want to do an electronics camp?
 
-We would love for our course content to be used, reused, and remixed! 
-
-Our activities may be helpful as written, and our Pinball library and SPICE Sketchbook are available online. The next sections will walk educators through installation of those files, and additional pages here go into more depth about the electronics and programming elements. We also have additional suggestions for ways to modify the curriculum to make it shorter (our camp is a two week course culminating with Pinball machines, but there are lots of fun day and multi-day projects buried within!). 
+We would love for our course content to be used, reused, and remixed! Our activities may be helpful as written, and our Pinball library and SPICE Sketchbook are available online. The next pages will walk educators through installation of those files, and additional pages here go into more depth about the electronics and programming elements.
 
 There are lots of other awesome resources for DIY electronics online. We recommend:
 

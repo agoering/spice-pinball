@@ -8,14 +8,9 @@ permalink: /instructors/to-do/
 
 
 ## Pages to add
-
-- Table build instructions
-    - Cut instructions
-    - Other hardware required
-    - Power tools required
-    - Number of power tools given size of group
-    - Build instructions
-    - Where we found the pinballs and springs
+- suggested-uses: How we use camp curriculum; how it could be used
+- spice-libraries: Downloading the Spice sketch folders
+- Notes on presenting code (online or via other methods)
 - Electronics parts
     - Parts list on per group basis
     - Other helpful parts to have around
@@ -31,6 +26,13 @@ permalink: /instructors/to-do/
     - PBJ robot pdf
     - cup stacking
     - other games and activities
+- Table build instructions
+    - Cut instructions
+    - Other hardware required
+    - Power tools required
+    - Number of power tools given size of group
+    - Build instructions
+    - Where we found the pinballs and springs
 - How we run camp
     - camp philosophy
     - our implementation strategy

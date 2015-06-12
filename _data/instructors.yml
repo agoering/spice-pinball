@@ -1,5 +1,16 @@
-- title: For Instructors
-  docs:
-  - setting-up
-  - verbs
-
+- title: "Welcome, Instructors!"
+  instructors:
+  - main
+- title: Libraries and Programs
+  instructors:
+  - spice-libraries
+  - program-notes
+- title: Electronics Info
+  instructors:
+  - h-bridges
+- title: Other Ideas
+  instructors:
+  - suggested-uses
+- title: To Do
+  instructors:
+  - to-do

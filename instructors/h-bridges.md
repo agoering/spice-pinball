@@ -1,8 +1,8 @@
 ---
 layout: instructors
 title: H-Bridges
-prev_section: program-hygiene
-next_section: h-bridges
+prev_section: program-notes
+next_section: suggested-uses
 permalink: /instructors/h-bridges/
 ---
 

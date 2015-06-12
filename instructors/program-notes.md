@@ -1,8 +1,8 @@
 ---
 layout: instructors
-title: Programming Hygiene
+title: Programm Notes
 prev_section: spice-libraries
-next_section: 
+next_section: h-bridges
 permalink: /docs/program-hygiene/
 ---
 
