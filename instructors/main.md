@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: instructors
 title: For Instructors
 prev_section: 
 next_section: libraries
