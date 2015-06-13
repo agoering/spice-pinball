@@ -8,9 +8,6 @@ permalink: /spice-hub/main/
 
 ## SPICE-hub: Your place to share code!
 
-Test test 1 2 3 !!
-
-
 If you want to share more pieces of code, or if you had code that you don't see here and would like to see here, email ayocom@uoregon.edu and Andrea will add them ASAP. Make sure to include a comment description of your code!
 
 ## Table Code from 2014:
