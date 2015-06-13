@@ -1,4 +1,10 @@
-- title: SPICE-hub
+- title: Sharing Code
   docs:
   - spice-hub-main
+
+- title: SPICE Libraries
+  docs:
+  - spice-libraries
+
+
 

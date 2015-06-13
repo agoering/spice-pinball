@@ -12,6 +12,13 @@ permalink: /instructors/to-do/
 - suggested-uses: How we use camp curriculum; how it could be used
 - spice-libraries: Downloading the Spice sketch folders
 - Notes on presenting code (online or via other methods)
+- Arduino tips and tricks
+
+> ### Using Analog pins as Digital pins:
+>
+> The pins A0, A1, A2, A3, A4, and A5 can actually be used as digital
+> pins 14, 15, 16, 17, 18, and 19. 
+
 - Electronics parts
     - Parts list on per group basis
     - Other helpful parts to have around

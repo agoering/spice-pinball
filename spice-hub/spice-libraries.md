@@ -1,10 +1,9 @@
 ---
-layout: instructors
+layout: docs
 title: SPICE Libraries
-collection: instructors
-prev_section: main
-next_section: program-notes
-permalink: /instructors/spice-libraries/
+prev_section: 
+next_section: spice-libraries
+permalink: /spice-hub/main/
 ---
 
 ## What are SPICE Libraries?
