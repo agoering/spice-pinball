@@ -2,7 +2,7 @@
 layout: spice-hub
 title: SPICE-hub
 prev_section: 
-next_section: 
+next_section: spice-libraries
 permalink: /spice-hub/main/
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: spice-hub
 title: SPICE Libraries
-prev_section: 
-next_section: spice-libraries
-permalink: /spice-hub/main/
+prev_section: main
+next_section: 
+permalink: /spice-hub/spice-libraries/
 ---
 
 ## What are SPICE Libraries?
