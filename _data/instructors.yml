@@ -1,16 +1,20 @@
 - title: "Welcome, Instructors!"
-  instructors:
+  docs:
   - instructors-main
+  
 - title: Libraries and Programs
-  instructors:
+  docs:
   - spice-libraries
   - program-notes
+  
 - title: Electronics Info
-  instructors:
+  docs:
   - h-bridges
+  
 - title: Other Ideas
-  instructors:
+  docs:
   - suggested-uses
+  
 - title: To Do
-  instructors:
+  docs:
   - to-do

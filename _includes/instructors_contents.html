@@ -2,7 +2,7 @@
   <aside>
     {% for section in site.data.instructors %}
     <h4>{{ section.title }}</h4>
-    {% include instructors_ul.html items=section.instructors %}
+    {% include instructors_ul.html items=section.docs %}
     {% endfor %}
   </aside>
 </div>

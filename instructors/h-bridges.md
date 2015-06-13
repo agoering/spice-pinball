@@ -1,12 +1,13 @@
 ---
 layout: instructors
 title: H-Bridges
+collection: instructors
 prev_section: program-notes
 next_section: suggested-uses
 permalink: /instructors/h-bridges/
 ---
 
-### How H-Bridges Work
+## How H-Bridges Work
 
 This section isn't needed to actually use the motor control boards, but it explains what's going on inside.
 

@@ -1,12 +1,13 @@
 ---
 layout: instructors
 title: For Instructors
+collection: instructors
 prev_section: 
 next_section: spice-libraries
 permalink: /instructors/main/
 ---
 
-## So you want to do an electronics camp?
+## So you want to host an electronics camp?
 
 We would love for our course content to be used, reused, and remixed! 
 
@@ -36,3 +37,14 @@ The SPICE Sketchbook is a collection of Arduino sketches. It is also available f
 3. Open Arduino. The SPICE sketches should now be accessible via **File >> Sketchbook**
 
 If you want to share what your projects, ideas, code, or more, get in touch with us (see the footer for contact info)!
+<!-- 
+{% for faq in other_faqs %}
+<h2><a href="{{ faq.url }}">{{ faq.title }}</a></h2>
+{{ faq.content }}
+<hr />
+{% endfor %}
+ -->
+{% for article in site.instructors %}
+<a href="{{ site.baseurl }}{{ article.permalink }}">{{ article.title }}</a>
+<hr />
+{% endfor %}

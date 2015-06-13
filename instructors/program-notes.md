@@ -1,9 +1,10 @@
 ---
 layout: instructors
-title: Programm Notes
+title: Program Notes
+collection: instructors
 prev_section: spice-libraries
 next_section: h-bridges
-permalink: /instructors/program-hygiene/
+permalink: /instructors/program-notes/
 ---
 
 Most of our programs come down to one operation:

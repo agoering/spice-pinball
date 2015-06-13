@@ -1,6 +1,7 @@
 ---
 layout: instructors
 title: To Do
+collection: instructors
 prev_section: h-bridges
 next_section: to-do
 permalink: /instructors/to-do/

@@ -1,6 +1,7 @@
 ---
 layout: instructors
 title: Pinball and SPICE Libraries
+collection: instructors
 prev_section: main
 next_section: program-notes
 permalink: /instructors/spice-libraries/
