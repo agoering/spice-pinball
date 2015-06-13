@@ -17,9 +17,9 @@ relative_permalinks: false
 
 # Collections: see http://www.sitepoint.com/getting-started-jekyll-collections/
 # also see http://ben.balter.com/2015/02/20/jekyll-collections/
-collections:
-  instructors:
-    output: true
-    permalink: /instructors/:path/
+# collections:
+#   instructors:
+#     output: true
+#     permalink: /instructors/:path/
 
 

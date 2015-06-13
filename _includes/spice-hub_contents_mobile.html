@@ -3,7 +3,7 @@
     <option value="">Navigate SPICE-hub</option>
     {% for section in site.data.spice-hub %}
     <optgroup label="{{ section.title }}">
-      {% include spice-hub_option.html items=section.spice-hub %}
+      {% include spice-hub_option.html items=section.docs %}
     </optgroup>
     {% endfor %}
   </select>

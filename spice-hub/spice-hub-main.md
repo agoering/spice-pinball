@@ -3,7 +3,7 @@ layout: docs
 title: SPICE-hub
 prev_section: 
 next_section: 
-permalink: /spice-hub/main/
+permalink: /spice-hub/spice-hub-main/
 ---
 
 ## SPICE-hub: Your place to share code!
