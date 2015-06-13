@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: spice-hub
 title: SPICE Libraries
 prev_section: 
 next_section: spice-libraries
