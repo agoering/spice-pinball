@@ -13,9 +13,9 @@ met.
 It is also possible to have a continuous sequence running in the
 background, when nothing else is happening.
 
-Try uploading: <a href="{{ site.baseurl }}/sketches/s2_sh03b.txt">s2_sh03b</a>
+Upload the **timed-looped-event** sketch.
 
-Now, the LED should be doing its regular blink from Session A. But if
+Now, the LED should be doing a simple blink. But if
 you press the button, it should stop the background loop, do the
 preset timed sequence, and then resume the background loop.
 
@@ -38,11 +38,9 @@ background loop by calling ```dothis.loopstart(val2, tim2, 2);```. The
 
 **_CHECKPOINT!_**
 
-Note the ```dothis.update()``` still needs to be called inside
-```loop()``` at least once. 
+Note the ```dothis.update()``` still needs to be called inside ```loop()``` at least once. 
 
-The looped event can be stopped at anytime by calling
-```loopstop()```. It can be restarted by using ```loopstart()```, as
+The looped event can be stopped at anytime by calling ```loopstop()```. It can be restarted by using ```loopstart()```, as
 we have done inside ```setup()```.
 
 Triggering a timed sequence on the same ```Pb_timedevent``` object

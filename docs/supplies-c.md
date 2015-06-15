@@ -1,7 +1,7 @@
 ---
 layout: docs
-title: Session C Supplies
-prev_section: theramin
+title: Supplies
+prev_section: pinball-sounds-exercise
 next_section: shiftregisters
 permalink: /docs/supplies-c/
 ---

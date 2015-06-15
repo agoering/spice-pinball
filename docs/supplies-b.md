@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Sounds and Senses Supplies
+title: Supplies
 prev_section: external-power
 next_section: analoginputs
 permalink: /docs/supplies-b/

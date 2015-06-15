@@ -11,14 +11,15 @@ background.
 
 Connect your last button to pin 7.
 
-Open the **looped-soundtracks** sketch. Note that it has another button, and we added the following to make it work:
+Open the **looped-soundtracks** sketch. Note that it has another button, and we added all of the following to support the new button:
+
 - ```int button3 = 7```
 - ```Pb_switch sw3(100)```
 - ```flag3```
 - ```pinMode``` declaration in ```setup()```
 - read instruction for ```flag3``` inside the ```readinputs()``` function
 
-You cannot upload it yet, because in the beginning of the code, we have inserted the line:
+You cannot upload the sketch yet, because in the beginning of the code, we have inserted the line:
 
 ```#include "mysongs.h"
 ```
