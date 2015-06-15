@@ -6,11 +6,11 @@ next_section: scoreboard
 permalink: /docs/othertimedevents/
 ---
 
-Now we'll see another use of the timed events object. Disconnect the
-green LED from the arduino, and reconnect the first shift register's
-data pin to the arduino's pin 11. Now upload:
+Now we'll see another use of the timed events objects. Disconnect the
+green LED from the Arduino, and reconnect the first shift register's
+data pin to the Arduino's pin 10. 
 
-<a href="{{ site.baseurl }}/sketches/s2_sh03c.txt">s2_sh03c</a>
+Now upload the **timed-shift-pattern** sketch.
 
 Now the timed event is being supplied the name of the function ```shiftpattern```.
 

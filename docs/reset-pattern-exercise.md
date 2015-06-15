@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Using the Reset pin
+title: Reset Pattern Exercise
 prev_section: external-power
 next_section: supplies-b
 permalink: /docs/reset-pattern-exercise/

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Using Analog Sensors as Digital Switches
+title: Analog as Digital
 prev_section: readsensors
 next_section: analog-tones
 permalink: /docs/analog-as-digital/

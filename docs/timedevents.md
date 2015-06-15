@@ -8,20 +8,18 @@ permalink: /docs/timedevents/
 
 We are going to stop working with shift registers for a bit. So please
 disconnect the first shift register's data pin from the Arduino's pin
-11, and instead put it to ground. **Do not put the Arduino's pin 11 to ground. Leave that unconnected.** 
+10, and instead connect the data pin to ground. **Do not put the Arduino's pin 10 to ground. Leave that unconnected.** 
 
 Now, we are going to learn about timed events. This is a way to
 prepare a script for a sequence of things to happen in the future at
 definite times, and then trigger them to start happening.
 
-Connect the button on the breadboard to pin 3, and the green LED to
+Connect one of the breadboard buttons to pin 3, and the green LED to
 pin 2 as shown:
 
 <img src="{{ site.baseurl }}/img/c-greenled-connect.png" style="width: 650px"/>
 
-
-Now upload the following program:
-<a href="{{ site.baseurl }}/sketches/s2_sh03.txt">s2_sh03</a>
+Now upload the **timed-events** sketch.
 
 Try pressing the button, and watch what the LED does.
 It is blinking morse code. Do you know what it is saying?
@@ -40,14 +38,13 @@ Inside the program, we are declaring a new object called a timed event:
 We are calling our timed event ```dothis```. But you can give it any
 name you want. We are also supplying it with the name of a function
 (in this case, ```blinkmyled```. You have to supply all timed events
-with the name of a function that returns type ```void``` and takes an
-```int``` as an argument. Look further below in the code, and you will
+with the name of a function that returns type ```void``` and takes an ```int``` as an argument. Look further below in the code, and you will
 see that ```void blinkmyled(int val)``` is indeed defined this way.
 
 
 Inside ```loop()```, you will see the line:
 
-```dothis.update(); // This needs to be called every loop iteration
+```dothis.update(); 
 ```
 
 All timed events declared in the program have to be updated by calling
@@ -55,12 +52,10 @@ the ```update()``` functions for each of them inside ```loop()```.
 
 The timed sequence that we are calling is being done like this:
 
-```dothis.start(values, timing, 18); // Last argument is length of sequence
+```dothis.start(values, timing, 18); 
 ```
 
-The first argument ```values``` is an ```int``` type array. See before
-```setup()``` how it is being defined. This can be any type of
-```int``` array. We are only using zeros and ones in it for our use.
+The first argument ```values``` is an ```int``` type array. See before ```setup()``` how it is being defined. This can be any type of ```int``` array. We are only using zeros and ones in it for our use.
 
 The second argument is ```timing```, and is an array of time periods
 (in milliseconds). This controls for how long each step in the event
@@ -77,6 +72,5 @@ larger than the size of the arrays (18). But it can be smaller.
 
 Remember, the timed event does not have to be about blinking LEDs. You
 can call any function you want, and make it do whatever you want at
-specific times. All that is required is for the function to be of type
-```void```, and for it to accept an ```int``` variable as input.
+specific times. All that is required is for the function to be of type ```void```, and for it to accept an ```int``` variable as input.
 

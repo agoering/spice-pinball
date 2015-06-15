@@ -23,16 +23,15 @@ breadboard with 16 legs. The legs have identities:
 
 <img src="http://bildr.org/blog/wp-content/uploads/2011/02/574px-SN74HC595-pinout.png" style="width: 200px"/>
 
-Note that it has 8 output pins called Q0 through Q7. It is possible to write any digital
+Note that it has 8 output pins called QA through QH. It is possible to write any digital
 value you want to those eight pins using the data, clock and latch
-pins. The pin named Q7' can be used to connect more shift registers to
+pins. The pin named QH' can be used to connect more shift registers to
 it. We will explore that in a few moments.
 
-Each of the pins Q0 through Q7 will receive one **bit** of data. A **bit** is a single value of data, which can be 0 or 1. We need to tell the shift register which bits to write to which pin.
+Each of the pins QA through QH will receive one **bit** of data. A **bit** is a single value of data, which can be 0 or 1. We need to tell the shift register which bits to write to which pin.
 
 In the code, we have defined a new variable ```byte serdata[1]```.
-This stores 1 byte, or 8 bits of digital information. Inside
-```setup()```, we assign it values by typing:
+This stores 1 byte, or 8 bits of digital information. Inside ```setup()```, we assign it values by typing:
 
 ``` serdata[0] = 0b00000000;
 ```
@@ -55,8 +54,7 @@ for a moment.
 
 The rest of the program should be pretty easy to understand. We
 already now how to use stopwatches, and we have defined two functions.
-The function ```void changeflag()``` just changes the variable
-```flag``` from 1 to 0 or 0 to 1.
+The function ```void changeflag()``` just changes the variable ```flag``` from 1 to 0 or 0 to 1.
 
 The function ```void changeserdata(int ff)``` has a new variable
 inside the brackets, which we haven't seen before. It simply means
@@ -67,8 +65,7 @@ called like this:
 ```changeserdata(flag);
 ```
 
-So it is being supplied with the value of ```flag```. Inside
-```changeserdata(int ff)```, it captures this value into its own
+So it is being supplied with the value of ```flag```. Inside```changeserdata(int ff)```, it captures this value into its own
 private variable called ```ff```. ```ff``` can only be used inside
 this function. Right now, it is being used to change the LED pattern
 conditionally depending on the value of ```flag```:
