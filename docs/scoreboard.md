@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Scoreboard
-prev_section: othertimedevents
+prev_section: light-bar-exercise
 next_section: jukebox
 permalink: /docs/scoreboard/
 ---

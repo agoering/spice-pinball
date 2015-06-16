@@ -45,7 +45,7 @@
   - timedevents
   - timedloopedevent
   - othertimedevents
-  - proximity-light-bar-with-tone
+  - light-bar-exercise
 
 - title: Jukebox Challenge
   docs:
@@ -57,7 +57,7 @@
   - supplies-d
   - motorcontroller
 
-  - title: Old Docs
+- title: Old Docs
   docs:
   - calibration
   - theramin
