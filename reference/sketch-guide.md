@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: reference
 title: Sketch Guide
 prev_section: 
 next_section: 
