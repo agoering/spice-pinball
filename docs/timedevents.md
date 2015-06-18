@@ -14,10 +14,10 @@ Now, we are going to learn about timed events. This is a way to
 prepare a script for a sequence of things to happen in the future at
 definite times, and then trigger them to start happening.
 
-Connect one of the breadboard buttons to pin 3, and the green LED to
+Connect one of the breadboard buttons to pin 4, and the green LED to
 pin 2 as shown:
 
-<img src="{{ site.baseurl }}/img/c-greenled-connect.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/c-green-led-connect.png" style="width: 650px"/>
 
 Now upload the **timed-events** sketch.
 

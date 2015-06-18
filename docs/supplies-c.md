@@ -38,7 +38,7 @@ The breadboard should look like this:
 
 And the scoreboard like this:
 
-<img src="{{ site.baseurl }}/img/scoreboard-front.jpg" style="width: 500px"/>
+<img src="{{ site.baseurl }}/img/scoreboard-front.png" style="width: 500px"/>
 
 For the first bit, we will focus on this part of the breadboard:
 
