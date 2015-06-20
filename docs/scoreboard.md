@@ -2,7 +2,7 @@
 layout: docs
 title: Scoreboard
 prev_section: light-bar-exercise
-next_section: jukebox
+next_section: scoreboard-partition
 permalink: /docs/scoreboard/
 ---
 
@@ -17,15 +17,15 @@ Look at the back of the scoreboard. The pins are labeled - you should see from b
 
 <img src="{{ site.baseurl }}/img/scoreboard-back.png" style="width: 650px"/>
 
-
 Connect your scoreboard as follows:
 
 - ground (GND) to ground line on breadboard
 - voltage in (VCC) to +5V line on beadboard
-- data (DIO) pin to Arduino pin 12
-- clock (CLK) to Arduino pin 11
+- data (DIO) pin to Arduino pin 9
+- clock (CLK) to Arduino pin 8
 
-Open the **scoreboard** sketch fom **File > Sketchbook > Jukebox**.
+**_CHECKPOINT!_**
+Open the **scoreboard** sketch fom **File > Sketchbook > Jukebox Challenge**.
 
 What are the numbers on the scoreboard doing?
 
@@ -37,7 +37,7 @@ Inside the program, we are declaring a ```Pb_scoreboard``` object called ```mybo
 Using this object, we can display any number we want on the score
 board, just by typing ```myboard.showdisplay( the number )```. 
 
-Inside ```setup()```, we flash a ```0```, a blank display, a ```0000```, and another blank display, by calling several functions sequentially. The first is the ```myboard.showdisplay(0)```. Then, we blank out the display using ```myboard.blankdisplay();```. Finally, we use ```myboard.showdisplay(0, true);``` to get a zero with "leading zeros."
+Inside ```setup()```, we flash a ```0000```, a blank display, then a ```0```, by calling several functions sequentially. The first is the ```myboard.showdisplay(0, true)``` to get what we call "leading zeros". Then, we blank out the display using ```myboard.blankdisplay();```. Finally, we use ```myboard.showdisplay(0);``` to get a zero without "leading zeros."
 
 Press the reset button (or reupload the program) and watch carefully to see the difference between the zero function and the leading zero function. You can choose whichever you like in your pinball machine.
 
@@ -45,19 +45,17 @@ Press the reset button (or reupload the program) and watch carefully to see the 
 
 Now, let's get to the useful bit - using our scoreboard to keep count of something!
 
-Inside the loop, we are counting up using the following for loop:
+We're using a flag called ```num``` to keep track of a number to display, and use a function called ```changenum()``` to change the flag ```num```. 
 
-```for(ii = 1; ii < 10000; ii = 2*ii) {
-    myboard.showdisplay(ii);
-    delay(TEST_DELAY);
-```
+We'll use a timed event called ```Pb_timedevent scoreboard(changenum)``` to avoid using the ```delay()``` function. Note that the size of the looped event arrays ```val[]``` and ```timing[]``` is 1. A size 1 looped event is another way of doing something regularly without using a stopwatch.
 
+Inside the loop, all we do is update our timed event. So the code that the loop executes refers to the timed event. Since that timed event calls the function ```changenum()```, that function acts as if it is being called inside the loop. This is a useful way to keep code clean. You'll learn more about this in the rest of the session.
 
-Also note that the size of the looped event arrays ```val[]``` and ```timing[]``` is 1. A size 1 looped event is another way of doing something regularly without using a stopwatch.
+Look at the function ```changenum()``` and see if you can figure out what it is doing. 
 
 Try the following modifications:
 
-- Change something inside ```changenum()``` function so the numbers count down instead of count up.
+- Change something inside the ```changenum()``` function so the numbers count down instead of count up.
 - Change the speed at which the numbers count down.
 
 **_CHECKPOINT!_**
