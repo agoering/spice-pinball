@@ -1,14 +1,16 @@
 ---
 layout: docs
 title: Jukebox
-prev_section: scoreboard
+prev_section: scoreboard-partition
 next_section: supplies-d
 permalink: /docs/jukebox/
 ---
 
-Now we will make a Jukebox.
+Now that we know how to use the scoreboard, let's make a Jukebox! This will serve as a really helpful outline for your pinball machine program.
 
-Paste the following code in a new Arduino window:
+Open the **jukebox** sketch, then add a tab with ```mysongs.h```.
+
+Take a look at the overall structure of the sketch. Notice there are very long comments to help delineate different areas of the sketch. The pinball programs may become quite long, so it's helpful to do something like this to break it up and guide the eye.
 
 <a href="{{ site.baseurl }}/sketches/s2_sh05c.txt">s2_sh05c</a>
 

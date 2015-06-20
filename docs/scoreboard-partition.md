@@ -23,7 +23,7 @@ myboard.blankpostdisplay();
 
 The first line tells the board where to put the decimal, which can be at location 1, 2, or 3. The second line sets the display before the decimal to be blank, and the third line sets the display after the decimal to be blank.
 
-In this loop, we are cleaning up our code in a way that will be very useful for the jukebox and pinball machine. We only call three functions in the loop. One reads all of the inputs (in this case, your buttons). The second performs logic operations to decide what to do based on the outputs, and the third writes to the outputs (in this case, just the scoreboard). We will keep this structure for the pinball machine, to keep code clean and readable. All of the functions that you need can be written outside of those functions, and called within them. For example, the ```changenum()``` function is used within the ```scoreboard()``` timed event definition, and this is called inside ```writeoutputs()```. 
+In the loop, we again use our very clean program structure. The ```changenum()``` function is used within the ```scoreboard()``` timed event definition, and the timed event is called inside ```writeoutputs()```. 
 
 Read through the ```readinputs()```, ```dologic()```, and ```writeoutputs()``` functions, and see if you can predict what this program will do. Why do we need the if statement checking if ```num < 1000```?
 
