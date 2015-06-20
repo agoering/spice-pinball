@@ -6,7 +6,7 @@ next_section: manyshiftregs
 permalink: /docs/bitwrite/
 ---
 
-This is how shift registers can be used to control multiple LEDs on
+Shift registers can be used to control multiple LEDs on
 your pinball machine. However, many times, you will want to change only
 one or two specific LEDs, and leave all the other LEDs alone. For
 this, we can use a new function called ```bitWrite()```.
