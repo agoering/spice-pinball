@@ -50,6 +50,8 @@
 - title: Jukebox Challenge
   docs:
   - scoreboard
+  - scoreboard-partition
+  - scoreboard-analog
   - jukebox
 
 - title: Motor Control

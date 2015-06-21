@@ -2,7 +2,7 @@
 layout: docs
 title: Scoreboard
 prev_section: scoreboard
-next_section: jukebox
+next_section: scoreboard-analog
 permalink: /docs/scoreboard-partition/
 ---
 
