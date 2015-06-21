@@ -9,8 +9,6 @@ permalink: /instructors/program-notes/
 
 ## Regarding Program Architecture
 
-
-
 Most of our programs come down to one operation:
 
 ```if (CONDITION == TRUE){
