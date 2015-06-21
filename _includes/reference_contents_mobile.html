@@ -3,7 +3,7 @@
     <option value="">Navigate Reference</option>
     {% for section in site.data.reference %}
     <optgroup label="{{ section.title }}">
-      {% include reference_option.html items=section.reference %}
+      {% include reference_option.html items=section.docs %}
     </optgroup>
     {% endfor %}
   </select>

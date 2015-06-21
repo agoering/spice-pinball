@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: Sketch Guide
-prev_section: 
+prev_section: main
 next_section: 
 permalink: /reference/sketch-guide/
 ---
