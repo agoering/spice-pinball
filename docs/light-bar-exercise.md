@@ -18,4 +18,4 @@ Try the following modifications (remember to save as **light-bar-exercise-mod** 
 2. Add a sound indicator:
     - Add a speaker to the program and make it repeatedly beep a note.
     - Make the beeps occur faster (more frequently) to indicate how close you are to the proximity sensor.
-    - Make the beep tone higher as well as you get closer to the IR sensor.
+    - Make the beep tone a higher frequency as well as you get closer to the IR sensor.

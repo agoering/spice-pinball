@@ -1,8 +1,8 @@
 ---
 layout: docs
-title: Scoreboard
+title: Multinumber Display
 prev_section: scoreboard
-next_section: scoreboard-analog
+next_section: jukebox
 permalink: /docs/scoreboard-partition/
 ---
 

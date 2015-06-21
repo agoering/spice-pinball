@@ -2,7 +2,7 @@
 layout: docs
 title: Other timed events
 prev_section: timedloopedevent
-next_section: scoreboard
+next_section: light-bar-exercise
 permalink: /docs/othertimedevents/
 ---
 
