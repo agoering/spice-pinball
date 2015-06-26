@@ -7,6 +7,7 @@ permalink: /instructors/session-objectives/
 ---
 
 ### SPICE Session Objectives
+
 1. Lights and Colors 
     - Learn to control regular and RGB LEDs. 
     - Ends with a simple blink pattern when reset is triggered.
@@ -18,5 +19,8 @@ permalink: /instructors/session-objectives/
     - Ends with the light bar exercise. 
 4. Jukebox Challenge: 
     - Write tunes and learn to make looped soundtracks. 
-    - Ends with a jukebox, including writing new tunes and sound effects for pinball.
+    - Ends with a jukebox.
+    - Homework: think of tunes required for pinball. Use an online keyboard to help figure out the notes for the tunes. Teams may choose to divide the song writing between partners.
+5. Pinball Kickstart:
+    - Write new tunes and sound effects for pinball.
     - Also contains a bonus activity to jumpstart a pinball template (with analog and digital inputs, a reset pattern, background tune, and small tunes and sound effects).

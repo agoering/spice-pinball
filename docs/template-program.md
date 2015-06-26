@@ -1,10 +1,9 @@
 ---
-layout: instructors
-title: Program Notes
-collection: instructors
-prev_section: spice-libraries
-next_section: h-bridges
-permalink: /instructors/program-notes/
+layout: docs
+title: Pinball Template
+prev_section: motorcontroller
+next_section: 
+permalink: /reference/template-program/
 ---
 
 ### Program Architecture

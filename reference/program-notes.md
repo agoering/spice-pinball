@@ -1,10 +1,9 @@
 ---
-layout: instructors
+layout: reference
 title: Program Notes
-collection: instructors
-prev_section: spice-libraries
-next_section: h-bridges
-permalink: /instructors/program-notes/
+prev_section: sketch-guide
+next_section: 
+permalink: /reference/program-notes/
 ---
 
 ### Program Architecture

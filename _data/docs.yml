@@ -58,6 +58,11 @@
   - supplies-d
   - motorcontroller
 
+- title: Pinball Kickstart
+  docs:
+  - template-program
+  - pinball-kickstart
+
 # - title: Old Docs
 #   docs:
 #   - calibration
