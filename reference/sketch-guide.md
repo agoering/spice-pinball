@@ -6,6 +6,8 @@ next_section:
 permalink: /reference/sketch-guide/
 ---
 
+### Arduino sketches, organized by order in each session
+
 Lights and Colors:
 
 1. blink-led

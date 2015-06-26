@@ -1,21 +1,22 @@
 - title: "Welcome, Instructors!"
   docs:
   - main
-  
+
 - title: Libraries and Programs
   docs:
   - spice-libraries
   - challenge-solutions
   - program-notes
-  
+
 - title: Electronics Info
   docs:
   - h-bridges
-  
-- title: Project Ideas
+
+- title: Curriculum and Ideas
   docs:
+  - session-objectives
   - suggested-uses
-  
+
 - title: To Do
   docs:
   - to-do

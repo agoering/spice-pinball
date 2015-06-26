@@ -36,8 +36,10 @@ Try the following modifications (remember to save as **jukebox-mod.ino** and **m
 1. Try writing a few new tunes (inside **mytunes-mod.h**) that go with your pinball theme and add them to the unused higher numbers in your jukebox. You can use the existing songs as templates.
 2. Make up a few sound effects that will integrate with your gameplay; for example, a "point scored" sound, or a "ball dead" sound, and maybe a "game over" sound. Get creative!
 3. Add the reset button and light pattern that you wrote for the startup routine to your ```setup()```. (this was in **fancy-reset-pattern** in your **Mod** folder). You could add a sound effect for startup here, too.
-4. Now that you have some fun tunes, try controlling them with the analog inputs instead of the simple buttons. You will want to use these as [digital switches](http://ayocom.github.io/spice-pinball/docs/analog-as-digital/). You will notice a simple digital switch on the board that we haven't used yet. Connect this to pin A3, and use this as one of your inputs.
 
-Congratulations! You now have a functioning jukebox, and a head start to your pinball machine. This is the end of today's session. Keep playing with your sketch as long as you like! Have fun!
+Congratulations! You now have a functioning jukebox, and a head start to your pinball machine. This is the end of today's session, but you might want to try the following bonus exercise.
 
+### Bonus Exercise
+
+Save your sketch as Now that you have some fun tunes, try controlling them with the analog inputs instead of the simple buttons. You will want to use these as [digital switches](http://ayocom.github.io/spice-pinball/docs/analog-as-digital/). You will notice a simple digital switch on the board that we haven't used yet. Connect this to pin A3, and use this as one of your inputs.
 
