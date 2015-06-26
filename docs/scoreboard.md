@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Scoreboard
-prev_section: light-bar-exercise
+prev_section: analog-ranges
 next_section: scoreboard-partition
 permalink: /docs/scoreboard/
 ---

@@ -1,12 +1,12 @@
 ---
 layout: docs
 title: Music
-prev_section: analog-ranges
+prev_section: light-bar-exercise
 next_section: loopedsoundtracks
 permalink: /docs/music/
 ---
 
-Now that we have learned to play one tone at a time on the speaker, let's do what wanted to accomplish all along: play some tunes!
+Today we're going to make some music, learn how to play sound effects on top of background soundtracks, and then build a jukebox! After that, you'll have an opportunity to use everything we've learned so far to write code that can be directly used in your pinball machine.
 
 Connect three of the buttons on your board to pins 4, 5, and 6.
 

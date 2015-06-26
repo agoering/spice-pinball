@@ -20,6 +20,18 @@
   - external-power
   - reset-pattern-exercise
 
+- title: 'Patterns and Loops'
+  docs:
+  - supplies-c
+  - shiftregisters
+  - washiftregsdo
+  - bitwrite
+  - manyshiftregs
+  - timedevents
+  - timedloopedevent
+  - timedshregs
+  - fancyresetpattern
+
 - title: Sounds and Senses
   docs:
   - supplies-b
@@ -31,27 +43,14 @@
   - analog-as-digital
   - analog-tones
   - analog-ranges
-  - music
-  - loopedsoundtracks
-  - pinball-sounds-exercise
-
-- title: 'Patterns and Loops'
-  docs:
-  - supplies-c
-  - shiftregisters
-  - washiftregsdo
-  - bitwrite
-  - manyshiftregs
-  - timedevents
-  - timedloopedevent
-  - othertimedevents
+  - scoreboard
+  - scoreboard-partition
   - light-bar-exercise
 
 - title: Jukebox Challenge
   docs:
-  - scoreboard
-  - scoreboard-partition
-  - scoreboard-analog
+  - music
+  - loopedsoundtracks
   - jukebox
 
 - title: Motor Control
@@ -59,9 +58,9 @@
   - supplies-d
   - motorcontroller
 
-- title: Old Docs
-  docs:
-  - calibration
-  - theramin
-  - multiplexers
-  - scoreboardwithmux
+# - title: Old Docs
+#   docs:
+#   - calibration
+#   - theramin
+#   - multiplexers
+#   - scoreboardwithmux

@@ -7,7 +7,7 @@ permalink: /docs/arduino/
 ---
 
 Now, we are ready to control our electronics using a microcontroller
-robot. The microcontroller we will be using is called an Arduino Nano.
+robot. The microcontroller we will be using is called an Arduino Nano. **It is very important that we do not touch the Arduino with bare hands. The oils on our skins can cause its exposed pins to connect to each other incorrectly and damage the electronics.**
 
 <!-- <img src="http://upload.wikimedia.org/wikipedia/commons/8/8d/Arduino_Nano.jpg" style="width: 500px"/> -->
 

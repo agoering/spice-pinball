@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Supplies
-prev_section: pinball-sounds-exercise
+prev_section: reset-pattern-exercise
 next_section: shiftregisters
 permalink: /docs/supplies-c/
 ---
@@ -44,4 +44,4 @@ For the first bit, we will focus on this part of the breadboard:
 
 <img src="{{ site.baseurl }}/img/c-shiftreg-led-area-2.png" style="width: 300px"/>
 
-
+Today's sketches will be in **File > Sketchbook > Patterns and Loops**

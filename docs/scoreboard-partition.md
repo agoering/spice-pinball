@@ -2,7 +2,7 @@
 layout: docs
 title: Multinumber Display
 prev_section: scoreboard
-next_section: jukebox
+next_section: light-bar-exercise
 permalink: /docs/scoreboard-partition/
 ---
 

@@ -2,7 +2,7 @@
 layout: docs
 title: Timed looped event
 prev_section: timedevents
-next_section: othertimedevents
+next_section: timedshregs
 permalink: /docs/timedloopedevent/
 ---
 

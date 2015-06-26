@@ -29,7 +29,7 @@ You don't have to use both motors; just keep the unwanted control and output wir
 2. Next, we hook up the control wires (yellow) to the Arduino output pins.
 3. Finally we hook up our motors up to the green wires.
 
-To test the motor, upload the example Examples->SpicePinball->Pbmotorcontrol in the Arduino IDE.
+To test the motor, upload the example **Examples->SpicePinball->Pbmotorcontrol in the Arduino IDE**.
 
 
 

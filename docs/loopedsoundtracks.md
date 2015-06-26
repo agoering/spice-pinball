@@ -2,7 +2,7 @@
 layout: docs
 title: Looped soundtracks
 prev_section: music
-next_section: pinball-sounds-exercise
+next_section: jukebox
 permalink: /docs/loopedsoundtracks/
 ---
 
@@ -50,16 +50,15 @@ Do you recognize the melody?
 
 **_CHECKPOINT!_**
 
-Inside ```setup()```, we are calling:
+Inside ```setup()```, we have:
 
 ```spkr.loopstart(marionotes2, mariotimes2, 61);
 ```
 
-
-The arrays ```marionotes2[]``` and ```mariotimes2[]``` have been
+This is another example of a **looped event**. The arrays ```marionotes2[]``` and ```mariotimes2[]``` have been
 defined inside ```mysongs.h```. The command starts playing that melody
-in loop in the background. It is interrupted when ever a button is
-pressed, which plays it's own melody (also defined in ```mysongs.h```).
+in loop in the background. It is interrupted whenever a button is
+pressed, and each button plays a different melody (also defined in ```mysongs.h```).
 
 You can stop the loop track anytime by using ```loopstop()```, just
 like for looped timed events.
@@ -71,3 +70,4 @@ figure out what they are doing.
 
 **_CHECKPOINT!_**
 
+Next we'll put together everything we've learned so far!

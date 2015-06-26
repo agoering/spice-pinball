@@ -2,7 +2,7 @@
 layout: docs
 title: Input Ranges
 prev_section: analog-tones
-next_section: music
+next_section: scoreboard
 permalink: /docs/analog-ranges/
 --- 
 
@@ -39,4 +39,4 @@ Within each case, we print the value of range, what this physically corresponds 
 
 Next we simply write ```speakerVal``` to ```tone()``` in the same way as before.
 
-Instead of making modifications, brainstorm some other ways you might want to use a **switch-case** as part of a Pinball machine. Write those down before moving on.
+Instead of making modifications, brainstorm some other ways you might want to use a **switch-case** as part of a Pinball machine. Write those down (you can do this on paper or in a text or Word file in your **Mod** folder).

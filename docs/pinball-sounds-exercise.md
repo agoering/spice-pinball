@@ -1,12 +1,12 @@
 ---
 layout: docs
 title: Pinball Soundtrack
-prev_section: loopedsoundtracks
-next_section: supplies-c
+prev_section: jukebox
+next_section: supplies-d
 permalink: /docs/pinball-sounds-exercise/
 ---
 
-Let's put together everything we've learned today. To recap, we can now:
+Let's put together everything we've learned so far. To recap, we can now:
 
 - Read in analog sensors
 - Use analog sensors as if they were digital

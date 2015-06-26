@@ -2,7 +2,7 @@
 layout: docs
 title: Reset Pattern Exercise
 prev_section: external-power
-next_section: supplies-b
+next_section: supplies-c
 permalink: /docs/reset-pattern-exercise/
 ---
 
