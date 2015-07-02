@@ -25,7 +25,7 @@ Connect your scoreboard as follows:
 - clock (CLK) to Arduino pin 8
 
 **_CHECKPOINT!_**
-Open the **scoreboard** sketch fom **File > Sketchbook > Jukebox Challenge**.
+Open the **scoreboard** sketch fom **File > Sketchbook > Sounds and Senses**.
 
 What are the numbers on the scoreboard doing?
 

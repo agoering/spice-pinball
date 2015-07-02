@@ -8,7 +8,7 @@ permalink: /docs/scoreboard-partition/
 
 Let's do something a little more interesting with our scoreboard. We'll use the same button pins as in the previous session to act as inputs (4,5,6, and 7). 
 
-Open the **scoreboard-partition** sketch fom **File > Sketchbook > Jukebox Challenge**.
+Open the **scoreboard-partition** sketch fom **File > Sketchbook > Sounds and Senses**.
 
 We're using the same flags as before to keep track of button presses (```flag 0```, ```flag1```, ```flag2```, and ```flag3```). We define all the buttons as switches in the same manner as before.
 
