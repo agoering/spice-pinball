@@ -8,6 +8,10 @@
   - challenge-solutions
   - program-notes
 
+- title: Table Mechanics
+  docs:
+  - flipper-launcher
+
 - title: Electronics Info
   docs:
   - h-bridges

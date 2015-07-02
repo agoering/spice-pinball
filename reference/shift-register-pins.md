@@ -1,6 +1,6 @@
 ---
 layout: reference
-title: Sketch Guide
+title: Shift Register Pinout
 prev_section: 
 next_section: 
 permalink: /reference/shift-register-pins/

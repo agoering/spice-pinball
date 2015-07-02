@@ -10,7 +10,6 @@ permalink: /instructors/to-do/
 
 ## Pages to add
 - suggested-uses: How we use camp curriculum; how it could be used
-- spice-libraries: Downloading the Spice sketch folders
 - Notes on presenting code (online or via other methods)
 - Arduino tips and tricks
 

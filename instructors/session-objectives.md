@@ -15,12 +15,15 @@ permalink: /instructors/session-objectives/
     - Learn to use shift registers to control many LEDs, and timed events to prevent timing errors. 
     - Ends with a fancy shift register blink pattern when reset is triggered.
 3. Sounds and Senses: 
-    - Learn to use analog inputs and the tone() function. 
+    - Learn to use analog inputs, the scoreboard, and the tone() function. 
     - Ends with the light bar exercise. 
 4. Jukebox Challenge: 
-    - Write tunes and learn to make looped soundtracks. 
+    - Learn to play tunes and looped soundtracks. 
     - Ends with a jukebox.
     - Homework: think of tunes required for pinball. Use an online keyboard to help figure out the notes for the tunes. Teams may choose to divide the song writing between partners.
 5. Pinball Kickstart:
-    - Write new tunes and sound effects for pinball.
-    - Also contains a bonus activity to jumpstart a pinball template (with analog and digital inputs, a reset pattern, background tune, and small tunes and sound effects).
+    - Discuss pinball template code.
+    - Complete Program Outline worksheet.
+    - Finish tunes and sound effects for pinball.
+    - Practice adding functionality one step at a time.
+    - Add special function placeholders to pinball template (according to Program Outline)
