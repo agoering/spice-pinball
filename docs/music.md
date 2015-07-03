@@ -20,7 +20,7 @@ This new program is the same as the old, but has additional lines for the speake
 
 At the top, we define a speaker object by supplying the speaker pin number:
 
-```Pb_speaker spkr(3);
+```Pb_speaker spkr(13);
 ```
 
 We called it ```spkr```, but you can use any other name.

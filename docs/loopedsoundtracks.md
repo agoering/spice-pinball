@@ -21,10 +21,10 @@ Open the **looped-soundtracks** sketch. Note that it has another button, and we 
 
 You cannot upload the sketch yet, because in the beginning of the code, we have inserted the line:
 
-```#include "mysongs.h"
+```#include "mytunes.h"
 ```
 
-But the file ```mysongs.h``` does not exist yet. To create it, go to **Sketch >> Add File** and then add the file in **Libraries >> Pinball >> mysongs.h**. 
+But the file ```mytunes.h``` does not exist yet. To create it, go to **Sketch >> Add File** and then add the file in **Libraries >> Pinball >> mytunes.h**. 
 
 <!-- <img src="{{ site.baseurl }}/img/arduino-newtab.png" style="width: 500px"/> -->
 

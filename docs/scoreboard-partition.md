@@ -16,12 +16,12 @@ We use the same timed event to avoid using delay. This time, we add a flag ```nu
 
 There is something new in ```setup()```: we are setting a decimal to partition the scoreboard into two areas. 
 
-```myboard.setpartition(1);
-myboard.blankpredisplay();
-myboard.blankpostdisplay(); 
+```myboard.setpartition(1);  
+myboard.postdisplay(num);
+myboard.predisplay(num2); 
 ```
 
-The first line tells the board where to put the decimal, which can be at location 1, 2, or 3. The second line sets the display before the decimal to be blank, and the third line sets the display after the decimal to be blank.
+The first line tells the board where to put the decimal, which can be at location 1, 2, or 3. The second line sets the display after the decimal to be ```num```, which we initialize to 0, and the third line sets the display before the decimal to be ```num2```, which we initialize to 5.
 
 In the loop, we again use our very clean program structure. The ```changenum()``` function is used within the ```scoreboard()``` timed event definition, and the timed event is called inside ```writeoutputs()```. 
 
