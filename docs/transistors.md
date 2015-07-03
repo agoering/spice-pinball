@@ -17,7 +17,7 @@ One of the legs (the middle one) is called the **base**, and is used to control 
 
 To make the second red LED (connected to a resistor and a transistor) light up, use a **resistor** to connect the base of the transistor to a high voltage as shown below. As in the LED case, we will use a resistor between the high voltage and the transistor base. 
 
-<img src="{{ site.baseurl }}/img/led-transistor-connection.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/led-transistor-connection.jpeg" style="width: 650px"/>
 
 The circuit that you just made work is drawn like so:
 
