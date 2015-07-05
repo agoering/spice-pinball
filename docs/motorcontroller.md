@@ -8,7 +8,15 @@ permalink: /docs/motorcontroller/
 
 ### Motor Controller Board Overview
 
-The Arduino boards can only control a small amount of current. The motor controller boards are a handy device for controlling the larger currents that some devices such as motors need. Each motor controller board can drive two motors independently in either direction.
+You should have:
+
+- a power supply breadboard (any of them will do)
+- motors (CD drive and fan which we will scavenge from old computers)
+- a motor control board, which looks like this:
+
+<img src="{{ site.baseurl }}/img/d-motor-control.png" style="width: 500px"/>
+
+The Arduino boards can only control a small amount of current. The motor controller boards are a handy device for controlling the larger currents that some devices such as motors need. Each motor controller board can drive two motors independently in either direction. 
 
 Each motor controller board should have 10 wires:
 - two power wires (red, black) for the chip

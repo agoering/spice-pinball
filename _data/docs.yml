@@ -52,11 +52,12 @@
   - music
   - loopedsoundtracks
   - jukebox
+  - template-program
+  - 
 
-# - title: Motor Control
-#   docs:
-#   - supplies-d
-#   - motorcontroller
+- title: Motor Control
+  docs:
+  - motorcontroller
 
 - title: Pinball Kickstart
   docs:

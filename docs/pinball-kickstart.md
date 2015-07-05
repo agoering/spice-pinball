@@ -3,7 +3,7 @@ layout: docs
 title: Pinball Template
 prev_section: template-program
 next_section: 
-permalink: /reference/pinball-kickstart/
+permalink: /docs/pinball-kickstart/
 ---
 
 Now that we have a template program and have practiced modifying it by adding a new system, it's time to go back to your own pinball cause and effect table. At this point, you can fill out the function column. 

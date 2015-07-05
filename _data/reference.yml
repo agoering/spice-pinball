@@ -1,7 +1,7 @@
 - title: Programming Reference
   docs:
   - sketch-guide
-  - program-notes
 - title: Electronics Reference
   docs:
   - shift-register-pins
+  - motorcontroller
