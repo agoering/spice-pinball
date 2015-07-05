@@ -53,10 +53,10 @@
   - loopedsoundtracks
   - jukebox
 
-- title: Motor Control
-  docs:
-  - supplies-d
-  - motorcontroller
+# - title: Motor Control
+#   docs:
+#   - supplies-d
+#   - motorcontroller
 
 - title: Pinball Kickstart
   docs:
