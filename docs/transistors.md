@@ -15,7 +15,7 @@ One of the legs (the middle one) is called the **base**, and is used to control 
 
 <img src="https://learn.adafruit.com/system/assets/assets/000/002/348/large1024/learn_arduino_transistor.png?1396782158" style="width: 650px"/>
 
-To make the second red LED (connected to a resistor and a transistor) light up, use a **resistor** to connect the base of the transistor to a high voltage as shown below. As in the LED case, we will use a resistor between the high voltage and the transistor base. 
+To make the second red LED (connected to a resistor and a transistor) light up, connect the base of the transistor to a high voltage through the resistor, as shown below.
 
 <img src="{{ site.baseurl }}/img/led-transistor-connection.jpeg" style="width: 650px"/>
 

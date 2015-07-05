@@ -9,7 +9,7 @@ permalink: /instructors/spice-libraries/
 
 ## What are SPICE Libraries?
 
-The Pinball Library is a collection of Arduino functions useful for pinball programs, that work with the specific electronic components we use in camp. The SPICE Sketchbook is a collection of Arduino sketches used in these lessons. 
+The Pinball Library is a collection of Arduino functions useful for pinball programs, that work with the specific electronic components we use in camp. The SPICE Sketchbook is a collection of Arduino sketches used in these tutorials. 
 
 ### Installing the Pinball Library
 

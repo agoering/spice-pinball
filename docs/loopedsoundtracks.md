@@ -19,12 +19,12 @@ Open the **looped-soundtracks** sketch. Note that it has another button, and we 
 - ```pinMode``` declaration in ```setup()```
 - read instruction for ```flag3``` inside the ```readinputs()``` function
 
-You cannot upload the sketch yet, because in the beginning of the code, we have inserted the line:
+<!-- You cannot upload the sketch yet, because in the beginning of the code, we have inserted the line:
 
 ```#include "mytunes.h"
 ```
 
-But the file ```mytunes.h``` does not exist yet. To create it, go to **Sketch >> Add File** and then add the file in **Libraries >> Pinball >> mytunes.h**. 
+But the file ```mytunes.h``` does not exist yet. To create it, go to **Sketch >> Add File** and then add the file in **Libraries >> Pinball >> mytunes.h**.  -->
 
 <!-- <img src="{{ site.baseurl }}/img/arduino-newtab.png" style="width: 500px"/> -->
 
@@ -39,14 +39,12 @@ them by clicking on the correct tab at the top bar of the window. -->
 <a href="{{ site.baseurl }}/sketches/mysongs.txt">mysongs</a>
  -->
 
-Now, you can upload the code.
+<!-- Now, you can upload the code. -->
 
-Opening multiple tabs is a way of keeping the code more readable. We
-are now defining all the songs in the new file, not in the main
-program file. But we are including the new file inside the main
-program file.
+Notice that there is a second tab open next to the looped-soundtracks sketch called mytunes.h.  We are now defining all the songs in the mytunes.h, instead of in the main
+program file, and importing the contents of mytunes.h by typing ```#include "mytunes.h"``` at the top of the main sketch (similar to how we ```#include <Pinball.h>```). Using multiple tabs is a way of keeping the code more readable.
 
-Do you recognize the melody?
+Upload the code. Do you recognize the melody?
 
 **_CHECKPOINT!_**
 
