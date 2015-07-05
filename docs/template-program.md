@@ -2,7 +2,7 @@
 layout: docs
 title: Pinball Template
 prev_section: motorcontroller
-next_section: 
+next_section: pinball-kickstart
 permalink: /reference/template-program/
 ---
 
