@@ -11,18 +11,12 @@ permalink: /instructors/camp-admin/
 
 The following worksheets can be found on [Google Drive](https://drive.google.com/folderview?id=0B9bJ5Vu6C7m9fnBzVmdfbUttamxCeng1blY1Y1R1Z3BLYktOa3drUmFWS2t6R3NHQUIxQ1U&usp=sharing), and are used to help direct the design process:
 
-### Brainstorm Worksheet
-
-### Proposal Worksheet
-
-### Proposal Revision Worksheet
-
-### Cause, Effect, and Supplies
-
-### Pinball Template Worksheets
-
-1. Pinball Template Program Outline
-2. Pinball Template Code Worksheet
-3. Pinball Template Pin Reservations
-
-### Pin Reservation Worksheet
+1. Brainstorm Worksheet
+2. Proposal Worksheet
+3. Proposal Revision Worksheet
+4. Cause, Effect, and Supplies
+5. Pinball Template Worksheets
+    + Pinball Template Program Outline
+    + Pinball Template Code Worksheet
+    + Pinball Template Pin Reservation
+6. Pin Reservation Worksheet
