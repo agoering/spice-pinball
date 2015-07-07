@@ -26,4 +26,4 @@ The Pinball Library is a collection of Arduino functions useful for pinball prog
 
 ### If your Arduino has a counterfeit FTDI chip
 
-**Mac OSX**
+**Mac OSX**: See [here](http://arduino.stackexchange.com/questions/5119/arduino-nano-no-serial-port-for-macbook-air-2013), at Mekku's answer.
