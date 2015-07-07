@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Pinball Template
+title: Pinball Kickstart
 prev_section: template-program
 next_section: 
 permalink: /docs/pinball-kickstart/

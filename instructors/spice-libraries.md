@@ -21,6 +21,9 @@ The Pinball Library is a collection of Arduino functions useful for pinball prog
 ### Installing the SPICE Sketchbook
 
 1. Download the zip file from [https://github.com/ayocom/spice-arduino](https://github.com/ayocom/spice-arduino). 
-2. Unzip contents directly into the Arduino folder.
-3. Rename the spice-arduino folder "SPICE".
+2. Unzip contents and place folders directly into the Arduino folder (not the libraries folder).
 3. Open Arduino. The SPICE sketches should now be accessible via **File >> Sketchbook**
+
+### If your Arduino has a counterfeit FTDI chip
+
+**Mac OSX**
