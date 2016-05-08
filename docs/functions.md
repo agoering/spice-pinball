@@ -23,8 +23,7 @@ These are used later inside the ```loop()``` to control the toggling.
 
 The ```setup()``` function should be identical to the **rgb-led** program, except for the line:
 
-```  makedark();
-```
+```makedark();```
 
 This is a function that is not part of the Arduino bundle. We defined
 it ourselves. It is defined below the ```loop()``` function, along with other functions. You can change its name to anything you want.

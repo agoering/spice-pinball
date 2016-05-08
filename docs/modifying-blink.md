@@ -17,9 +17,9 @@ half a second (500 milliseconds)?
 3. Cut all the lines inside the ```loop()``` function and move it into the
 ```setup()``` function. What does this program do? Try pressing the reset
 button on the Arduino. Can you explain what the LED is doing?
-4. Move the lines back into the ```loop()``` function, and change the pin
+<!-- 4. Move the lines back into the ```loop()``` function, and change the pin
 back to 12. Now, try and make the LED do a more complicated blink
-pattern, of your choice. This is good practice for your pinball machine!
+pattern, of your choice. This is good practice for your pinball machine! -->
 
 **_CHECKPOINT!_**
 

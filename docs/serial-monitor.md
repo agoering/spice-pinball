@@ -8,8 +8,7 @@ permalink: /docs/serial-monitor/
 
 There are some other lines in the **stopwatch** program that we need to explain. Inside ```setup()```, there is a line that says:
 
-```Serial.begin(9600);
-```
+```Serial.begin(9600);```
 
 This is opening a channel between the computer and the Arduino so they can speak to each other while the program is running.
 
@@ -51,10 +50,9 @@ uploading it into the microcontroller is to 'comment' the lines out.
 
 To do this, add a ```//``` before those lines. You can also select a block and go to ```Edit > Comment/Uncomment``` to do several lines at once. Change all the three Serial lines to:
 
-```//    Serial.begin(9600);
-
-//    Serial.print("led state is ");
-//    Serial.println(ledbstate);
+```//Serial.begin(9600);
+//Serial.print("led state is ");
+//Serial.println(ledbstate);
 ```
 
 Now those lines should turn grey. Try uploading the program now, and
