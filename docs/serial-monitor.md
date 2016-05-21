@@ -6,7 +6,9 @@ next_section: rgb-led
 permalink: /docs/serial-monitor/
 ---
 
-There are some other lines in the **stopwatch** program that we need to explain. Inside ```setup()```, there is a line that says ```Serial.begin(9600)```.
+There are some other lines in the **stopwatch** program that we need to explain. Inside ```setup()```, there is a line that says:
+
+```Serial.begin(9600)```
 
 This is opening a channel between the computer and the Arduino so they can speak to each other while the program is running.
 
