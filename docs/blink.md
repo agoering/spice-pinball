@@ -48,19 +48,22 @@ delay(500);
 
 The line:
 
-```digitalWrite(12, 1);
+```
+digitalWrite(12, 1);
 ```
 
 is telling the Arduino to write a high ("1") voltage on pin 12.
 Similarly, the line:
 
-```digitalWrite(12, 0);
+```
+digitalWrite(12, 0);
 ```
 
 is telling the Arduino to write a low ("0") voltage on pin 12.
 The line:
 
-```delay(500);
+```
+delay(500);
 ```
 
 is telling the Arduino to go to sleep for 500 milliseconds, which is
