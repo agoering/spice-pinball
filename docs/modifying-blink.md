@@ -23,5 +23,3 @@ pattern, of your choice. This is good practice for your pinball machine! -->
 
 **_CHECKPOINT!_**
 
-Now, reopen the original **blink-led** for the next part.
-

@@ -23,18 +23,21 @@ used anywhere in the program. Instead, we are using a stopwatch.
 
 At the top (before ```setup()```), there is a new line:
 
-```Pb_stopwatch mywatch;
+```
+Pb_stopwatch mywatch;
 ```
 
 This is creating a stopwatch called ```mywatch``` (you can name it
 something else if you like). Inside ```setup()```, there is this line:
 
-```mywatch.start();
+```
+mywatch.start();
 ```
 
 This tells the stopwatch named ```mywatch``` to start counting from zero. Later in the program, you will see:
 
-```mywatch.time()
+```
+mywatch.time()
 ```
 
 which asks the stopwatch ```mywatch``` to tell you how long it has been (in milliseconds) since the last time it started counting.
@@ -43,7 +46,8 @@ Inside ```loop()```, there is a new structure you haven't seen before. There's a
 
 This line:
 
-```ledbstate = !ledbstate;
+```
+ledbstate = !ledbstate;
 ```
 
 changes ```ledbstate``` to 0 (if it was 1), or to 1 (if it was 0).

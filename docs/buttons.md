@@ -13,7 +13,7 @@ the buttons in the breadboard to pin 10 of the Arduino as shown:
 
 Now upload the **buttons** program:
 
-Press the button connected to pin 12 to control the LED on pin 12.
+Press the button connected to pin 10 to control the LED on pin 12.
 
 Now, let us look at what new lines and words are in the program.
 The ```setup()``` function has the following two lines:
