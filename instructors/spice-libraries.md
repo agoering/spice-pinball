@@ -25,9 +25,11 @@ The Pinball Library is a collection of Arduino functions useful for pinball prog
 3. Rename the spice-arduino folder "Spice" (be sure to capitalize the 'S').
 4. Open Arduino. The SPICE sketches should now be accessible via **File >> Sketchbook**
 
-### Updating the Libraries using Git
+### Updating the Libraries using Git on the SPICE laptops
 
-If you use git, you can clone both the Pinball Library and SPICE Sketchbook into the Arduino folder. Additionally, if you have installed the libraries with the above instructions, you can get the freshest version by making a shell script containing the following:
+If you use git, you can clone both the Pinball Library and SPICE Sketchbook into the Arduino folder and pull changes using ```git pull```. 
+
+To get the freshest version on the SPICE camp laptops, copy the following using ```CTRL+c``` and paste it into a Terminal window using ```CTRL+SHIFT+v```.
 
 ```
 #!/bin/bash
@@ -38,9 +40,6 @@ git pull
 exit
 ```
 
-Save as a ```.sh``` and run ```chmod +x``` on it in the terminal to make it a script! Pop it on the Desktop for easy access.
-
-In camp, we will place this into a shell script on the desktop. To run, simply right click "update-sketchbook.sh" and click "Execute."
 ### If your Arduino has a counterfeit FTDI chip
 
 **Mac OSX**: See [here](http://arduino.stackexchange.com/questions/5119/arduino-nano-no-serial-port-for-macbook-air-2013), at Mekku's answer.
