@@ -22,7 +22,8 @@ with the blinking LED.
 Further down in the program, inside the LED blinking ```if``` structure,
 there are these two lines:
 
-```Serial.print("led state is ");
+```
+Serial.print("led state is ");
 Serial.println(ledbstate);
 ```
 
