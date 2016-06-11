@@ -36,7 +36,7 @@ cd ~/Spice
 git pull
 ```
 
-Download the [script]({{ site.url }}/attachments/update-sketchbooks.sh) and add execute permissions (chmod +x) to make it happen!
+Download the [script]({{ site.url }}/sketches/update-sketchbooks.sh) and add execute permissions (chmod +x) to make it happen!
 
 In camp, we will place this into a shell script on the desktop. To run, simply right click "update-sketchbook.sh" and click "Execute."
 ### If your Arduino has a counterfeit FTDI chip
