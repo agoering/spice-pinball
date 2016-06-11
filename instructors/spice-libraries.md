@@ -27,16 +27,18 @@ The Pinball Library is a collection of Arduino functions useful for pinball prog
 
 ### Updating the Libraries using Git
 
-If you use git, you can clone both the Pinball Library and SPICE Sketchbook into the Arduino folder. Additionally, if you have installed the libraries with the above instructions, you can get the freshest version by going to the terminal and running the following:
+If you use git, you can clone both the Pinball Library and SPICE Sketchbook into the Arduino folder. Additionally, if you have installed the libraries with the above instructions, you can get the freshest version by making a shell script containing the following:
 
 ```
+#!/bin/bash
 cd ~/Pinball
 git pull
 cd ~/Spice
 git pull
+exit
 ```
 
-Download the [script]({{ site.url }}/sketches/update-sketchbooks.sh) and add execute permissions (chmod +x) to make it happen!
+Save as a ```.sh``` and run ```chmod +x``` on it in the terminal to make it a script! Pop it on the Desktop for easy access.
 
 In camp, we will place this into a shell script on the desktop. To run, simply right click "update-sketchbook.sh" and click "Execute."
 ### If your Arduino has a counterfeit FTDI chip
