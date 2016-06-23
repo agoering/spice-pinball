@@ -2,7 +2,7 @@
 layout: docs
 title: Jukebox
 prev_section: looped-soundtracks
-next_section: supplies-d
+next_section: template-program
 permalink: /docs/jukebox/
 ---
 

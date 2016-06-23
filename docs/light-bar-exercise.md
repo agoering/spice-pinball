@@ -6,7 +6,7 @@ next_section: music
 permalink: /docs/light-bar-exercise/
 ---
 
-Let's combine what we've learned about light patterns, analog sensors, and the numeric display (scoreboard) to make an indicator of the proximity sensor reading. Open the **light-bar-exercise** sketch.
+Let's combine what we've learned about light patterns, analog sensors, and the numeric display (scoreboard) to make an indicator of the piezo sensor reading. Open the **light-bar-exercise** sketch.
 
 Notice that before ```setup()```, we set up the shift registers and declare some variables to hole onto the sensor value. Then, inside ```setup()``` we set the LEDs to all be off. 
 
@@ -23,11 +23,11 @@ We'll use _only_ these three main functions in the loop from now on. Any other f
 Try the following modifications (remember to save as **light-bar-exercise-mod** in your **Mods** folder!):
 
 1. Add a numeric indicator: use the scoreboard to display the value of the analog sensor reading. You can show the raw reading, or you can use ```map()``` to change the number to a relative value; for example, between 0 and 100.
-2. Modify the program to light up all the LEDs up to and including the proximity indicator LED. (Hint: a switch case structure may be useful).
+2. Modify the program to light up all the LEDs up to and including the indicator LED. (Hint: a switch case structure may be useful).
 3. Add a sound indicator:
     - Add a speaker to the program and make it repeatedly beep a note.
-    - Make the beeps occur faster (more frequently) to indicate how close you are to the proximity sensor.
-    - Make the beep tone a higher frequency as well as you get closer to the IR sensor.
+    - Make the beeps occur faster (more frequently) when the piezo reading is higher.
+    - Make the beep tone a higher frequency as well when the piezo reading is higher.
 
 **_CHECKPOINT!_**
 

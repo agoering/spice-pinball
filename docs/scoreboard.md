@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Scoreboard
-prev_section: analog-ranges
+prev_section: tones
 next_section: scoreboard-partition
 permalink: /docs/scoreboard/
 ---

@@ -1,9 +1,9 @@
 ---
-layout: docs
+layout: reference
 title: Proximity Sensor
-prev_section: analoginputs
-next_section: piezo-sensor
-permalink: /docs/proximity-sensor/
+prev_section: motorcontroller
+next_section: force-sensitive-resistor
+permalink: /reference/proximity-sensor/
 ---
 
 
@@ -16,7 +16,7 @@ The emitter creates pulses of infrared light. When this infrared light reflects 
 
 <img src="{{ site.baseurl }}/img/proximity-sensor-zoomout.png" style="width: 650px"/>
 
-This sensor is very easy to set up, simply connect the green output wire to analog input pin A0 as shown below:
+This sensor is very easy to set up. First, make sure the red and black wires from the proximity (infrared) sensor goes to +5V and ground. Connect the green wire to an analog input on the Arduino. 
 
 <img src="{{ site.baseurl }}/img/proximity-connection.jpg" style="width: 650px"/>
 

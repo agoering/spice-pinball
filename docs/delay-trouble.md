@@ -2,7 +2,7 @@
 layout: docs
 title: The Trouble with Delay
 prev_section: buttons
-next_section: serial-monitor
+next_section: rgb-led
 permalink: /docs/delay-trouble/
 ---
 

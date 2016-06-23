@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: RGB LED
-prev_section: serial-monitor
+prev_section: delay-trouble
 next_section: switches
 permalink: /docs/rgb-led/
 ---

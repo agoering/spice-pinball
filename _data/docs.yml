@@ -12,7 +12,6 @@
   - two-leds
   - buttons
   - delay-trouble
-  - serial-monitor
   - rgb-led
   - switches
   - functions
@@ -36,13 +35,11 @@
   docs:
   - supplies-b
   - analoginputs
-  - proximity-sensor
   - piezo-sensor
-  - force-sensitive-resistor
+  - serial-monitor
   - readsensors
-  - analog-as-digital
-  - analog-tones
   - analog-ranges
+  - tones
   - scoreboard
   - scoreboard-partition
   - light-bar-exercise
@@ -53,9 +50,9 @@
   - loopedsoundtracks
   - jukebox
 
-- title: Motor Control
-  docs:
-  - motorcontroller
+# - title: Motor Control
+#   docs:
+#   - motorcontroller
 
 - title: Pinball Kickstart
   docs:

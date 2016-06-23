@@ -1,65 +1,55 @@
 ---
 layout: docs
 title: Reading Sensors
-prev_section: force-sensitive-resistor
-next_section: analog-as-digital
+prev_section: serial-monitor
+next_section: analog-ranges
 permalink: /docs/readsensors/
 ---
 
-Now let's get down to the business of reading these sensors!
+Now let's get down to the business of reading sensors! 
 
-First, make sure the red and black wires from the proximity (infrared) sensor goes to +5V and ground. Connect the green wire to pin A0 on the Arduino. 
+Before ```setup()```, we name the pin to read the piezo:
 
-Next, make sure the red and black wires from the piezo are connected to opposite sides of the resistor with brown, black, and green stripes, and that this is in turn connected on the black wire side to ground and on the other side to A1. 
-
-Finally, make sure the force sensitive resistor is connected in the voltage divider configuration shown on the previous page, and that the connection between the FSR and the brown, black, and orange striped resistor is connected to A2. 
-
-Have an instructor check your wiring. 
-
-**_CHECKPOINT!!_**
-
-Plug your Arduino into the computer, and plug in the breadboard. Open the Arduino program:
-
-<img src="{{ site.baseurl }}/img/arduino-icon.png" style="width: 200px"/>
-
-Upload the **analog-input** program.
-
-Open the Serial Monitor. Notice that three numbers are being written out, one for each of the analog inputs. Let's have a look at the program. 
-
-Before ```setup()```, we initialize variables to store the number read out from the analog input pins:
-
-```int sensorValue0 = 0; //value read from proximity sensor
-int sensorValue1 = 0; //value read from piezo sensor
-int sensorValue2 = 0; //value read from force sensitive resistor
+```
+int piezo_pin = A0
 ```
 
-Inside ```setup()```, we start the Serial Monitor. Remember that in ```setup()``` we usually also declare input and output pins, but we don't need to set pin modes for analog inputs.
+Also, we initialize a variable to store the number read out from the analog input pin:
 
-Inside ```loop()``` we read the sensor values. This is done using the ```analogRead()``` function:
+```
+int piezo_val = 0; //value read from piezo sensor
+```
 
-```sensorValue0 = analogRead(analogIn0);
-sensorValue1 = analogRead(analogIn1);
-sensorValue2 = analogRead(analogIn2);
+We also initialize a variable to set a detection **threshold**:
+
+```
+int piezo_thresh = 0;
+```
+
+If the output of the piezo exceeds this threshold, the LED will light up. In order to do that, we also have to set a pin to control the LED (```int ledpin = 2```) and have to set that pin as an output (```pinMode(ledpin, OUTPUT)```) inside ```setup()```. We don't need to set pin modes for analog inputs, because they can only ever be used as inputs.
+
+Inside ```setup()```, we also start the Serial Monitor. 
+
+Inside ```loop()``` we read the sensor value. This is done using the ```analogRead()``` function:
+
+```
+piezo_val = analogRead(piezo_pin);
 ```
 
 Finally, we print those values to the Serial Monitor:
 
-```Serial.print(sensorValue0);
-Serial.print(" "); // leaves a blank space
-Serial.print(sensorValue1);
-Serial.print(" "); // leaves a blank space
-Serial.println(sensorValue2); // makes a new line
+```
+Serial.println(piezo_val); // ln places each reading on a new line
 ```
 
-Note the lines that leave blank spaces between the numbers. Without those lines, the numbers would be squished up next to one another!
+Now let's use that threshold. Try setting the threshold ```piezo_thresh``` to something other than 0 - maybe try 10, 50, or 100. For each threshold, try the following:
 
-On to the fun part! Try interacting with the sensors while watching the Serial Monitor. In particular, you might want to:
-
-1. Move your hand close to or far from the proximity sensor. 
-2. What happens if you point the proximity sensor at the wall? 
-3. What happens if you point the proximity sensor at the ceiling? 
-4. Can you hold your hand too close to the sensor? Too far away? Try waving your hand back and forth close to and far away from the sensor. Does it sense your hand at all distances from the sensor?
-5. Can you access all the way from 0 to 1023 for each sensor? Do any have a smaller actual range? 
+1. Tap directly on the piezo sensor, and see how changing the threshold affects the output.
+2. Knock nearby the piezo sensor. What thresholds are low enough to pick up nearby knocks?
+3. Knock somewhere farther away from the piezo sensor. What thresholds are low enough to pick up distant knocks?
 
 **_CHECKPOINT!_**
 
+By using a threshold, you can calibrate the sensor to be useful for different applications. For instance, you might want to install a piezo sensor on your table to detect events in which the ball rolls over the sensor (which would be hard to accomplish with a switch). In that case the magnitude of the signal wouldn't be important - you only care whether the ball rolled over directly or not. In that case, you might set a high threshold to avoid false signals. 
+
+However, if you instead wanted to mount the piezo so that it reads in how hard the ball knocks against a part of the pinball table (the backboard, for instance), you might set the threshold low enough so that any time the ball hits the backboard hard enough, the threshold is overcome, but high enough to avoid vibrations from the pinball flippers that might give spurious results.

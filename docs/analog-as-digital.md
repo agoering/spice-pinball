@@ -1,14 +1,14 @@
 ---
 layout: docs
 title: Analog as Digital
-prev_section: readsensors
+prev_section: analog-ranges
 next_section: analog-tones
 permalink: /docs/analog-as-digital/
 ---
 
 Analog inputs are unique because of the fact that can detect a range of events, rather than just on or off (like a button). Those on and off only (button) inputs are called **digital inputs**. 
 
-Sometimes, you may want to use an analog input as a digital input. For instance, you might want to install an analog sensor such as a proximity sensor or a piezo sensor on your table to detect events in which the ball rolls over the sensor (which would be hard to accomplish with a switch). But you might only want to detect whether or not the ball rolls over, and not close it came to a proximity sensor, or how hard it pressed a piezo. 
+Sometimes, you may want to use an analog input as a digital input. For instance, you might want to install a piezo sensor to detect the ball rolling over the piezo, but not care about how forceful the impact was. 
 
 The way to do that is by using a **threshold**. Let's look at an example. Open the **analog-as-digital** sketch from the **Sounds and Senses** sketchbook.
 
@@ -16,7 +16,7 @@ First, connect the resistor from the green LED-transistor-resistor setup to pin 
 
 Next, we need to find the thresholds for our sensors. We'll use the Serial Monitor to do this. Upload the program and open the Serial Monitor. What are the minimum and maximum values of each sensor? Record the minimum values in the variables ```Min0```, ```Min1```, and ```Min2```. You may want to add a small amount to those minimum values, especially if the device reads a minimum of 0. 
 
-Now re-upload the program. Try interacting with the sensors separately and in combination. What causes the green LED to light up?
+Now re-upload the program. Try interacting with the piezo in different ways. What causes the green LED to light up?
 
 **_CHECKPOINT!_**
 

@@ -1,14 +1,14 @@
 ---
 layout: docs
 title: Producing Tones
-prev_section: analog-as-digital
-next_section: analog-ranges
+prev_section: analog-ranges
+next_section: scoreboard
 permalink: /docs/analog-tones/
 --- 
 
-Up to now we have only controlled lights. Now let's make some sounds! Each group has a piezoelectric speaker. A sheet of metal attached to a magnet inside the speaker vibrates when electrical signals are sent to the speaker wires, producing sound. Vibrating the sheet of metal at different frequencies produces different tones.
+Up to now we have only controlled lights. Now let's make some sounds! Each group has a speaker. The paper cone of the speaker is attached to a magnet which vibrates when electrical signals are sent to the speaker wires, producing sound. Vibrating the cone at different frequencies produces different tones.
 
-Connect one end of your speaker to Arduino pin 13. Connect the other end to ground through the lonely blue resistor on your board under the buttons. 
+Connect one end of your speaker to the capacitor on the amplifier circuit. Connect the other end to ground through the lonely blue resistor on your board under the buttons. 
 
 We are going to use a function called ```tone()``` to produce tones. If you use this function, you should know that it prevents the use of pins 11 and 3 as analog outputs. 
 
