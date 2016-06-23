@@ -1,10 +1,12 @@
 - title: Programming Reference
   docs:
   - sketch-guide
+
 - title: Electronics Reference
   docs:
   - shift-register-pins
   - motorcontroller
+  
 -title: More Analog Inputs
   docs:
   - proximity-sensor
