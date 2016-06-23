@@ -46,7 +46,7 @@ sudo apt-get -qq install emacs
 sudo apt-get -qq install git
 mkdir ~/sketchbook
 cd ~/sketchbook
-git clone https://github.com/ayocom/spice-arduino.git
+git clone https://github.com/agoering/spice-arduino.git
 mv spice-arduino Spice
 cd libraries
 git clone https://github.com/dileepvr/spice-pinball.git
