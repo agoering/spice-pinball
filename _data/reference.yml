@@ -6,8 +6,8 @@
   docs:
   - shift-register-pins
   - motorcontroller
-  
--title: More Analog Inputs
+
+- title: More Analog Inputs
   docs:
   - proximity-sensor
   - force-sensitive-resistor
