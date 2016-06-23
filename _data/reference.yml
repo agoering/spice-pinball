@@ -1,11 +1,14 @@
 - title: Programming Reference
   docs:
+  - arduino-notes
   - sketch-guide
 
 - title: Electronics Reference
   docs:
   - shift-register-pins
+  - h-bridges
   - motorcontroller
+
 
 - title: More Analog Inputs
   docs:

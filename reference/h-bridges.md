@@ -1,10 +1,10 @@
 ---
-layout: instructors
+layout: reference
 title: H-Bridges
-collection: instructors
-prev_section: program-notes
-next_section: suggested-uses
-permalink: /instructors/h-bridges/
+collection: reference
+prev_section: motorcontroller
+next_section: proximity-sensor
+permalink: /instructors/motorcontroller/
 ---
 
 ## How H-Bridges Work

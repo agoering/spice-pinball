@@ -5,15 +5,9 @@
 - title: Libraries and Programs
   docs:
   - spice-libraries
+  - spice-chromebooks
+  - program-notes
   - challenge-solutions
-
-- title: Table Mechanics
-  docs:
-  - flipper-launcher
-
-- title: Electronics Info
-  docs:
-  - h-bridges
 
 - title: Curriculum and Ideas
   docs:
@@ -21,6 +15,6 @@
   - camp-admin
   - suggested-uses
 
-- title: To Do
+- title: Table Mechanics
   docs:
-  - to-do
+  - flipper-launcher

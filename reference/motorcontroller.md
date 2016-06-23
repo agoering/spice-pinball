@@ -1,8 +1,9 @@
 ---
-layout: docs
+layout: reference
 title: Motor Controller
-prev_section: supplies-d
-next_section: 
+collection: reference
+prev_section: shift-register-pins
+next_section: h-bridges
 permalink: /docs/motorcontroller/
 ---
 

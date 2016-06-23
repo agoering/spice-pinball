@@ -1,8 +1,8 @@
 ---
 layout: instructors
 title: Session Objectives
-prev_section: h-bridges
-next_section: suggested-uses
+prev_section: challenge-solutions
+next_section: camp-admin
 permalink: /instructors/session-objectives/
 ---
 

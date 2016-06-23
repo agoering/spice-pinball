@@ -1,8 +1,9 @@
 ---
 layout: reference
 title: Shift Register Pinout
-prev_section: 
-next_section: 
+collection: reference
+prev_section: sketch-guide
+next_section: motorcontroller
 permalink: /reference/shift-register-pins/
 ---
 

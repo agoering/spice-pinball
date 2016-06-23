@@ -2,8 +2,8 @@
 layout: instructors
 title: Program Notes
 collection: instructors
-prev_section: spice-libraries
-next_section: h-bridges
+prev_section: spice-chromebooks
+next_section: challenge-solutions
 permalink: /instructors/program-notes/
 ---
 
