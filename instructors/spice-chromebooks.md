@@ -34,7 +34,7 @@ permalink: /instructors/spice-chromebooks/
 
 ### Install Arduino and Sketchbooks
 
-Put the following in a shell script and run: 
+Put the following in a shell script, chmod +x, log in as sudo, and run. You may have to do commands one at a time if they time out.
 
 ```
 #!/bin/bash
