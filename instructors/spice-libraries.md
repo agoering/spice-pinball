@@ -57,6 +57,13 @@ exit
 10. After reboot, press CTRL-D. The computer will fix itself! You will need to type in the following command:
     ```Curl -Os https://chrx.org/go && sh go -U spicegirl```
 
+### Configure Gallium
+
+1. Log into the UO Secure wireless with PEAP authentication. Click "No CA certificate is required," and uncheck "Ask for this password every time"
+2. Open Chrome. Set the home page to ```http://agoering.github.io/spice-pinball/docs/introduction/```
+3. Go to Settings -> Screensaver and disable screensaver. 
+4. Go to Settings -> Power Manager -> System and at the bottom, unclick "Lock screen when system is going for sleep"
+
 
 ### Install Arduino and Sketchbooks
 
