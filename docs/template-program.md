@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Pinball Template
-prev_section: motorcontroller
+prev_section: jukebox
 next_section: pinball-kickstart
 permalink: /docs/template-program/
 ---

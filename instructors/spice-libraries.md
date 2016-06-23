@@ -33,9 +33,9 @@ To get the freshest version on the SPICE camp laptops, copy the following using 
 
 ```
 #!/bin/bash
-cd ~/Pinball
+cd ~/sketchbook/libraries/Pinball
 git pull
-cd ~/Spice
+cd ~/sketchbook/Spice
 git pull
 exit
 ```
