@@ -54,6 +54,8 @@ mv spice-pinball Pinball
 arduino
 ```
 
+Restart the laptops to allow new settings to take hold.
+
 ### Updating the Libraries using Git on the SPICE laptops
 
 If you use git, you can clone both the Pinball Library and SPICE Sketchbook into the Arduino folder and pull changes using ```git pull```. 
