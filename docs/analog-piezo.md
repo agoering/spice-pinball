@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Multinumber Display
+title: A Better Piezo
 prev_section: scoreboard-partition
 next_section: light-bar-exercise
 permalink: /docs/analog-piezo/
