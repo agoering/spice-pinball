@@ -42,6 +42,7 @@
   - tones
   - scoreboard
   - scoreboard-partition
+  - analog-piezo
   - light-bar-exercise
 
 - title: Jukebox Challenge

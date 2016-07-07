@@ -2,7 +2,7 @@
 layout: docs
 title: Multinumber Display
 prev_section: scoreboard
-next_section: light-bar-exercise
+next_section: analog-piezo
 permalink: /docs/scoreboard-partition/
 ---
 

@@ -22,12 +22,11 @@ Just below ```map()```, we see the **switch-case** function. The function argume
 
 ```
 switch (range) {
-case 0:    // hard knock, turn on red LED
+case 0:    // light knock, turn on green LED
     Serial.print(piezo_val);
     Serial.print(" ");
-    Serial.println("hard knock");
-    digitalWrite(greenled_pin, 0);
-    digitalWrite(redled_pin, 1);
+    Serial.println("light knock");
+    digitalWrite(greenled_pin, 1);
     break;
 ...
 }
@@ -37,6 +36,4 @@ The line ```switch (range)``` indicates that we want to use the variable ```rang
 
 Within each case, we print the value of ```piezo_val```, a note about what this physically corresponds to, and control our LEDs accordingly. Then, the line ```break;``` tells the Arduino to leave the **switch-case** and go back into the loop. 
 
-Next we simply write ```speakerVal``` to ```tone()``` in the same way as before.
-
-Instead of making modifications, brainstorm some other ways you might want to use a **switch-case** as part of a Pinball machine. Write those down.
+Try making the third case
