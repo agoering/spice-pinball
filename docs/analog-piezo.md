@@ -12,7 +12,7 @@ The little board with a circuit on it that you have been given for this is calle
 
 The signal of a piezo will always look something like this:
 
-<img src="{{ site.baseurl }}/img/b-unfiltered-piezo-strike-graph.jpg" style="width: 500px"/>
+<img src="{{ site.baseurl }}/img/b-unfiltered-piezo-strike-graph.png" style="width: 500px"/>
 
 The maximum height of a piezo signal is proportional to how hard the piezo is struck. When the piezo is struck, the circuit on the breakout board will output a signal that climbs to the peak value of the piezo's signal, then it will drop off, which is why it's called a peak detector. This signal is more predictable and steadier than the messy signal of a raw piezo, so using this circuit will reduce the number of piezo events that the Arduino "misses" due to the timing of the piezo signal, and increase the reliability of using thresholds to measure how hard the piezo was struck! 
 
