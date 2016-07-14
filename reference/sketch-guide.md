@@ -1,8 +1,8 @@
 ---
 layout: reference
 title: Sketch Guide
-prev_section: arduino-notes
-next_section: shift-register-pins
+prev_section: main
+next_section: 
 permalink: /reference/sketch-guide/
 ---
 
