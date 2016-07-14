@@ -11,9 +11,7 @@ Today we will learn to use a special chip that will be helpful in making our pin
 SPICE breadboard, which should look like this:
 
 
-
-
-<img src="{{ site.baseurl }}/img/breadboard.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/breadboard.jpg" style="width: 650px"/>
 
 Additionally, every table must have received a SPICE scoreboard, which should look like this:
 
