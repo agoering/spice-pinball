@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: Proximity Sensor
-prev_section: h-bridges
+prev_section: sketch-guide
 next_section: force-sensitive-resistor
 permalink: /reference/proximity-sensor/
 ---

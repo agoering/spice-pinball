@@ -2,8 +2,8 @@
 layout: reference
 title: H-Bridges
 collection: reference
-prev_section: motorcontroller
-next_section: proximity-sensor
+prev_section: force-sensitive-resistor
+next_section: motorcontroller
 permalink: /instructors/motorcontroller/
 ---
 

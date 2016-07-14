@@ -1,15 +1,16 @@
+- title: Electronics Reference
+  docs:
+  - reference-main
+  - current-budget  
+  - speaker-amp
+  
 - title: Programming Reference
   docs:
   - sketch-guide
 
-- title: Electronics Reference
-  docs:
-  - h-bridges
-  - motorcontroller
-
-
-- title: More Analog Inputs
+- title: More Electronics
   docs:
   - proximity-sensor
   - force-sensitive-resistor
+  - motorcontroller
 

@@ -1,8 +1,8 @@
 ---
 layout: reference
 title: Sketch Guide
-prev_section: main
-next_section: 
+prev_section: speaker-amp
+next_section: proximity-sensor
 permalink: /reference/sketch-guide/
 ---
 
