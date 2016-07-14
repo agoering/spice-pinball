@@ -15,13 +15,13 @@ We only use it to store 1 byte because we only needed 1 byte for 1
 shift register. On your breadboard, you will see a second shift
 register connected to the blue LEDs.
 
-<img src="{{ site.baseurl }}/img/c-shiftreg-2.png" style="width: 500px"/>
+<img src="{{ site.baseurl }}/img/shift-register-2.png" style="width: 500px"/>
 
 This second shift register's clock and latch pins have been shared
 with the first. But its data pin is right now going to ground (0
-volts).  Try removing that connection, and instead connect the second shift register's data pin to the first shift register's QH' pin. 
+volts).  Try removing that connection, and instead connect the second shift register's data pin to the first shift register's QH' pin:
 
-<img src="{{ site.baseurl }}/img/c-shiftreg-2-connect.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/shift-register-2-connection.png" style="width: 650px"/>
 
 Now, as soon as the first shift register receives a new byte, it
 should shift its old byte to the new shift register, which is further

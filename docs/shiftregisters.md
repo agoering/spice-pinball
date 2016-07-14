@@ -18,7 +18,7 @@ Arduino. How would you do this?
 Why, by using shift registers of course!
 
 Connect the following segments on the breadboard to pins 10, 11 and 12
-on the Arduino as shown:
+on the Arduino as shown below. You will need to remove the wire currently connecting the data input to ground (the data input pin is the one which will connect to pin 10).
 
 <img src="{{ site.baseurl }}/img/shift-registers-highlight.png" style="width: 650px"/>
 
