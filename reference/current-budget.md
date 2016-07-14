@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: Current Management
-prev_section: reference-main
+prev_section: main
 next_section: speaker-amp
 permalink: /reference/current-budget/
 ---

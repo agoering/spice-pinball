@@ -1,6 +1,6 @@
 - title: Electronics Reference
   docs:
-  - reference-main
+  - main
   - current-budget  
   - speaker-amp
   
@@ -8,9 +8,13 @@
   docs:
   - sketch-guide
 
+
 - title: More Electronics
   docs:
   - proximity-sensor
   - force-sensitive-resistor
   - motorcontroller
 
+- title: Pinball Engineering
+  docs:
+  - pinball-engineering
