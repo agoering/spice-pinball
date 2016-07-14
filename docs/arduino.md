@@ -47,7 +47,7 @@ First, notice that the pins labeled **Vin** and **GND** are already connected to
 
 Disconnect the wire from the transistor base that you previously connected to the red-line 5V row, and instead connect it to the Arduino pin labeled 12. 
 
-<img src="{{ site.baseurl }}/img/a-arduino-led-circuit.jpg" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/arduino-led-circuit.png" style="width: 650px"/>
 
 **_CHECKPOINT!_**
 

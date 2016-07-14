@@ -10,7 +10,7 @@ Now, we will control two LEDs at the same time.
 
 Make the connections to pins 12 and 11 as shown.
 
-<img src="{{ site.baseurl }}/img/a-two-leds.jpg" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/two-leds.png" style="width: 650px"/>
 
 Now upload two program **two-leds**. Watch the LEDs, read the program and figure out what it does. 
 

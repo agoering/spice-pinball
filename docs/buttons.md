@@ -9,7 +9,7 @@ permalink: /docs/buttons/
 Now that we know how to make LEDs blink at definite times, we will learn how to turn LEDs on and off using a button. Connect one of
 the buttons in the breadboard to pin 10 of the Arduino as shown:
 
-<img src="{{ site.baseurl }}/img/a-buttons.jpg" style="width: 650px">
+<img src="{{ site.baseurl }}/img/buttons.png" style="width: 650px">
 
 Now upload the **buttons** program:
 
