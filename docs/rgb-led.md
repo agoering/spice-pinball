@@ -10,16 +10,16 @@ Now we will control the RGB LED. RGB stands for Red, Green, and
 Blue. The RGB LED is really three LEDs in one casing. An RGB LED has four legs. One of the legs (the longest one) goes
 to +5 volts, and the other three are used to control the three colors. This figure shows the transistors and resistors connecting to each LED within the RGB LED.
 
-<img src="{{ site.baseurl }}/img/a-rgb-led.jpg" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/rgb-led-angled.jpg" style="width: 650px"/>
 
 Use your jumper wires to connect the three RGB transistor bases
 to pins 12, 11, and 9. 
 
-<img src="{{ site.baseurl }}/img/a-rgb-led-connections.jpg" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/rgb-led-connections.png" style="width: 650px"/>
 
 Also connect the three buttons to pins 10, 8, and 7 as shown.
 
-<img src="{{ site.baseurl }}/img/a-three-buttons.jpg" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/three-buttons.png" style="width: 650px"/>
 
 Now open and upload the **rgb-led** program.
 
