@@ -3,7 +3,7 @@ layout: reference
 title: Motor Controller
 collection: reference
 prev_section: force-sensitive-resistor
-next_section: 
+next_section: pinball-engineering
 permalink: /docs/motorcontroller/
 ---
 
