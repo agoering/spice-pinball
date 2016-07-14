@@ -12,7 +12,7 @@ Piezos are polarized (like LEDs), so it is important to connect the red wire to 
 
 To connect the piezo, make sure the red and black wires from the piezo are connected to opposite sides of the resistor with brown, black and green stripes. Make sure the black wire side also has a connection to ground, and that the red wire side also has a connection to pin A1 on the Arduino:
 
-<img src="{{ site.baseurl }}/img/piezo-connection.jpg" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/piezo-connection.png" style="width: 650px"/>
 
 The signal produced by the piezo is larger for harder taps. It can also detect banging or knocking on the surface on which it sits, and how sensitive it will be will depend on the resistor used to read it, how hard the surface it is mounted on is, and how firmly it is mounted to that surface. Piezos will be most effective when firmly held in contact with a surface. This can be done by adhering it tightly to that surface, or by sandwiching it between a surface and a small weight.
 
