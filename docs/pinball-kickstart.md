@@ -19,6 +19,6 @@ Start adding things from your cause, effect and function table to the template o
 1. Add the reset button and light pattern that you wrote for the startup routine to the ```setup()```. (this was in **fancy-reset-pattern** in your **Mod** folder). 
 2. Add a looped background track that plays throughout your game, with timed event sound effects that play according to different inputs. The **looped-soundtrack** code in Sounds and Senses may be helpful to look back on. Some ideas of sound effects are a "point scored" sound and/or a "ball dead" sound.
 3. Add points to the scoreboard corresponding to your inputs. You can use the the scoreboard to keep track of lives, or maybe you have a different way to keep track of lives and will use the scoreboard only for score. The **scoreboard** and **scoreboard-partition** sketches may be helpful.
-4. You may want to use analog inputs as <img src="{{ site.baseurl }}/docs/readsensors" style="width: 650px"/>, or you may come up with a clever use of an analog input (the one we just added, modeled after the light bar exercise, is just one example). 
+4. You may want to use the piezo with the peak detector circuit as we explored in <a href="{{ site.baseurl }}/docs/analog-piezo/"/>, or you may use it as a digital input as we explored in 
 
 Don't worry if you don't finish today. We'll have more time to do this during the rest of the week!
