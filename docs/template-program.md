@@ -26,7 +26,7 @@ Here, ```addfivepoints()``` is a **function** that we need to define somewhere. 
 
 We wrote a plan for what we want our pinball game to do (remember the cause and effect table?), and we can turn all of those effects (verbs!) into functions. We will start with a pinball template program, and then add one effect and function at a time, checking after each addition that the program still works as intended. It's generally a good idea to save often, especially if you have a working program and are about to make a BIG change to it. 
 
-The pinball template sketch consists of a reset button, a drain switch, a "rolling" switch, an IR sensor, and a piezo sensor. The template sketch is written so that it can be used with the same breadboards you have been using in the tutorials. 
+The pinball template sketch consists of code to control a reset button, a drain switch, a "rolling" switch, and a piezo sensor. The template sketch is written so that it can be used with the same breadboards you have been using in the tutorials. 
 
 You will notice a simple digital switch on the board that we haven't used yet. This is the "rolling" switch. Connect this to pin A3.
 
@@ -36,11 +36,11 @@ Let's now look at the pinball template sketch and compare it to its cause and ef
 
 The drain switch system (cause, effects, and functions) has been highlighted in pink in the template code. Your instructor will point out the location of each piece of code and why each piece of code is necessary. 
 
-Next, you will be challenged to highlight in the code corresponding to the rolling switch, the IR, and then the piezo in different colors. This exercise should help you to see how many different places a single subsystem enters into the code. Your instructor will reveal the solution at each step. 
+Next, you will be challenged to highlight in the code corresponding to the rolling switch and the piezo in different colors. This exercise should help you to see how many different places a single subsystem enters into the code. Your instructor will reveal the solution at each step. 
 
 When you add new subsystems, you generally start with the cause and effect, and then write the functions that correspond to that effect. 
 
-Let's do an exercise to see how to add a new subsystem, by adding a new system with the force sensitive resistor (FSR). What we want to do is add 10 points to the scoreboard when the FSR is above some threshold (decided by you). Also, it should play a tone on the speaker and light up the bar of LEDs in proportion to the FSR value. This will be very similar to the light bar exercise you did in the Sounds and Senses session, and you might find that code helpful to look back on now.
+Let's do an exercise to see how to add a new subsystem, by adding a new system with an analog piezo. What we want to do is add 10 points to the scoreboard when the piezo is above some threshold (decided by you). Also, it should play a tone on the speaker and light up the bar of LEDs in proportion to the piezo output value. This will be very similar to the light bar exercise you did in the Sounds and Senses session, and you might find that code helpful to look back on now.
 
 Your task is to add a new row to the cause and effect table. Write out clearly the cause and effects that this new system should have. Then, after you look back at your light bar exercise modification code, write down in the functions column the new functions that may need to be added for each effect to work.
 
