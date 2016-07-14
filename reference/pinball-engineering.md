@@ -11,7 +11,7 @@ permalink: /docs/pinball-engineering/
 
 Engineering a pinball machine is done by following the engineering process, illustrated below:
 
-<img src="{{site.baseurl}}/img/design-process.jpg" style="650px"/>
+<img src="{{site.baseurl}}/img/design-process.jpg" style="width: 650px">
 
 ## Pinball Engineering:
 
@@ -34,7 +34,7 @@ Prototyping is making sure that adding a new element to your existing machine do
 
 After a working prototype exists, go step by step:
 
-1. Make a key with labels. 
+1. _Make a key with labels_
 2. Cut wires
 3. Solder elements
 4. Tape elements
