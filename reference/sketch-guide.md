@@ -44,6 +44,3 @@ Jukebox Challenge:
 1. music
 2. looped-soundtracks
 3. jukebox
-
-Solutions Available:
-1. 
