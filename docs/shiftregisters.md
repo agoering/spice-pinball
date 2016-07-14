@@ -20,7 +20,7 @@ Why, by using shift registers of course!
 Connect the following segments on the breadboard to pins 10, 11 and 12
 on the Arduino as shown:
 
-<img src="{{ site.baseurl }}/img/c-shiftreg-highlights-close-4.png" style="width: 650px"/>
+<img src="{{ site.baseurl }}/img/shift-registers-highlight.png" style="width: 650px"/>
 
 Now upload the sketch from **File > Sketchbook > Patterns, Loops, and Timing > **shift-registers**.
 
