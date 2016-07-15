@@ -3,7 +3,7 @@ layout: instructors
 title: Program Notes
 collection: instructors
 prev_section: spice-chromebooks
-next_section: challenge-solutions
+next_section: flipper-launcher
 permalink: /instructors/program-notes/
 ---
 

@@ -1,19 +1,16 @@
-- title: "Welcome, Instructors!"
+- title: Curriculum and Ideas
   docs:
   - main
+  - session-objectives
+  - camp-admin
 
 - title: Libraries and Programs
   docs:
   - spice-libraries
+  - challenge-solutions
   - spice-chromebooks
   - program-notes
-  - challenge-solutions
 
-- title: Curriculum and Ideas
-  docs:
-  - session-objectives
-  - camp-admin
-  - suggested-uses
 
 - title: Table Mechanics
   docs:

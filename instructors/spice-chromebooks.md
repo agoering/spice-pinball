@@ -2,10 +2,29 @@
 layout: instructors
 title: SPICE Chromebooks
 collection: instructors
-prev_section: spice-libraries
+prev_section: challenge-solutions
 next_section: program-notes
 permalink: /instructors/spice-chromebooks/
 ---
+
+## Using the Chromebooks
+
+**DO NOT PRESS SPACEBAR ON STARTUP!!!!**
+
+The Chromebooks used for SPICE are running in developer mode in order to run Arduino on Linux - this means that they are cranky when they start up because they sense that developer mode is a security threat. Thus on startup, there is a white screen that informs you that **“OS verification is OFF” - when you see this, press CTRL+D to enter developer mode. DO NOT PRESS SPACEBAR!!!** If you press spacebar and then press enter, you will wipe the entire computer and it will no longer have Linux, Arduino, or any information that was saved locally!
+
+**To log into ChromeOS:**
+
+- Press CTRL+L at startup
+- Username: spicegirlsuo
+- Password: SPICE2016
+
+**To log into Gallium (Linux):**
+
+- Press CTRL+D at startup
+- Username: spicegirl
+- Password: spicegirl
+
 
 ## If you accidentally reset a Chromebook
 

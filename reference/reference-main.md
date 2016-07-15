@@ -30,7 +30,7 @@ Additionally, do the following:
 
 <a href="http://bildr.org/2011/02/74hc595/">You can think of shift registers as "musical chairs."</a>
 
-<img src="http://bildr.org/blog/wp-content/uploads/2011/02/574px-SN74HC595-pinout.png" style="width: 200px"/>
+<img src="http://bildr.org/blog/wp-content/uploads/2011/02/574px-SN74HC595-pinout.png" style="width: 500px"/>
 
 SER: Set Value for Leftmost “Chair”
 SRCLK (Clock) High: Move Over! (shift in the next bit)

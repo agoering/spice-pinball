@@ -2,8 +2,8 @@
 layout: instructors
 title: SPICE Libraries
 collection: instructors
-prev_section: main
-next_section: spice-chromebooks
+prev_section: camp-admin
+next_section: challenge-solutions
 permalink: /instructors/spice-libraries/
 ---
 

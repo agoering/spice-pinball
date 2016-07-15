@@ -1,12 +1,14 @@
 ---
 layout: instructors
 title: Session Objectives
-prev_section: challenge-solutions
+prev_section: main
 next_section: camp-admin
 permalink: /instructors/session-objectives/
 ---
 
 ### SPICE Session Objectives
+
+We recommend each of these sessions to take about a half-day, split into two one-hour sessions separated by a break. For anyone reusing this material and not building the pinball machine, the Jukebox Challenge could serve as a final activity, and that prototype can be expanded into a showpiece.
 
 1. Lights and Colors 
     - Learn to control regular and RGB LEDs. 

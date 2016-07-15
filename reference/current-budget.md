@@ -54,26 +54,53 @@ Based on the above calculation, it would be possible to run two RGB LEDs with th
 
 The following table shows some typical component current values which were used to calculate the current budget above. Be careful to calculate your current budget afresh if you choose new resistors for your LEDs!  
 
-+-------------------------------+----------------+------------------------------------------------------+
-| Component                     | Max current    | Typical current                                      |
-+-------------------------------+----------------+------------------------------------------------------+
-| Breadboard power supply       | 700 mA         |                                                      |
-+-------------------------------+----------------+------------------------------------------------------+
-| LM78xx (for DIY supply)       | 1 A            |                                                      |
-+-------------------------------+----------------+------------------------------------------------------+
-| LM317 (for DIY supply)        | 1.5 A          |                                                      |
-+-------------------------------+----------------+------------------------------------------------------+
-| Arduino (its own consumption) |                | 40 mA                                                |
-+-------------------------------+----------------+------------------------------------------------------+
-| Scoreboard                    | 80 mA          | 30 mA                                                |
-+-------------------------------+----------------+------------------------------------------------------+
-| LEDs                          | 20 mA          | 1.8 - 3 mA (w/ 1k resistor)                          |
-+-------------------------------+----------------+------------------------------------------------------+
-| NPN 3904                      | < 10mA per LED | 1.8 - 3 mA (when powering LEDs through 1k resistors) |
-+-------------------------------+----------------+------------------------------------------------------+
-| Shift registers (each)        | 70 mA          | 50 mA                                                |
-+-------------------------------+----------------+------------------------------------------------------+
-| RGB LED                       | 9 mA           |                                                      |
-+-------------------------------+----------------+------------------------------------------------------+
-| Speaker                       |                | 10 mA (? an estimate)                                |
-+-------------------------------+----------------+------------------------------------------------------+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l">Component</th>
+    <th class="tg-yw4l">Max current</th>
+    <th class="tg-yw4l">Typical current</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Breadboard power supply</td>
+    <td class="tg-yw4l">700 mA</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Arduino (its own consumption)</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">40 mA</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Scoreboard</td>
+    <td class="tg-yw4l">80 mA</td>
+    <td class="tg-yw4l">30 mA</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">LEDs with NPN 3904</td>
+    <td class="tg-yw4l">20 mA</td>
+    <td class="tg-yw4l">3 mA (with 1k resistors)</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Shift registers (each)</td>
+    <td class="tg-yw4l">70 mA</td>
+    <td class="tg-yw4l">50 mA</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">RGB LED</td>
+    <td class="tg-yw4l">9 mA</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Speaker</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">10 mA (estimated)</td>
+  </tr>
+</table>
+
+(References: [Arduino draw](http://arduino.stackexchange.com/questions/926/what-is-the-max-power-consumption-of-arduino-nano-3-0), [Scoreboard draw](http://www.aliexpress.com/store/product/LED-4-Digit-0-56-Tube-Display-D4056A-Module-with-Decimal-Point-for-Arduino/1213753_32505028589.html))
