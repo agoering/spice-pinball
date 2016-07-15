@@ -2,7 +2,7 @@
 layout: reference
 title: Force Sensitive Resistor
 prev_section: proximity-sensor
-next_section: motorcontroller
+next_section: motor-control
 permalink: /reference/force-sensitive-resistor/
 ---
 
