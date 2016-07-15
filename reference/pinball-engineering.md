@@ -35,12 +35,15 @@ Prototyping is making sure that adding a new element to your existing machine do
 After a working prototype exists, go step by step:
 
 1. _Make a key with labels_
-2. Cut wires
-3. Solder elements
-4. Tape elements
-5. Install elements
-6. Parallelize common wires (Vcc and GND lines especially)
-7. Rewire (onto breadboard, after the breadboard is mounted on the table)
-8. Test
-9. Tune necessary parameters (analog input thresholds, etc)
+2. Plan installation sites and pencil them onto board.
+2. Drill holes for wires
+3. Measure and cut wires and label them on both ends with the element name
+3. Solder, insulate, and label all elements
+4. Install elements onto table in a "rough" way (don't glue them in yet - tape them on with painter's tape)
+5. Organize wires (tape them along the bottom/back of table), mount breadboard on table, and reinstall wires
+6. Rewire (onto breadboard, after the breadboard is mounted on the table)
+7. Test elements on the table (without a ball) - look for any problems with soldering, insulation, etc before gluing anything in
+7. Glue in parts
+8. Organize wires: parallelize common wires (Vcc and GND lines especially)
+9. Final test. Adjust thresholds or other parameters as needed
 10. Play pinball and show off your skills!
