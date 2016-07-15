@@ -11,7 +11,7 @@ permalink: /instructors/camp-admin/
 
 Camp is 2 weeks long from 9am to 4pm. Check out the schedule below for timing and other suggested activities. We have found that using mornings for cognitively-heavy tasks and afternoons for less taxing building and decorating is most productive and leads to happy campers! Take frequent breaks incorporating physical activity to avoid burnout.
 
-<img src="{{site.baseurl}}/img/suggested-schedule.jpg" style="width: 650px">
+<img src="{{site.baseurl}}/img/suggested-schedule.png" style="width: 650px">
 
 ## Intro Activities
 
