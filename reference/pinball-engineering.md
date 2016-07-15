@@ -2,9 +2,9 @@
 layout: reference
 title: Pinball Engineering
 collection: reference
-prev_section: motorcontroller
-next_section: 
-permalink: /docs/pinball-engineering/
+prev_section: speaker-amp
+next_section: sketch-guide
+permalink: /reference/pinball-engineering/
 ---
 
 ## The Engineering Process

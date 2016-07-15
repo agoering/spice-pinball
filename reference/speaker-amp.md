@@ -2,7 +2,7 @@
 layout: reference
 title: Speaker Amplification Circuit
 prev_section: current-budget
-next_section: sketch-guide
+next_section: pinball-engineering
 permalink: /reference/speaker-amp/
 ---
 

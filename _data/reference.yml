@@ -1,8 +1,12 @@
 - title: Electronics Reference
   docs:
   - main
-  - current-budget  
+  - current-budget
   - speaker-amp
+
+  - title: Pinball Engineering
+  docs:
+  - pinball-engineering
   
 - title: Programming Reference
   docs:
@@ -12,8 +16,5 @@
   docs:
   - proximity-sensor
   - force-sensitive-resistor
-  - motorcontroller
+  - motor-control
 
-- title: Pinball Engineering
-  docs:
-  - pinball-engineering
