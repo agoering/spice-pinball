@@ -59,9 +59,9 @@ The components for the PCB design are shown below:
 
 <img src="{{ site.baseurl }}/img/pcb_l293d_motor_control_components.png" style="width: 500px"/>
 
-The corresponding PCB connections is then:
+The corresponding PCB connection looks like this:
 
-<img src="{{ site.baseurl }}/img/pcb_l293d_motor_control_connections.png" style="width: 500px"/>
+<img src="{{ site.baseurl }}/img/pcb_l293d_motor_control_connections.png" style="width: 250px"/>
 
 <!-- A full-page printable for etching these PCBs is :
 
