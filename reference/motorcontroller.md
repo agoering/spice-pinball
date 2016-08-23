@@ -57,7 +57,7 @@ The motor control board were designed by [Dileep Reddy](https://dileepvr.github.
 
 The components for the PCB design are shown below:
 
-<img src="{{ site.baseurl }}/img/pcb_l293d_motor_control_components.png" style="width: 500px"/>
+<img src="{{ site.baseurl }}/img/pcb_l293d_motor_control_components.png" style="width: 250px"/>
 
 The corresponding PCB connection looks like this:
 
