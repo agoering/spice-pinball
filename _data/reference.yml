@@ -1,6 +1,7 @@
 - title: Electronics Reference
   docs:
-  - main
+  - reference-main
+  - shift-register-pins
   - current-budget
   - speaker-amp
 
@@ -12,7 +13,7 @@
   docs:
   - sketch-guide
 
-- title: More Electronics
+- title: Optional Electronics
   docs:
   - proximity-sensor
   - force-sensitive-resistor

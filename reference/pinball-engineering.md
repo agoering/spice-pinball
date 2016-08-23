@@ -11,15 +11,15 @@ permalink: /reference/pinball-engineering/
 
 Engineering a pinball machine is done by following the engineering process, illustrated below:
 
-<img src="{{site.baseurl}}/img/design-process.jpg" style="width: 650px">
+<img src="{{site.baseurl}}/img/design_process.jpg" style="width: 650px">
 
 ## Pinball Engineering:
 
-**IMAGINE:** Brainstorm ideas for the pinball machine
-**PLAN:** Draw up a proposal including a diagram and a list of supplies
-**CREATE:** Make a prototype of your creation, one element at a time
-**IMPROVE:** Test your prototype, one element at a time. Modify anything that doesn’t work, and move on to the next element when you are satisfied.
-**PLAN, CREATE, IMPROVE** again and again!
+- **IMAGINE:** Brainstorm ideas for the pinball machine
+- **PLAN:** Draw up a proposal including a diagram and a list of supplies
+- **CREATE:** Make a prototype of your creation, one element at a time
+- **IMPROVE:** Test your prototype, one element at a time. Modify anything that doesn’t work, and move on to the next element when you are satisfied.
+- **PLAN, CREATE, IMPROVE** again and again!
 
 ## Prototyping Tips
 

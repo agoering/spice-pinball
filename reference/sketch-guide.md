@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: Sketch Guide
-prev_section: speaker-amp
+prev_section: pinball-engineering
 next_section: proximity-sensor
 permalink: /reference/sketch-guide/
 ---

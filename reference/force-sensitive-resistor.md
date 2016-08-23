@@ -7,7 +7,7 @@ permalink: /reference/force-sensitive-resistor/
 ---
 
 
-The final kind of analog input we'll use is a force sensitive resistor (FSR). This is a resistor whose resistance changes depending on how much pressure is applied to it. It looks like this: 
+Another kind of analog input we can use is a force sensitive resistor (FSR). This is a resistor whose resistance changes depending on how much pressure is applied to it. It looks like this: 
 
 <img src="https://learn.adafruit.com/system/assets/assets/000/000/426/medium260/force___flex_FSR402_MED.jpg?1396762932" style="width: 550px"/>
 

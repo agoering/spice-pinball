@@ -21,6 +21,10 @@ We like to start off camp by giving participants a feel for "coding" using the [
 
 We use a [worksheet packet](https://docs.google.com/document/d/1s4KIVTelhZNt2lJmSjzkoXqSgaY4l2VVXAfD3f3BSH4/edit?usp=sharing) to direct the design process as we go through camp. The pin reservation worksheet should be completed with an instructor who should double-check that the <a href="{{site.baseurl}}/reference/current-budget">current draw requirements</a> and number of pins needed for that design are suitable, and to guide teams to simplify or modify the design as necessary to mind the constraints on Arduino pins and current draw through each component and through the power supply.
 
+## Camp Breadboards
+
+The breadboard design is shared on [Fritzing](http://fritzing.org/projects/spice-engineering-camp-breadboard). A parts list can be assembled from that design but a more complete list will be linked here soon.
+
 ## Volunteer Management
 
 ### Volunteer Training Workshops

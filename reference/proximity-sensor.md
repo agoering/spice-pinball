@@ -7,7 +7,7 @@ permalink: /reference/proximity-sensor/
 ---
 
 
-One kind of analog input we'll use in this activity is a proximity sensor. It is made of an infrared emitter and receiver, pointing in the same direction, with a wall between them. It looks like this: 
+Another kind of analog input we can use is the proximity sensor. It is made of an infrared emitter and receiver, pointing in the same direction, with a wall between them. It looks like this: 
 
 <img src="{{ site.baseurl }}/img/proximity-sensor-closeup.png" style="width: 650px"/>
 
@@ -22,3 +22,15 @@ This sensor is very easy to set up. First, make sure the red and black wires fro
 
 The signal produced by the proximity sensor is largest (near 5V) for objects held near the detector, and falls off to 0V as objects are moved farther away. 
 
+**Technical Note:**
+
+These detectors use a [standard interrupt circuit](http://www.electroschematics.com/wp-content/uploads/2014/06/photo-interrupter.jpg)
+
+Both the IR interrupts and the IR reflection detectors are essentially
+an IR emitter-detector pair. The IR (infrared) LED will typically have a
+rated current of 15 mA, and hence will require  current limiting
+resistor of around 300 Ohms on the emitter Anode (+) side. The detector
+functions like an NPN transistor with the base terminal being activated
+with the IR signal. The resistor on its collector terminal can be 1K or
+10K. The emitter resistor is determined by the current budget, and the
+detector resistor can be tweaked for sensitivity.

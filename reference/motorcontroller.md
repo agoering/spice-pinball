@@ -51,4 +51,22 @@ The integrated circuit (a **xxxx**) contains two H-bridges. An H-bridge is a set
 So, we have 4 possible states we can set the motor: brake, coast, forward, and backward.
 
 
+**Technical Note:**
+
+The motor control board were designed by [Dileep Reddy](https://dileepvr.github.io/).
+
+The components for the PCB design are shown below:
+
+<img src="{{ site.baseurl }}/img/pcb_l293d_motor_control_components.png" style="width: 500px"/>
+
+The corresponding PCB connections is then:
+
+<img src="{{ site.baseurl }}/img/pcb_l293d_motor_control_connections.png" style="width: 500px"/>
+
+A full-page printable for etching these PCBs is shown here:
+
+<img src="{{ site.baseurl }}/img/pcb_l293d_motor_control_etch.pdf" style="width: 500px"/>
+
+
+
 

@@ -1,7 +1,7 @@
 ---
 layout: reference
 title: Current Management
-prev_section: main
+prev_section: shift-register-pins
 next_section: speaker-amp
 permalink: /reference/current-budget/
 ---
@@ -20,7 +20,7 @@ LEDs have a forward voltage which can be thought of as the voltage that must be 
 
 - Forward Voltage (RGB): (2.0, 3.2, 3.2)V
 - Max current is 20mA through each
-- Green dominates, probably due to visual perception
+- Green dominates, probably due to visual perception - so use a higher resistance
 
 If we call our forward voltage Vf, the applied voltage Vin, and our max current Imax, the equation that describes the minimum safe resistor value to keep us from burning up the LED is given by (Vin - Vf)/Imax. 
 
@@ -37,8 +37,8 @@ _On shift register:_
 
 _On RGB:_
 
-- Blue: 3.3k (orange, orange, red)
-- Green and Red: 1k (brown, black, red)
+- Green: 3.3k (orange, orange, red)
+- Blue and Red: 1k (brown, black, red)
 
 Using lower resistor values is fine for the pinball machine (provided the current budget allows for it), but it can be too bright for activities. Using a 1k or 10k resistor is more appropriate (they will result in currents of around 3.2 mA or 0.32 mA, respectively). For our activities, we use 10k resistors for all LEDs.
 
