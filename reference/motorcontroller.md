@@ -63,10 +63,11 @@ The corresponding PCB connections is then:
 
 <img src="{{ site.baseurl }}/img/pcb_l293d_motor_control_connections.png" style="width: 500px"/>
 
-A full-page printable for etching these PCBs is shown here:
+<!-- A full-page printable for etching these PCBs is :
 
 <img src="{{ site.baseurl }}/img/pcb_l293d_motor_control_etch.pdf" style="width: 500px"/>
 
 
 
 
+ -->

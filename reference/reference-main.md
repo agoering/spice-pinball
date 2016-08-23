@@ -10,7 +10,7 @@ This guide is for you! If you find yourself wishing for quick access to a snippe
 
 Our breadboard design (shown below) is shared [on Fritzing.org](http://fritzing.org/projects/spice-engineering-camp-breadboard) where you can download the .fzz file (install Fritzing to view) in order to see a breadboard view, schematic view, and parts list.
 
-<img src="{{site.baseurl}}/img//Users/ayocom/Documents/outreach/spice-pinball/img/spice_breadboard.pdf" style="width: 650px"/>
+<img src="{{site.baseurl}}/img//Users/ayocom/Documents/outreach/spice-pinball/img/spice_breadboard.png" style="width: 650px"/>
 
 
 This awesome poster by <a href="cbrewste@uoregon.edu">Carolyn Brewster</a> outlines the most important circuit elements used in camp!
