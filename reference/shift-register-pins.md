@@ -2,7 +2,7 @@
 layout: reference
 title: Shift Register Pinout
 collection: reference
-prev_section: reference-main
+prev_section: main
 next_section: current-budget
 permalink: /reference/shift-register-pins/
 ---

@@ -1,6 +1,6 @@
 - title: Electronics Reference
   docs:
-  - reference-main
+  - main
   - shift-register-pins
   - current-budget
   - speaker-amp
